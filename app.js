@@ -11,7 +11,7 @@
 // Map your categories to their exact file paths
 const categoryFiles = {
     "Web Development": "data/web-development.json",
-    // "Programming": "data/programming.json",
+    "Programming": "data/programming_languages.json",
     // "Databases": "data/databases.json",
     // "Networking": "data/networking.json",
     // "Cyber Security": "data/cyber-security.json"
@@ -20,7 +20,8 @@ const categoryFiles = {
 // Keep your existing categories array for the UI
 
 const categories = ["All", "Web Development",
-    // "Cyber Security", "Programming", 
+    // "Cyber Security",
+     "Programming", 
     // "Databases","Networking",
     //  "Operating Systems", "Software Engineering",
     //  "AI / Machine Learning and Data Analytics"

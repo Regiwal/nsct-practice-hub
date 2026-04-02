@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "pl_1",
+        "category": "Programming Fundamentals",
+        "question": "What is the entry point of a C++ program?",
+        "options": [
+            "start()",
+            "main()",
+            "run()",
+            "begin()"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_2",
+        "category": "Programming Fundamentals",
+        "question": "Which keyword is used to define a constant in Java?",
+        "options": [
+            "const",
+            "final",
+            "static",
+            "define"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_3",
+        "category": "Programming Fundamentals",
+        "question": "How do you print to the console in Python?",
+        "options": [
+            "console.log()",
+            "System.out.println()",
+            "print()",
+            "cout <<"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_4",
+        "category": "Data Types & Variables",
+        "question": "Which of the following is a primitive data type in Java?",
+        "options": [
+            "String",
+            "Array",
+            "int",
+            "Object"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_5",
+        "category": "Data Types & Variables",
+        "question": "What is the size of an 'int' in C++ (on most systems)?",
+        "options": [
+            "2 bytes",
+            "4 bytes",
+            "8 bytes",
+            "1 byte"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_6",
+        "category": "Data Types & Variables",
+        "question": "Which data type in Python is immutable?",
+        "options": [
+            "list",
+            "dict",
+            "tuple",
+            "set"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_7",
+        "category": "Operators & Expressions",
+        "question": "What does '++' operator do in C++?",
+        "options": [
+            "Decrements by 1",
+            "Increments by 1",
+            "Adds two numbers",
+            "Logical AND"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_8",
+        "category": "Operators & Expressions",
+        "question": "What is the output of '3 == 3' in Python?",
+        "options": [
+            "true",
+            "True",
+            "1",
+            "0"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_9",
+        "category": "Operators & Expressions",
+        "question": "Which operator is used for logical AND in Java?",
+        "options": [
+            "&",
+            "&&",
+            "|",
+            "and"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_10",
+        "category": "Control Structures",
+        "question": "Which loop guarantees at least one execution in C++?",
+        "options": [
+            "for",
+            "while",
+            "do-while",
+            "foreach"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_11",
+        "category": "Control Structures",
+        "question": "What is the syntax of an if-else statement in Python?",
+        "options": [
+            "if (x > 0) { } else { }",
+            "if x > 0: else:",
+            "if (x > 0) then else",
+            "if x > 0 { } else { }"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_12",
+        "category": "Control Structures",
+        "question": "Which statement is used to exit a loop prematurely in Java?",
+        "options": [
+            "exit",
+            "break",
+            "continue",
+            "return"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_13",
+        "category": "Functions / Methods",
+        "question": "What is a function that belongs to a class called in C++?",
+        "options": [
+            "Function",
+            "Method",
+            "Member function",
+            "Procedure"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_14",
+        "category": "Functions / Methods",
+        "question": "How do you define a function in Python?",
+        "options": [
+            "function myFunc():",
+            "def myFunc():",
+            "func myFunc():",
+            "define myFunc():"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_15",
+        "category": "Functions / Methods",
+        "question": "What is method overloading in Java?",
+        "options": [
+            "Multiple methods with same name but different parameters",
+            "Overriding a parent method",
+            "A method calling itself",
+            "A method with no body"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_16",
+        "category": "Input / Output Handling",
+        "question": "Which stream is used for standard input in C++?",
+        "options": [
+            "std::cout",
+            "std::cerr",
+            "std::cin",
+            "std::log"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_17",
+        "category": "Input / Output Handling",
+        "question": "How do you read a line of input in Java using Scanner?",
+        "options": [
+            "scanner.next()",
+            "scanner.readLine()",
+            "scanner.nextLine()",
+            "scanner.read()"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_18",
+        "category": "Input / Output Handling",
+        "question": "Which function is used to read user input in Python?",
+        "options": [
+            "scan()",
+            "input()",
+            "read()",
+            "get()"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_19",
+        "category": "Strings & Text Processing",
+        "question": "Which method concatenates strings in Python?",
+        "options": [
+            "concat()",
+            "append()",
+            "+ operator",
+            "join() only"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_20",
+        "category": "Strings & Text Processing",
+        "question": "Are strings mutable in Java?",
+        "options": [
+            "Yes",
+            "No",
+            "Only with StringBuilder",
+            "Depends on JVM"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_21",
+        "category": "Strings & Text Processing",
+        "question": "What header is needed for std::string in C++?",
+        "options": [
+            "<cstring>",
+            "<string>",
+            "<strlib>",
+            "<strings>"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_22",
+        "category": "Arrays & Collections",
+        "question": "How do you declare an array of 5 integers in C++?",
+        "options": [
+            "int arr(5);",
+            "int[5] arr;",
+            "int arr[5];",
+            "array<int,5> arr;"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_23",
+        "category": "Arrays & Collections",
+        "question": "Which Java collection allows duplicate elements and maintains insertion order?",
+        "options": [
+            "HashSet",
+            "TreeSet",
+            "ArrayList",
+            "HashMap"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_24",
+        "category": "Arrays & Collections",
+        "question": "What is a list comprehension in Python?",
+        "options": [
+            "A loop inside a function",
+            "A concise way to create lists",
+            "A type of tuple",
+            "A debugging tool"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_25",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "Which pillar of OOP allows a class to inherit from multiple parents in C++?",
+        "options": [
+            "Single inheritance",
+            "Multiple inheritance",
+            "Multilevel inheritance",
+            "Hierarchical inheritance"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_26",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": [
+            "implements",
+            "extends",
+            "inherits",
+            "super"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_27",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "What is the constructor name in Python?",
+        "options": [
+            "__construct()",
+            "__init__()",
+            "constructor()",
+            "init()"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_28",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "What is encapsulation?",
+        "options": [
+            "Hiding implementation details",
+            "Inheriting properties",
+            "Creating multiple instances",
+            "Overloading operators"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_29",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "Which access specifier makes members accessible only within the same class in C++?",
+        "options": [
+            "public",
+            "protected",
+            "private",
+            "internal"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_30",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "What is an abstract class in Java?",
+        "options": [
+            "A class that cannot be instantiated",
+            "A class with only static methods",
+            "A final class",
+            "A class with no methods"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_31",
+        "category": "Memory Management Concepts",
+        "question": "Which operator is used to dynamically allocate memory in C++?",
+        "options": [
+            "malloc",
+            "alloc",
+            "new",
+            "create"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_32",
+        "category": "Memory Management Concepts",
+        "question": "Does Java have pointers?",
+        "options": [
+            "Yes, like C++",
+            "No",
+            "Only references, not raw pointers",
+            "Only for primitive types"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_33",
+        "category": "Memory Management Concepts",
+        "question": "How does Python manage memory?",
+        "options": [
+            "Manual malloc/free",
+            "Automatic garbage collection",
+            "Reference counting only",
+            "Both reference counting and garbage collection"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "pl_34",
+        "category": "Memory Management Concepts",
+        "question": "What is a memory leak?",
+        "options": [
+            "When memory is freed too early",
+            "When allocated memory is not deallocated",
+            "When a program crashes",
+            "When variables are not initialized"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_35",
+        "category": "Memory Management Concepts",
+        "question": "What is the stack used for?",
+        "options": [
+            "Dynamic memory allocation",
+            "Static and local variable storage",
+            "Global variables",
+            "Heap allocation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_36",
+        "category": "Exception & Error Handling",
+        "question": "Which keyword is used to throw an exception in C++?",
+        "options": [
+            "throw",
+            "raise",
+            "catch",
+            "exception"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_37",
+        "category": "Exception & Error Handling",
+        "question": "What is the finally block in Java?",
+        "options": [
+            "Executes only if exception occurs",
+            "Executes only if no exception",
+            "Always executes after try/catch",
+            "Executes before try"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_38",
+        "category": "Exception & Error Handling",
+        "question": "How do you handle exceptions in Python?",
+        "options": [
+            "try-catch",
+            "try-except",
+            "try-finally only",
+            "catch-throw"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_39",
+        "category": "Exception & Error Handling",
+        "question": "What is a checked exception in Java?",
+        "options": [
+            "Exception checked at runtime",
+            "Exception checked at compile time",
+            "Error in syntax",
+            "Exception from JVM"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_40",
+        "category": "Exception & Error Handling",
+        "question": "Which block is used to clean up resources in C++ (RAII)?",
+        "options": [
+            "finally",
+            "catch",
+            "Destructor",
+            "cleanup()"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_41",
+        "category": "Modules, Packages & Libraries",
+        "question": "Which directive is used to include a header in C++?",
+        "options": [
+            "import",
+            "include",
+            "using",
+            "package"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_42",
+        "category": "Modules, Packages & Libraries",
+        "question": "What is a Java package?",
+        "options": [
+            "A collection of classes and interfaces",
+            "A single class file",
+            "A JAR file",
+            "A library of native code"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_43",
+        "category": "Modules, Packages & Libraries",
+        "question": "How do you import a module in Python?",
+        "options": [
+            "#include",
+            "import",
+            "using",
+            "require"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_44",
+        "category": "Modules, Packages & Libraries",
+        "question": "What is the standard template library (STL) in C++?",
+        "options": [
+            "A GUI library",
+            "A collection of template classes for data structures and algorithms",
+            "A threading library",
+            "A networking library"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_45",
+        "category": "Modules, Packages & Libraries",
+        "question": "What is pip in Python?",
+        "options": [
+            "A Python IDE",
+            "A package installer",
+            "A virtual environment",
+            "A debugger"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_46",
+        "category": "Advanced Programming Concepts",
+        "question": "What is a lambda function in C++?",
+        "options": [
+            "An anonymous function",
+            "A function with a name",
+            "A macro",
+            "An inline function"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_47",
+        "category": "Advanced Programming Concepts",
+        "question": "What is a stream API in Java?",
+        "options": [
+            "File I/O only",
+            "Functional-style operations on collections",
+            "Network streaming",
+            "Database streaming"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_48",
+        "category": "Advanced Programming Concepts",
+        "question": "What is a decorator in Python?",
+        "options": [
+            "A design pattern",
+            "A function that modifies another function",
+            "A class modifier",
+            "A type of loop"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_49",
+        "category": "Advanced Programming Concepts",
+        "question": "What is a template in C++?",
+        "options": [
+            "A design document",
+            "Generic programming allowing types as parameters",
+            "A macro",
+            "A class with virtual functions"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_50",
+        "category": "Advanced Programming Concepts",
+        "question": "What is a generator in Python?",
+        "options": [
+            "A function that returns a list",
+            "A function that yields values lazily",
+            "A class that creates objects",
+            "A type of iterator"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_51",
+        "category": "Concurrency & Parallelism",
+        "question": "Which library is used for threading in C++?",
+        "options": [
+            "<thread>",
+            "<pthread>",
+            "<multithread>",
+            "<concurrent>"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_52",
+        "category": "Concurrency & Parallelism",
+        "question": "How do you create a thread in Java?",
+        "options": [
+            "extend Process class",
+            "implement Thread interface",
+            "extend Thread class or implement Runnable",
+            "new Process()"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_53",
+        "category": "Concurrency & Parallelism",
+        "question": "What is the GIL in Python?",
+        "options": [
+            "Global Interpreter Lock",
+            "General Interface Library",
+            "Graphics Image Library",
+            "Generic Input Logic"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_54",
+        "category": "Concurrency & Parallelism",
+        "question": "What is a race condition?",
+        "options": [
+            "Multiple threads accessing shared data without synchronization",
+            "A fast loop",
+            "A compilation error",
+            "A memory leak"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_55",
+        "category": "Concurrency & Parallelism",
+        "question": "What is a mutex?",
+        "options": [
+            "Multiple execution",
+            "Mutual exclusion lock",
+            "Memory unit test",
+            "Module extension"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_56",
+        "category": "Debugging, Testing & Optimization",
+        "question": "What is a breakpoint?",
+        "options": [
+            "A syntax error",
+            "A point where program execution pauses for debugging",
+            "An optimization flag",
+            "A memory address"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_57",
+        "category": "Debugging, Testing & Optimization",
+        "question": "Which framework is commonly used for unit testing in Java?",
+        "options": [
+            "PyTest",
+            "JUnit",
+            "Google Test",
+            "Mocha"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_58",
+        "category": "Debugging, Testing & Optimization",
+        "question": "What is the purpose of 'assert' in Python?",
+        "options": [
+            "To print output",
+            "To check if a condition is True during debugging",
+            "To create a variable",
+            "To import a module"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_59",
+        "category": "Debugging, Testing & Optimization",
+        "question": "What is a profiler used for?",
+        "options": [
+            "Finding memory leaks only",
+            "Analyzing program performance",
+            "Writing documentation",
+            "Managing versions"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_60",
+        "category": "Debugging, Testing & Optimization",
+        "question": "What is static code analysis?",
+        "options": [
+            "Running the program",
+            "Analyzing code without executing it",
+            "Debugging at runtime",
+            "Performance testing"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_61",
+        "category": "Software Development Practices",
+        "question": "What is version control?",
+        "options": [
+            "Managing code changes over time",
+            "Controlling software versions released to users",
+            "A type of compiler",
+            "A debugging technique"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_62",
+        "category": "Software Development Practices",
+        "question": "What does DRY stand for?",
+        "options": [
+            "Don't Repeat Yourself",
+            "Do Repeat Your code",
+            "Don't Run Yourself",
+            "Data Repeat Yield"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_63",
+        "category": "Software Development Practices",
+        "question": "What is a design pattern?",
+        "options": [
+            "A reusable solution to common problems",
+            "A specific algorithm",
+            "A type of variable",
+            "A loop structure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_64",
+        "category": "Software Development Practices",
+        "question": "What is refactoring?",
+        "options": [
+            "Rewriting from scratch",
+            "Restructuring existing code without changing behavior",
+            "Optimizing for speed only",
+            "Adding new features"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_65",
+        "category": "Software Development Practices",
+        "question": "What is CI/CD?",
+        "options": [
+            "Continuous Integration/Continuous Deployment",
+            "Code Integration/Code Deployment",
+            "Compile Immediately/Compile Daily",
+            "Customer Integration/Customer Delivery"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_66",
+        "category": "Programming Fundamentals",
+        "question": "Which language uses just-in-time (JIT) compilation?",
+        "options": [
+            "C++",
+            "Java",
+            "Python (CPython)",
+            "All three"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_67",
+        "category": "Data Types & Variables",
+        "question": "What is a variable in C++?",
+        "options": [
+            "A named memory location",
+            "A function",
+            "A constant",
+            "An operator"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_68",
+        "category": "Operators & Expressions",
+        "question": "What is the ternary operator in Java?",
+        "options": [
+            "? :",
+            "??",
+            "&&",
+            "||"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_69",
+        "category": "Control Structures",
+        "question": "Which statement is used for pattern matching in Python 3.10+?",
+        "options": [
+            "switch",
+            "case",
+            "match",
+            "select"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "pl_70",
+        "category": "Functions / Methods",
+        "question": "What is a recursive function?",
+        "options": [
+            "A function that calls itself",
+            "A function with no return",
+            "A built-in function",
+            "A static function"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_71",
+        "category": "Input / Output Handling",
+        "question": "How do you read a file in C++?",
+        "options": [
+            "using std::cin",
+            "using std::ifstream",
+            "using std::ofstream",
+            "using FILE*"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_72",
+        "category": "Strings & Text Processing",
+        "question": "What does s.length() return in Java?",
+        "options": [
+            "Number of characters",
+            "Memory size",
+            "Array length",
+            "Buffer size"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_73",
+        "category": "Arrays & Collections",
+        "question": "What is a vector in C++?",
+        "options": [
+            "A dynamic array",
+            "A linked list",
+            "A queue",
+            "A stack"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_74",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "What is polymorphism?",
+        "options": [
+            "Many forms of a single interface",
+            "Single inheritance",
+            "Multiple classes",
+            "Data hiding"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_75",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "What is the 'super' keyword in Java used for?",
+        "options": [
+            "To call parent class constructor/methods",
+            "To create a superclass",
+            "To define a super variable",
+            "To access static members"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_76",
+        "category": "Memory Management Concepts",
+        "question": "What is a smart pointer in C++?",
+        "options": [
+            "A pointer with additional features like automatic deallocation",
+            "An integer pointer",
+            "A void pointer",
+            "A null pointer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_77",
+        "category": "Exception & Error Handling",
+        "question": "What is 'try-with-resources' in Java?",
+        "options": [
+            "Auto-closing resources",
+            "A new try block",
+            "Multiple catch blocks",
+            "Finally block alternative"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_78",
+        "category": "Modules, Packages & Libraries",
+        "question": "What is Maven in Java?",
+        "options": [
+            "A build automation tool",
+            "An IDE",
+            "A version control system",
+            "A testing framework"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_79",
+        "category": "Advanced Programming Concepts",
+        "question": "What is move semantics in C++?",
+        "options": [
+            "Transferring ownership of resources",
+            "Copying data",
+            "Moving variables to heap",
+            "Pointer arithmetic"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_80",
+        "category": "Advanced Programming Concepts",
+        "question": "What is an annotation in Java?",
+        "options": [
+            "A comment",
+            "Metadata that provides data about a program",
+            "A variable type",
+            "A loop control"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_81",
+        "category": "Concurrency & Parallelism",
+        "question": "What is the 'synchronized' keyword in Java?",
+        "options": [
+            "Makes a method thread-safe",
+            "Creates a new thread",
+            "Stops a thread",
+            "Pauses execution"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_82",
+        "category": "Debugging, Testing & Optimization",
+        "question": "What is gdb used for?",
+        "options": [
+            "Debugging C/C++ programs",
+            "Compiling code",
+            "Version control",
+            "Building projects"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_83",
+        "category": "Software Development Practices",
+        "question": "What is a code review?",
+        "options": [
+            "Automated testing",
+            "Manual examination of code by peers",
+            "Compilation check",
+            "Performance profiling"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_84",
+        "category": "Programming Fundamentals",
+        "question": "Which language is interpreted (not compiled to machine code directly)?",
+        "options": [
+            "C++",
+            "Java (bytecode)",
+            "Python",
+            "Both Java and Python"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "pl_85",
+        "category": "Data Types & Variables",
+        "question": "What is the default value of an int in Java (instance variable)?",
+        "options": [
+            "0",
+            "null",
+            "undefined",
+            "Garbage value"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_86",
+        "category": "Operators & Expressions",
+        "question": "What is the output of 5 / 2 in C++ (int division)?",
+        "options": [
+            "2.5",
+            "2",
+            "2.0",
+            "Error"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_87",
+        "category": "Control Structures",
+        "question": "What is the difference between while and do-while in Java?",
+        "options": [
+            "do-while executes at least once",
+            "while executes at least once",
+            "No difference",
+            "do-while checks condition first"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_88",
+        "category": "Functions / Methods",
+        "question": "What is a default argument in C++?",
+        "options": [
+            "Argument with a default value",
+            "Argument with no type",
+            "Argument that is optional",
+            "Both A and C"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "pl_89",
+        "category": "Input / Output Handling",
+        "question": "What is the difference between print and println in Java?",
+        "options": [
+            "println adds newline",
+            "print adds newline",
+            "No difference",
+            "println prints integers only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_90",
+        "category": "Strings & Text Processing",
+        "question": "What is the difference between str() and repr() in Python?",
+        "options": [
+            "str() for users, repr() for developers",
+            "They are identical",
+            "repr() for users",
+            "str() for developers"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_91",
+        "category": "Arrays & Collections",
+        "question": "What is a dictionary in Python?",
+        "options": [
+            "Key-value pairs",
+            "Ordered list",
+            "Set of unique values",
+            "Tuple of pairs"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_92",
+        "category": "Object-Oriented Programming (OOP)",
+        "question": "What is an interface in Java?",
+        "options": [
+            "Abstract class with only abstract methods",
+            "Concrete class",
+            "A package",
+            "A variable"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_93",
+        "category": "Memory Management Concepts",
+        "question": "What is the heap used for?",
+        "options": [
+            "Dynamic memory allocation",
+            "Local variables",
+            "Function calls",
+            "Register storage"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_94",
+        "category": "Exception & Error Handling",
+        "question": "What is the difference between Error and Exception in Java?",
+        "options": [
+            "Error is recoverable, Exception is not",
+            "Exception is recoverable, Error is not",
+            "Both are same",
+            "Only Exception is checked"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "pl_95",
+        "category": "Modules, Packages & Libraries",
+        "question": "What is a namespace in C++?",
+        "options": [
+            "Container for identifiers",
+            "A class",
+            "A function",
+            "A header file"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_96",
+        "category": "Advanced Programming Concepts",
+        "question": "What is a coroutine in Python?",
+        "options": [
+            "A function that can pause and resume",
+            "A thread",
+            "A process",
+            "A loop"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_97",
+        "category": "Concurrency & Parallelism",
+        "question": "What is the 'volatile' keyword in C++?",
+        "options": [
+            "Prevents compiler optimization",
+            "Makes variable fast",
+            "Creates constant",
+            "Declares thread"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_98",
+        "category": "Debugging, Testing & Optimization",
+        "question": "What is unit testing?",
+        "options": [
+            "Testing individual components",
+            "Testing entire system",
+            "Testing UI",
+            "Testing performance"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_99",
+        "category": "Software Development Practices",
+        "question": "What is agile development?",
+        "options": [
+            "Iterative and incremental approach",
+            "Waterfall model",
+            "Big bang model",
+            "V-model"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "pl_100",
+        "category": "Software Development Practices",
+        "question": "What is technical debt?",
+        "options": [
+            "Cost of future rework from quick fixes",
+            "Money spent on servers",
+            "License costs",
+            "Developer salaries"
+        ],
+        "answer": 0
+    }
+]
