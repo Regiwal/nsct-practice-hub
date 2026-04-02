@@ -30,6 +30,7 @@ window.onclick = (e) => {
 const categoryFiles = {
     "Web Development": "data/web-development.json",
     "Programming": "data/programming_languages.json",
+    "Computer Networks And Cloud Computing" : "data/cnAndCC.json",
     // "Databases": "data/databases.json",
     // "Networking": "data/networking.json",
     // "Cyber Security": "data/cyber-security.json"
@@ -40,7 +41,8 @@ const categoryFiles = {
 const categories = ["All", "Web Development",
     // "Cyber Security",
      "Programming", 
-    // "Databases","Networking",
+     "Computer Networks And Cloud Computing",
+    // "Databases",
     //  "Operating Systems", "Software Engineering",
     //  "AI / Machine Learning and Data Analytics"
 ];

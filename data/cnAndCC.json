@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "cn_1",
+        "category": "Data Communication",
+        "question": "What is bandwidth in data communication?",
+        "options": [
+            "Amount of data processed per second",
+            "Maximum rate of data transfer",
+            "Time taken for a signal to travel",
+            "Error rate during transmission"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_2",
+        "category": "Data Communication",
+        "question": "Which transmission mode allows data to flow in both directions simultaneously?",
+        "options": [
+            "Simplex",
+            "Half-duplex",
+            "Full-duplex",
+            "Unidirectional"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_3",
+        "category": "Data Communication",
+        "question": "What does latency measure?",
+        "options": [
+            "Data transfer speed",
+            "Delay between sender and receiver",
+            "Number of packets lost",
+            "Bandwidth usage"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_4",
+        "category": "Data Communication",
+        "question": "Which multiplexing technique divides time into slots?",
+        "options": [
+            "FDM",
+            "WDM",
+            "TDM",
+            "CDM"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_5",
+        "category": "Data Communication",
+        "question": "What is the primary function of a modem?",
+        "options": [
+            "Convert digital to analog and vice versa",
+            "Route packets",
+            "Filter network traffic",
+            "Amplify signals"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_6",
+        "category": "Computer Networks",
+        "question": "What does LAN stand for?",
+        "options": [
+            "Large Area Network",
+            "Local Area Network",
+            "Long Array Network",
+            "Logical Access Network"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_7",
+        "category": "Computer Networks",
+        "question": "Which network topology connects all devices to a single central cable?",
+        "options": [
+            "Star",
+            "Ring",
+            "Bus",
+            "Mesh"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_8",
+        "category": "Computer Networks",
+        "question": "What is the purpose of a router?",
+        "options": [
+            "Connect multiple networks and forward packets",
+            "Connect devices within same network",
+            "Amplify signals",
+            "Convert protocols"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_9",
+        "category": "Computer Networks",
+        "question": "Which OSI layer is responsible for end-to-end communication?",
+        "options": [
+            "Network layer",
+            "Transport layer",
+            "Session layer",
+            "Data link layer"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_10",
+        "category": "Computer Networks",
+        "question": "What is a subnet mask used for?",
+        "options": [
+            "Hide IP addresses",
+            "Divide IP address into network and host portions",
+            "Encrypt data",
+            "Route packets"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_11",
+        "category": "Data Link Layer",
+        "question": "What is the primary responsibility of the data link layer?",
+        "options": [
+            "Routing packets",
+            "Error-free transmission between adjacent nodes",
+            "End-to-end connections",
+            "Data encryption"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_12",
+        "category": "Data Link Layer",
+        "question": "What does MAC stand for in MAC address?",
+        "options": [
+            "Media Access Control",
+            "Memory Access Controller",
+            "Multiple Access Code",
+            "Message Authentication Code"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_13",
+        "category": "Data Link Layer",
+        "question": "Which protocol is used for error detection at the data link layer?",
+        "options": [
+            "TCP",
+            "UDP",
+            "CRC",
+            "ARP"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_14",
+        "category": "Data Link Layer",
+        "question": "What is CSMA/CD used for?",
+        "options": [
+            "Collision detection in Ethernet",
+            "Address resolution",
+            "Routing packets",
+            "Flow control"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_15",
+        "category": "Data Link Layer",
+        "question": "What is a switch's primary function?",
+        "options": [
+            "Forward frames based on MAC addresses",
+            "Route packets between networks",
+            "Assign IP addresses",
+            "Encrypt data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_16",
+        "category": "Network Layer",
+        "question": "Which protocol is used for logical addressing?",
+        "options": [
+            "TCP",
+            "UDP",
+            "IP",
+            "HTTP"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_17",
+        "category": "Network Layer",
+        "question": "What is the purpose of ARP?",
+        "options": [
+            "Resolve IP address to MAC address",
+            "Resolve MAC to IP",
+            "Assign dynamic IPs",
+            "Route packets"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_18",
+        "category": "Network Layer",
+        "question": "What is the default subnet mask for a Class C IP address?",
+        "options": [
+            "255.0.0.0",
+            "255.255.0.0",
+            "255.255.255.0",
+            "255.255.255.255"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_19",
+        "category": "Network Layer",
+        "question": "Which routing protocol uses hop count as metric?",
+        "options": [
+            "OSPF",
+            "RIP",
+            "BGP",
+            "EIGRP"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_20",
+        "category": "Network Layer",
+        "question": "What is the TTL field in an IP packet used for?",
+        "options": [
+            "Prevent infinite loops",
+            "Encrypt data",
+            "Prioritize packets",
+            "Fragment packets"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_21",
+        "category": "Transport Layer",
+        "question": "Which transport layer protocol is connection-oriented?",
+        "options": [
+            "UDP",
+            "TCP",
+            "IP",
+            "ICMP"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_22",
+        "category": "Transport Layer",
+        "question": "What is a socket in networking?",
+        "options": [
+            "IP address + port number",
+            "MAC address",
+            "Network interface",
+            "Router port"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_23",
+        "category": "Transport Layer",
+        "question": "Which TCP flag is used to establish a connection?",
+        "options": [
+            "FIN",
+            "RST",
+            "SYN",
+            "ACK"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_24",
+        "category": "Transport Layer",
+        "question": "What is the well-known port number for HTTP?",
+        "options": [
+            "21",
+            "22",
+            "80",
+            "443"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cn_25",
+        "category": "Transport Layer",
+        "question": "What does UDP stand for?",
+        "options": [
+            "User Datagram Protocol",
+            "Universal Data Protocol",
+            "Unreliable Data Protocol",
+            "Uniform Datagram Protocol"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_26",
+        "category": "Application Layer",
+        "question": "Which protocol is used for email retrieval?",
+        "options": [
+            "SMTP",
+            "POP3",
+            "HTTP",
+            "FTP"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_27",
+        "category": "Application Layer",
+        "question": "What does DNS do?",
+        "options": [
+            "Convert domain names to IP addresses",
+            "Assign IP addresses",
+            "Route packets",
+            "Encrypt web traffic"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_28",
+        "category": "Application Layer",
+        "question": "Which protocol is used for file transfer?",
+        "options": [
+            "SMTP",
+            "FTP",
+            "SSH",
+            "Telnet"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_29",
+        "category": "Application Layer",
+        "question": "What is DHCP used for?",
+        "options": [
+            "Dynamic IP address assignment",
+            "Domain resolution",
+            "Web browsing",
+            "Email sending"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_30",
+        "category": "Application Layer",
+        "question": "Which application layer protocol is used for web browsing?",
+        "options": [
+            "HTTP/HTTPS",
+            "FTP",
+            "SMTP",
+            "DNS"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_31",
+        "category": "Wireless Networks",
+        "question": "What does Wi-Fi stand for?",
+        "options": [
+            "Wireless Fidelity",
+            "Wireless Frequency",
+            "Wired Fidelity",
+            "Wireless Fiber"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_32",
+        "category": "Wireless Networks",
+        "question": "Which IEEE standard defines Wi-Fi?",
+        "options": [
+            "802.3",
+            "802.11",
+            "802.15",
+            "802.16"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_33",
+        "category": "Wireless Networks",
+        "question": "What is a common frequency band for Wi-Fi?",
+        "options": [
+            "900 MHz",
+            "2.4 GHz",
+            "5 kHz",
+            "60 GHz"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_34",
+        "category": "Wireless Networks",
+        "question": "What is SSID in wireless networks?",
+        "options": [
+            "Network name",
+            "Security key",
+            "MAC address",
+            "IP address"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_35",
+        "category": "Wireless Networks",
+        "question": "Which security protocol is considered most secure for Wi-Fi today?",
+        "options": [
+            "WEP",
+            "WPA",
+            "WPA2",
+            "WPA3"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "cn_36",
+        "category": "Cloud Computing",
+        "question": "What is the primary characteristic of cloud computing?",
+        "options": [
+            "On-demand self-service",
+            "Local storage only",
+            "Single tenancy",
+            "Manual scaling"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_37",
+        "category": "Cloud Computing",
+        "question": "Which cloud deployment model is used exclusively by one organization?",
+        "options": [
+            "Public cloud",
+            "Private cloud",
+            "Hybrid cloud",
+            "Community cloud"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_38",
+        "category": "Cloud Computing",
+        "question": "What does IaaS stand for?",
+        "options": [
+            "Infrastructure as a Service",
+            "Internet as a Service",
+            "Integration as a Service",
+            "Information as a Service"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_39",
+        "category": "Cloud Computing",
+        "question": "Which cloud service model provides runtime environment?",
+        "options": [
+            "IaaS",
+            "PaaS",
+            "SaaS",
+            "FaaS"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_40",
+        "category": "Cloud Computing",
+        "question": "What is an example of SaaS?",
+        "options": [
+            "AWS EC2",
+            "Google Docs",
+            "Heroku",
+            "OpenStack"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_41",
+        "category": "Cloud Computing",
+        "question": "What is virtualization in cloud computing?",
+        "options": [
+            "Creating virtual versions of physical resources",
+            "Moving data between clouds",
+            "Encrypting all data",
+            "Backup and recovery"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_42",
+        "category": "Cloud Computing",
+        "question": "Which cloud characteristic allows resources to scale up/down automatically?",
+        "options": [
+            "Broad network access",
+            "Rapid elasticity",
+            "Measured service",
+            "Resource pooling"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_43",
+        "category": "Cloud Computing",
+        "question": "What is a hypervisor?",
+        "options": [
+            "Software that creates and manages VMs",
+            "Cloud storage system",
+            "Network protocol",
+            "Security firewall"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_44",
+        "category": "Cloud Computing",
+        "question": "Which cloud deployment combines public and private clouds?",
+        "options": [
+            "Hybrid cloud",
+            "Multi-cloud",
+            "Community cloud",
+            "Distributed cloud"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_45",
+        "category": "Cloud Computing",
+        "question": "What is serverless computing?",
+        "options": [
+            "No servers involved",
+            "Developers don't manage servers; cloud provider handles scaling",
+            "Only client-side execution",
+            "Physical servers removed"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_46",
+        "category": "Network Security",
+        "question": "What is a firewall?",
+        "options": [
+            "Device that filters traffic based on rules",
+            "Antivirus software",
+            "Encryption tool",
+            "Backup system"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_47",
+        "category": "Network Security",
+        "question": "What does VPN stand for?",
+        "options": [
+            "Virtual Private Network",
+            "Very Private Network",
+            "Virtual Public Network",
+            "Verified Protected Network"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_48",
+        "category": "Network Security",
+        "question": "What is a DDoS attack?",
+        "options": [
+            "Distributed Denial of Service",
+            "Direct Data Override System",
+            "Dynamic Domain Operation Service",
+            "Data Destruction on Server"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_49",
+        "category": "Network Security",
+        "question": "What is IP spoofing?",
+        "options": [
+            "Faking source IP address",
+            "Hiding IP address",
+            "Encrypting IP packets",
+            "Routing IP differently"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_50",
+        "category": "Network Security",
+        "question": "Which protocol secures web traffic?",
+        "options": [
+            "SSH",
+            "TLS/SSL",
+            "SFTP",
+            "IPSec"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_51",
+        "category": "Next Generation Networks",
+        "question": "What does SDN stand for?",
+        "options": [
+            "Software-Defined Networking",
+            "Secure Data Network",
+            "Service Delivery Network",
+            "Synchronous Digital Network"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_52",
+        "category": "Next Generation Networks",
+        "question": "What is NFV?",
+        "options": [
+            "Network Functions Virtualization",
+            "Network Frequency Verification",
+            "Node Failure Validation",
+            "Non-Functional Virtualization"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_53",
+        "category": "Next Generation Networks",
+        "question": "What is 5G's approximate peak speed?",
+        "options": [
+            "100 Mbps",
+            "1 Gbps",
+            "10 Gbps",
+            "20 Gbps"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "cn_54",
+        "category": "Next Generation Networks",
+        "question": "What is IoT?",
+        "options": [
+            "Internet of Things",
+            "Interoperability of Things",
+            "Integration of Technologies",
+            "Internet of Text"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_55",
+        "category": "Next Generation Networks",
+        "question": "What is network slicing in 5G?",
+        "options": [
+            "Creating multiple virtual networks on shared infrastructure",
+            "Cutting cables",
+            "Reducing bandwidth",
+            "Increasing latency"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_56",
+        "category": "Data Communication",
+        "question": "What is jitter?",
+        "options": [
+            "Variation in packet delay",
+            "Data loss rate",
+            "Bandwidth measurement",
+            "Signal strength"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_57",
+        "category": "Computer Networks",
+        "question": "What is the difference between hub and switch?",
+        "options": [
+            "Hub broadcasts, switch forwards based on MAC",
+            "Switch broadcasts, hub forwards",
+            "Both are same",
+            "Hub is faster"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_58",
+        "category": "Data Link Layer",
+        "question": "What is a VLAN?",
+        "options": [
+            "Virtual LAN",
+            "Very Large Area Network",
+            "Virtual Link Access Node",
+            "Variable Local Area Network"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_59",
+        "category": "Network Layer",
+        "question": "What is CIDR?",
+        "options": [
+            "Classless Inter-Domain Routing",
+            "Common Internet Data Routing",
+            "Centralized IP Distribution Route",
+            "Classful Internet Domain Routing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_60",
+        "category": "Transport Layer",
+        "question": "What is the purpose of a port number?",
+        "options": [
+            "Identify specific process/service on a host",
+            "Identify the host",
+            "Route packets",
+            "Encrypt data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_61",
+        "category": "Application Layer",
+        "question": "Which protocol is used for remote login?",
+        "options": [
+            "SSH",
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_62",
+        "category": "Wireless Networks",
+        "question": "What is a mesh network?",
+        "options": [
+            "Each node relays data for the network",
+            "Centralized hub",
+            "Bus topology",
+            "Ring topology"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_63",
+        "category": "Cloud Computing",
+        "question": "What is a public cloud?",
+        "options": [
+            "Cloud resources owned by third-party provider, shared by multiple tenants",
+            "Cloud for a single organization",
+            "Cloud on-premises",
+            "Government cloud"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_64",
+        "category": "Cloud Computing",
+        "question": "What is cloud bursting?",
+        "options": [
+            "Using public cloud during peak loads",
+            "Cloud crashing",
+            "Deleting cloud resources",
+            "Migrating all data to cloud"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_65",
+        "category": "Network Security",
+        "question": "What is a man-in-the-middle attack?",
+        "options": [
+            "Intercepting communication between two parties",
+            "DDoS attack",
+            "Phishing",
+            "SQL injection"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_66",
+        "category": "Next Generation Networks",
+        "question": "What is the main advantage of IPv6 over IPv4?",
+        "options": [
+            "Larger address space",
+            "Faster speed",
+            "Better security only",
+            "Smaller header"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_67",
+        "category": "Data Communication",
+        "question": "What is crosstalk?",
+        "options": [
+            "Signal interference from adjacent cables",
+            "Data encryption",
+            "Packet loss",
+            "High latency"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_68",
+        "category": "Computer Networks",
+        "question": "What is a peer-to-peer network?",
+        "options": [
+            "All nodes are equal without dedicated servers",
+            "Client-server model",
+            "Centralized control",
+            "Tree topology"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_69",
+        "category": "Data Link Layer",
+        "question": "What is a bridge in networking?",
+        "options": [
+            "Connects two network segments",
+            "Connects different network types",
+            "Routes packets",
+            "Assigns IPs"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_70",
+        "category": "Network Layer",
+        "question": "What is a default gateway?",
+        "options": [
+            "Router that forwards traffic to other networks",
+            "Default DNS server",
+            "Primary switch",
+            "DHCP server"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_71",
+        "category": "Transport Layer",
+        "question": "What is the three-way handshake?",
+        "options": [
+            "TCP connection establishment (SYN, SYN-ACK, ACK)",
+            "UDP connection",
+            "HTTP request cycle",
+            "DNS lookup"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_72",
+        "category": "Application Layer",
+        "question": "What is SNMP used for?",
+        "options": [
+            "Network management and monitoring",
+            "Email",
+            "File transfer",
+            "Web browsing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_73",
+        "category": "Wireless Networks",
+        "question": "What is Bluetooth's typical range?",
+        "options": [
+            "~10 meters",
+            "~100 meters",
+            "~1 km",
+            "~10 km"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_74",
+        "category": "Cloud Computing",
+        "question": "What is the shared responsibility model?",
+        "options": [
+            "Security responsibilities split between provider and customer",
+            "Shared cost model",
+            "Shared infrastructure",
+            "Shared data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_75",
+        "category": "Cloud Computing",
+        "question": "What is a container (e.g., Docker)?",
+        "options": [
+            "Lightweight virtualization at OS level",
+            "Full VM",
+            "Cloud storage unit",
+            "Network protocol"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_76",
+        "category": "Network Security",
+        "question": "What is a honeypot?",
+        "options": [
+            "Decoy system to attract attackers",
+            "Encryption algorithm",
+            "Firewall rule",
+            "Backup server"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_77",
+        "category": "Next Generation Networks",
+        "question": "What is network function virtualization (NFV)?",
+        "options": [
+            "Running network functions as software on VMs",
+            "Virtualizing cables",
+            "Software-defined radio",
+            "Network slicing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_78",
+        "category": "Data Communication",
+        "question": "What is throughput?",
+        "options": [
+            "Actual data transfer rate achieved",
+            "Maximum theoretical rate",
+            "Signal strength",
+            "Error rate"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_79",
+        "category": "Computer Networks",
+        "question": "What is a VPN tunnel?",
+        "options": [
+            "Encrypted connection between two points",
+            "Physical cable",
+            "Wireless access point",
+            "Router"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_80",
+        "category": "Data Link Layer",
+        "question": "What is a spanning tree protocol (STP)?",
+        "options": [
+            "Prevents loops in network",
+            "Spans multiple trees",
+            "Routing algorithm",
+            "Encryption protocol"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_81",
+        "category": "Network Layer",
+        "question": "What is NAT?",
+        "options": [
+            "Network Address Translation",
+            "Network Access Terminal",
+            "Non-standard Address Table",
+            "Node Authentication Token"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_82",
+        "category": "Transport Layer",
+        "question": "What is TCP's flow control mechanism?",
+        "options": [
+            "Sliding window",
+            "Fixed window",
+            "Congestion avoidance only",
+            "Packet dropping"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_83",
+        "category": "Application Layer",
+        "question": "What is LDAP used for?",
+        "options": [
+            "Directory services authentication",
+            "File transfer",
+            "Email",
+            "Web caching"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_84",
+        "category": "Wireless Networks",
+        "question": "What is the difference between 2.4 GHz and 5 GHz?",
+        "options": [
+            "2.4 GHz longer range, 5 GHz faster speed",
+            "5 GHz longer range",
+            "No difference",
+            "2.4 GHz is always better"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_85",
+        "category": "Cloud Computing",
+        "question": "What is cloud orchestration?",
+        "options": [
+            "Automating management of cloud resources",
+            "Manual configuration",
+            "Data backup",
+            "Security scanning"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_86",
+        "category": "Network Security",
+        "question": "What is an IDS?",
+        "options": [
+            "Intrusion Detection System",
+            "Internal Data Server",
+            "Internet Domain Service",
+            "Integrated Dial-up System"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_87",
+        "category": "Next Generation Networks",
+        "question": "What is MEC in 5G?",
+        "options": [
+            "Multi-access Edge Computing",
+            "Mobile Encryption Code",
+            "Main Edge Controller",
+            "Media Encoding Center"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_88",
+        "category": "Data Communication",
+        "question": "What is attenuation?",
+        "options": [
+            "Loss of signal strength",
+            "Signal amplification",
+            "Data compression",
+            "Error correction"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_89",
+        "category": "Computer Networks",
+        "question": "What is the difference between intranet and extranet?",
+        "options": [
+            "Intranet internal, extranet extended to partners",
+            "Both are public",
+            "Extranet is smaller",
+            "No difference"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_90",
+        "category": "Data Link Layer",
+        "question": "What is a frame?",
+        "options": [
+            "Data link layer PDU",
+            "Network layer PDU",
+            "Transport layer PDU",
+            "Application layer data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_91",
+        "category": "Network Layer",
+        "question": "What is ICMP used for?",
+        "options": [
+            "Error reporting and diagnostics (ping)",
+            "Routing",
+            "Address resolution",
+            "Data encryption"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_92",
+        "category": "Transport Layer",
+        "question": "Which port is used by HTTPS?",
+        "options": [
+            "80",
+            "443",
+            "8080",
+            "22"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cn_93",
+        "category": "Application Layer",
+        "question": "What is an API gateway?",
+        "options": [
+            "Entry point for API requests",
+            "Database",
+            "Firewall",
+            "Load balancer only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_94",
+        "category": "Cloud Computing",
+        "question": "What is FaaS?",
+        "options": [
+            "Function as a Service",
+            "File as a Service",
+            "Framework as a Service",
+            "Firewall as a Service"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_95",
+        "category": "Network Security",
+        "question": "What is a zero-day vulnerability?",
+        "options": [
+            "Unknown vulnerability with no patch",
+            "Vulnerability fixed same day",
+            "Old vulnerability",
+            "Configuration error"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_96",
+        "category": "Next Generation Networks",
+        "question": "What is Li-Fi?",
+        "options": [
+            "Light-based wireless communication",
+            "Wi-Fi alternative using radio",
+            "Fiber optic",
+            "Satellite internet"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_97",
+        "category": "Computer Networks",
+        "question": "What is QoS?",
+        "options": [
+            "Quality of Service - traffic prioritization",
+            "Quantity of Signals",
+            "Query of Servers",
+            "Quick Online Service"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_98",
+        "category": "Data Link Layer",
+        "question": "What is a MAC flooding attack?",
+        "options": [
+            "Overwhelming switch's MAC table",
+            "IP spoofing",
+            "ARP poisoning",
+            "DNS hijacking"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_99",
+        "category": "Cloud Computing",
+        "question": "What is edge computing?",
+        "options": [
+            "Processing data near the source",
+            "Processing in central cloud",
+            "Processing on client only",
+            "Processing on mobile devices only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cn_100",
+        "category": "Network Security",
+        "question": "What is SSL stripping?",
+        "options": [
+            "Downgrading HTTPS to HTTP attack",
+            "Removing SSL certificates",
+            "Encrypting HTTP",
+            "Decrypting SSL"
+        ],
+        "answer": 0
+    }
+]
