@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "web_1",
+        "category": "Introduction to Web Development",
+        "question": "What is the primary role of a front-end developer?",
+        "options": [
+            "Server-side logic",
+            "Database management",
+            "User interface and experience",
+            "Network configuration"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_2",
+        "category": "Introduction to Web Development",
+        "question": "Which of the following is a server-side scripting language?",
+        "options": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "web_3",
+        "category": "Introduction to Web Development",
+        "question": "What does the term 'full-stack developer' refer to?",
+        "options": [
+            "Only front-end development",
+            "Only back-end development",
+            "Both front-end and back-end development",
+            "Database administration only"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_4",
+        "category": "Introduction to Web Development",
+        "question": "Which tool is commonly used for version control?",
+        "options": [
+            "Git",
+            "npm",
+            "Webpack",
+            "Docker"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_5",
+        "category": "Introduction to Web Development",
+        "question": "What is the purpose of a web browser?",
+        "options": [
+            "To write server-side code",
+            "To render and display web pages",
+            "To manage databases",
+            "To compile programming languages"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_6",
+        "category": "Web Architecture & Protocols",
+        "question": "What does HTTP stand for?",
+        "options": [
+            "HyperText Transfer Protocol",
+            "High Transfer Text Protocol",
+            "Hyper Transfer Text Protocol",
+            "HyperText Transmission Program"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_7",
+        "category": "Web Architecture & Protocols",
+        "question": "Which HTTP method is used to retrieve data from a server?",
+        "options": [
+            "POST",
+            "PUT",
+            "GET",
+            "DELETE"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_8",
+        "category": "Web Architecture & Protocols",
+        "question": "What is the default port for HTTPS?",
+        "options": [
+            "80",
+            "443",
+            "8080",
+            "3306"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_9",
+        "category": "Web Architecture & Protocols",
+        "question": "What does a 404 status code indicate?",
+        "options": [
+            "Server error",
+            "Unauthorized access",
+            "Page not found",
+            "Redirect"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_10",
+        "category": "Web Architecture & Protocols",
+        "question": "Which protocol is used for secure communication over a computer network?",
+        "options": [
+            "HTTP",
+            "FTP",
+            "SSL/TLS",
+            "SMTP"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_11",
+        "category": "HTML Fundamentals",
+        "question": "Which HTML tag is used to define an unordered list?",
+        "options": [
+            "<ol>",
+            "<ul>",
+            "<li>",
+            "<list>"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_12",
+        "category": "HTML Fundamentals",
+        "question": "What attribute is used to specify the destination of a hyperlink?",
+        "options": [
+            "src",
+            "href",
+            "link",
+            "rel"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_13",
+        "category": "HTML Fundamentals",
+        "question": "Which tag is used to embed an image in HTML?",
+        "options": [
+            "<img>",
+            "<image>",
+            "<src>",
+            "<pic>"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_14",
+        "category": "HTML Fundamentals",
+        "question": "What is the correct doctype declaration for HTML5?",
+        "options": [
+            "<!DOCTYPE html>",
+            "<!DOCTYPE HTML PUBLIC>",
+            "<!DOCTYPE html5>",
+            "<!DOCTYPE XML>"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_15",
+        "category": "HTML Fundamentals",
+        "question": "Which element is used for the largest heading?",
+        "options": [
+            "<h6>",
+            "<head>",
+            "<h1>",
+            "<heading>"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_16",
+        "category": "CSS Fundamentals",
+        "question": "Which CSS property changes the background color of an element?",
+        "options": [
+            "color",
+            "bgcolor",
+            "background-color",
+            "background"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_17",
+        "category": "CSS Fundamentals",
+        "question": "What does 'CSS' stand for?",
+        "options": [
+            "Creative Style Sheets",
+            "Computer Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_18",
+        "category": "CSS Fundamentals",
+        "question": "Which selector has the highest specificity?",
+        "options": [
+            "Element selector",
+            "Class selector",
+            "ID selector",
+            "Universal selector"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_19",
+        "category": "CSS Fundamentals",
+        "question": "How do you apply a CSS rule to all paragraph elements?",
+        "options": [
+            ".p {}",
+            "#p {}",
+            "p {}",
+            "*p {}"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_20",
+        "category": "CSS Fundamentals",
+        "question": "Which property is used to change the font of text?",
+        "options": [
+            "font-family",
+            "text-font",
+            "font-style",
+            "font-weight"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_21",
+        "category": "Advanced CSS & Responsive Design",
+        "question": "What is a CSS media query used for?",
+        "options": [
+            "Creating animations",
+            "Responsive design based on device characteristics",
+            "Optimizing database queries",
+            "Handling JavaScript events"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_22",
+        "category": "Advanced CSS & Responsive Design",
+        "question": "Which CSS framework is developed by Twitter?",
+        "options": [
+            "Foundation",
+            "Materialize",
+            "Bootstrap",
+            "Bulma"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_23",
+        "category": "Advanced CSS & Responsive Design",
+        "question": "What does 'flexbox' help achieve in CSS?",
+        "options": [
+            "3D transformations",
+            "Grid-based layouts",
+            "Efficient alignment and distribution of space",
+            "Animation keyframes"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_24",
+        "category": "Advanced CSS & Responsive Design",
+        "question": "Which unit is relative to the viewport width?",
+        "options": [
+            "px",
+            "em",
+            "rem",
+            "vw"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "web_25",
+        "category": "Advanced CSS & Responsive Design",
+        "question": "What does 'display: grid' create?",
+        "options": [
+            "A flex container",
+            "A block-level grid container",
+            "An inline element",
+            "A table layout"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_26",
+        "category": "JavaScript Fundamentals",
+        "question": "Which symbol is used for single-line comments in JavaScript?",
+        "options": [
+            "<!--",
+            "//",
+            "#",
+            "/*"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_27",
+        "category": "JavaScript Fundamentals",
+        "question": "What is the correct way to declare a variable in modern JavaScript?",
+        "options": [
+            "var x = 5;",
+            "let x = 5;",
+            "const x = 5;",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "web_28",
+        "category": "JavaScript Fundamentals",
+        "question": "Which built-in method adds one or more elements to the end of an array?",
+        "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_29",
+        "category": "JavaScript Fundamentals",
+        "question": "What does 'typeof null' return?",
+        "options": [
+            "null",
+            "undefined",
+            "object",
+            "number"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_30",
+        "category": "JavaScript Fundamentals",
+        "question": "How do you write an 'if' statement in JavaScript?",
+        "options": [
+            "if x == 5 then",
+            "if (x == 5)",
+            "if x = 5",
+            "if x == 5"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_31",
+        "category": "Advanced JavaScript",
+        "question": "What is a closure in JavaScript?",
+        "options": [
+            "A way to close a browser tab",
+            "A function with access to its outer scope even after the outer function returns",
+            "A type of loop",
+            "A built-in object"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_32",
+        "category": "Advanced JavaScript",
+        "question": "What is the purpose of the 'async/await' keywords?",
+        "options": [
+            "To create classes",
+            "To handle synchronous operations",
+            "To handle asynchronous operations in a cleaner way",
+            "To declare variables"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_33",
+        "category": "Advanced JavaScript",
+        "question": "What does the 'this' keyword refer to in an arrow function?",
+        "options": [
+            "The global object",
+            "The function itself",
+            "The surrounding lexical context",
+            "The object that called the function"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_34",
+        "category": "Advanced JavaScript",
+        "question": "What is the difference between 'null' and 'undefined'?",
+        "options": [
+            "No difference",
+            "null is an object, undefined is a type",
+            "null is intentional absence, undefined is uninitialized variable",
+            "undefined can be assigned, null cannot"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_35",
+        "category": "Advanced JavaScript",
+        "question": "Which method creates a new array with all elements that pass a test?",
+        "options": [
+            "map()",
+            "forEach()",
+            "filter()",
+            "reduce()"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_36",
+        "category": "Frontend Frameworks & Libraries",
+        "question": "Which company developed React?",
+        "options": [
+            "Google",
+            "Facebook",
+            "Twitter",
+            "Microsoft"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_37",
+        "category": "Frontend Frameworks & Libraries",
+        "question": "What is the virtual DOM in React?",
+        "options": [
+            "A direct copy of the real DOM",
+            "A lightweight representation of the DOM used for performance optimization",
+            "A database",
+            "A server-side rendering engine"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_38",
+        "category": "Frontend Frameworks & Libraries",
+        "question": "Which directive is used to conditionally render an element in Angular?",
+        "options": [
+            "*ngFor",
+            "*ngIf",
+            "*ngSwitch",
+            "*ngModel"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_39",
+        "category": "Frontend Frameworks & Libraries",
+        "question": "What is Vue.js primarily used for?",
+        "options": [
+            "Backend API development",
+            "Building user interfaces and single-page applications",
+            "Database management",
+            "Testing frameworks"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_40",
+        "category": "Frontend Frameworks & Libraries",
+        "question": "What is a 'component' in frontend frameworks?",
+        "options": [
+            "A database table",
+            "A reusable piece of UI with its own logic and structure",
+            "A CSS stylesheet",
+            "A JavaScript plugin"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_41",
+        "category": "Backend Development Fundamentals",
+        "question": "What is the main role of a backend server?",
+        "options": [
+            "Rendering HTML",
+            "Handling business logic, database interactions, and authentication",
+            "Styling web pages",
+            "Managing client-side state"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_42",
+        "category": "Backend Development Fundamentals",
+        "question": "Which of the following is a backend framework for Node.js?",
+        "options": [
+            "Django",
+            "Express.js",
+            "Ruby on Rails",
+            "Laravel"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_43",
+        "category": "Backend Development Fundamentals",
+        "question": "What is an API?",
+        "options": [
+            "Application Program Interface",
+            "Advanced Programming Integration",
+            "Automated Protocol Interface",
+            "Application Protocol Interchange"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_44",
+        "category": "Backend Development Fundamentals",
+        "question": "What does REST stand for?",
+        "options": [
+            "Representational State Transfer",
+            "Rapid Encoded Session Transfer",
+            "Remote System Transfer",
+            "Request State Transmission"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_45",
+        "category": "Backend Development Fundamentals",
+        "question": "Which HTTP method is typically used for creating a resource?",
+        "options": [
+            "GET",
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_46",
+        "category": "Server-Side Programming",
+        "question": "Which of the following is a server-side JavaScript runtime?",
+        "options": [
+            "Node.js",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_47",
+        "category": "Server-Side Programming",
+        "question": "What is middleware in Express.js?",
+        "options": [
+            "A database connector",
+            "Functions that have access to request and response objects",
+            "A templating engine",
+            "A security protocol"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_48",
+        "category": "Server-Side Programming",
+        "question": "What is the purpose of 'npm'?",
+        "options": [
+            "Node Package Manager",
+            "New Programming Module",
+            "Network Process Manager",
+            "Non-blocking Promise Module"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_49",
+        "category": "Server-Side Programming",
+        "question": "Which of the following is a Python backend framework?",
+        "options": [
+            "Flask",
+            "Spring",
+            "ASP.NET",
+            "Gin"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_50",
+        "category": "Server-Side Programming",
+        "question": "What does the 'body-parser' middleware do?",
+        "options": [
+            "Parses HTML content",
+            "Parses incoming request bodies",
+            "Parses CSS files",
+            "Parses JSON responses"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_51",
+        "category": "Databases for Web Applications",
+        "question": "What type of database is MongoDB?",
+        "options": [
+            "Relational",
+            "NoSQL",
+            "Graph",
+            "Hierarchical"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_52",
+        "category": "Databases for Web Applications",
+        "question": "What does SQL stand for?",
+        "options": [
+            "Structured Query Language",
+            "Simple Query Language",
+            "Sequential Query Logic",
+            "System Query Language"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_53",
+        "category": "Databases for Web Applications",
+        "question": "Which SQL command is used to retrieve data?",
+        "options": [
+            "INSERT",
+            "UPDATE",
+            "SELECT",
+            "DELETE"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_54",
+        "category": "Databases for Web Applications",
+        "question": "What is a primary key?",
+        "options": [
+            "A key that can be null",
+            "A unique identifier for a database record",
+            "A foreign reference",
+            "An index for search optimization"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_55",
+        "category": "Databases for Web Applications",
+        "question": "What is an ORM?",
+        "options": [
+            "Object Relational Mapping",
+            "Online Resource Manager",
+            "Operational Record Module",
+            "Open Runtime Mechanism"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_56",
+        "category": "Web Security",
+        "question": "What does XSS stand for?",
+        "options": [
+            "Cross-Site Scripting",
+            "Cross-Site Security",
+            "Extended Style Sheets",
+            "XML Server Scripting"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_57",
+        "category": "Web Security",
+        "question": "What is the purpose of hashing passwords?",
+        "options": [
+            "To encrypt them for transmission",
+            "To store them in plain text",
+            "To convert them into a fixed-length string that cannot be reversed",
+            "To compress them for storage"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_58",
+        "category": "Web Security",
+        "question": "What is CSRF?",
+        "options": [
+            "Cross-Site Request Forgery",
+            "Cross-Site Resource Filter",
+            "Client-Side Request Failure",
+            "Cryptographic Secure Random Function"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_59",
+        "category": "Web Security",
+        "question": "What is the purpose of CORS?",
+        "options": [
+            "To control which domains can access resources",
+            "To compress CSS files",
+            "To manage cookies",
+            "To encrypt data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_60",
+        "category": "Web Security",
+        "question": "Which HTTP header is used to enforce HTTPS?",
+        "options": [
+            "X-Frame-Options",
+            "Content-Security-Policy",
+            "Strict-Transport-Security",
+            "X-Content-Type-Options"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_61",
+        "category": "Web Performance & Optimization",
+        "question": "What is 'lazy loading'?",
+        "options": [
+            "Loading all content at once",
+            "Delaying loading of non-critical resources",
+            "Preloading all images",
+            "Caching all API responses"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_62",
+        "category": "Web Performance & Optimization",
+        "question": "What is the purpose of minification?",
+        "options": [
+            "To add comments to code",
+            "To remove unnecessary characters from code without changing functionality",
+            "To convert code to a lower version",
+            "To encrypt the source code"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_63",
+        "category": "Web Performance & Optimization",
+        "question": "What does 'CDN' stand for?",
+        "options": [
+            "Content Delivery Network",
+            "Central Data Node",
+            "Compressed Digital Network",
+            "Code Distribution Nucleus"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_64",
+        "category": "Web Performance & Optimization",
+        "question": "What is the main benefit of browser caching?",
+        "options": [
+            "Increased server load",
+            "Faster repeat visits by storing static files locally",
+            "Better security",
+            "Real-time data updates"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_65",
+        "category": "Web Performance & Optimization",
+        "question": "What is a 'critical rendering path'?",
+        "options": [
+            "The path to the database",
+            "The sequence of steps the browser takes to convert HTML, CSS, and JS into pixels on the screen",
+            "The network route to the server",
+            "The compilation path of JavaScript"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_66",
+        "category": "Web Testing & Debugging",
+        "question": "Which browser developer tool is used to inspect network requests?",
+        "options": [
+            "Console",
+            "Elements",
+            "Network",
+            "Sources"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_67",
+        "category": "Web Testing & Debugging",
+        "question": "What is unit testing?",
+        "options": [
+            "Testing the entire application",
+            "Testing individual components or functions in isolation",
+            "Testing user interface only",
+            "Testing database performance"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_68",
+        "category": "Web Testing & Debugging",
+        "question": "What does 'console.log()' do in JavaScript?",
+        "options": [
+            "Logs an error to the server",
+            "Outputs a message to the web console",
+            "Creates a new variable",
+            "Stops execution of the script"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_69",
+        "category": "Web Testing & Debugging",
+        "question": "Which tool is commonly used for end-to-end testing?",
+        "options": [
+            "Jest",
+            "Mocha",
+            "Cypress",
+            "ESLint"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_70",
+        "category": "Web Testing & Debugging",
+        "question": "What is a breakpoint in debugging?",
+        "options": [
+            "A syntax error",
+            "A point where code execution pauses for inspection",
+            "The end of a function",
+            "A network timeout"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_71",
+        "category": "Deployment & Hosting",
+        "question": "What is a platform as a service (PaaS) provider?",
+        "options": [
+            "AWS EC2",
+            "Heroku",
+            "GoDaddy Domain",
+            "WordPress.org"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_72",
+        "category": "Deployment & Hosting",
+        "question": "What is the purpose of a CI/CD pipeline?",
+        "options": [
+            "To write code faster",
+            "To automate building, testing, and deployment",
+            "To design databases",
+            "To manage customer support"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_73",
+        "category": "Deployment & Hosting",
+        "question": "What does 'version control' help manage?",
+        "options": [
+            "Server uptime",
+            "Changes to source code over time",
+            "Database indexes",
+            "User authentication"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_74",
+        "category": "Deployment & Hosting",
+        "question": "Which command is used to push code to a Git remote repository?",
+        "options": [
+            "git push",
+            "git commit",
+            "git pull",
+            "git clone"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_75",
+        "category": "Deployment & Hosting",
+        "question": "What is 'containerization' (e.g., Docker)?",
+        "options": [
+            "Packaging code and dependencies into isolated containers",
+            "Storing data in a single file",
+            "Creating virtual machines for each user",
+            "Minifying JavaScript"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_76",
+        "category": "Web APIs & Integration",
+        "question": "What does 'AJAX' stand for?",
+        "options": [
+            "Asynchronous JavaScript and XML",
+            "Advanced JavaScript and XHTML",
+            "Automated JSON and XML",
+            "Asynchronous JSON API eXchange"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_77",
+        "category": "Web APIs & Integration",
+        "question": "What is the purpose of the Fetch API in JavaScript?",
+        "options": [
+            "To retrieve data from a database directly",
+            "To make HTTP requests from the browser",
+            "To manipulate the DOM",
+            "To style elements"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_78",
+        "category": "Web APIs & Integration",
+        "question": "What is a WebSocket?",
+        "options": [
+            "A one-way HTTP request",
+            "A protocol providing full-duplex communication channels",
+            "A type of database",
+            "A CSS framework"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_79",
+        "category": "Web APIs & Integration",
+        "question": "What format is commonly used for API responses?",
+        "options": [
+            "HTML",
+            "CSS",
+            "JSON",
+            "SQL"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_80",
+        "category": "Web APIs & Integration",
+        "question": "What is an API key used for?",
+        "options": [
+            "Encrypting data",
+            "Identifying and authenticating the calling application",
+            "Styling API responses",
+            "Creating database schemas"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_81",
+        "category": "Modern Web Development Practices",
+        "question": "What is 'serverless' architecture?",
+        "options": [
+            "No servers involved",
+            "Developers do not manage servers; cloud provider handles scaling",
+            "Only client-side code",
+            "Servers without operating systems"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_82",
+        "category": "Modern Web Development Practices",
+        "question": "What is the purpose of Webpack?",
+        "options": [
+            "Database management",
+            "Module bundling and asset management",
+            "Writing server-side code",
+            "Testing frameworks"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_83",
+        "category": "Modern Web Development Practices",
+        "question": "What does 'PWA' stand for?",
+        "options": [
+            "Progressive Web Application",
+            "Private Web Access",
+            "Primary Web Architecture",
+            "Programmed Web Algorithm"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_84",
+        "category": "Modern Web Development Practices",
+        "question": "What is a Single Page Application (SPA)?",
+        "options": [
+            "An application with only one HTML page that dynamically updates",
+            "An application that runs on a single server",
+            "A website with only one image",
+            "An application that does not use JavaScript"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_85",
+        "category": "Modern Web Development Practices",
+        "question": "What is the main advantage of TypeScript over JavaScript?",
+        "options": [
+            "It runs faster",
+            "It adds static typing and better tooling",
+            "It has more libraries",
+            "It does not need a compiler"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_86",
+        "category": "Modern Web Development Practices",
+        "question": "What is the purpose of ESLint?",
+        "options": [
+            "To bundle modules",
+            "To lint and enforce code style rules",
+            "To compile TypeScript",
+            "To run unit tests"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_87",
+        "category": "Modern Web Development Practices",
+        "question": "What is JAMstack?",
+        "options": [
+            "Java, Apache, MySQL stack",
+            "JavaScript, APIs, and Markup architecture",
+            "jQuery, Angular, MongoDB stack",
+            "JSON, AJAX, Mocha stack"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_88",
+        "category": "Modern Web Development Practices",
+        "question": "What is 'headless CMS'?",
+        "options": [
+            "A CMS without a database",
+            "A backend-only content management system that delivers content via API",
+            "A CMS that only works on mobile",
+            "A CMS without a user interface"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_89",
+        "category": "Modern Web Development Practices",
+        "question": "What does 'SSR' stand for in web development?",
+        "options": [
+            "Server-Side Rendering",
+            "Style Sheet Reset",
+            "Single State Render",
+            "Secure Socket Routing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_90",
+        "category": "Modern Web Development Practices",
+        "question": "What is the purpose of 'tree shaking'?",
+        "options": [
+            "Removing dead code from the final bundle",
+            "Animating trees on a webpage",
+            "Organizing CSS classes",
+            "Optimizing database queries"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_91",
+        "category": "Web Performance & Optimization",
+        "question": "What is 'code splitting'?",
+        "options": [
+            "Dividing code into separate bundles to load on demand",
+            "Writing code in multiple files",
+            "Separating CSS from JavaScript",
+            "Splitting database queries"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_92",
+        "category": "Web Security",
+        "question": "What is SQL injection?",
+        "options": [
+            "A way to optimize SQL queries",
+            "An attack that injects malicious SQL code into a query",
+            "A database backup method",
+            "A type of encryption"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_93",
+        "category": "Backend Development Fundamentals",
+        "question": "What is a session in web development?",
+        "options": [
+            "A temporary storage of user data across requests",
+            "A type of database",
+            "A CSS class",
+            "A JavaScript function"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_94",
+        "category": "HTML Fundamentals",
+        "question": "Which attribute makes an input field required in HTML5?",
+        "options": [
+            "mandatory",
+            "required",
+            "validate",
+            "necessity"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_95",
+        "category": "CSS Fundamentals",
+        "question": "Which property creates space between an element's border and its content?",
+        "options": [
+            "margin",
+            "padding",
+            "spacing",
+            "border-gap"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_96",
+        "category": "JavaScript Fundamentals",
+        "question": "What is the result of '3' + 2 in JavaScript?",
+        "options": [
+            "5",
+            "32",
+            "Error",
+            "undefined"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_97",
+        "category": "Databases for Web Applications",
+        "question": "What is a foreign key used for?",
+        "options": [
+            "To uniquely identify a record",
+            "To link two tables together",
+            "To index a column",
+            "To encrypt data"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_98",
+        "category": "Web APIs & Integration",
+        "question": "What does RESTful API typically return?",
+        "options": [
+            "HTML pages",
+            "JSON or XML data",
+            "CSS styles",
+            "Binary files only"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_99",
+        "category": "Advanced JavaScript",
+        "question": "What does the 'spread operator' (...) do?",
+        "options": [
+            "Spreads array elements or object properties",
+            "Creates a new function",
+            "Declares a variable",
+            "Handles errors"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_100",
+        "category": "Deployment & Hosting",
+        "question": "What is 'environment variable' used for?",
+        "options": [
+            "Styling web pages",
+            "Configuring application behavior outside of code (e.g., API keys, ports)",
+            "Writing SQL queries",
+            "Creating HTML elements"
+        ],
+        "answer": 1
+    }
+]

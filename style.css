@@ -1,0 +1,126 @@
+/* Glassmorphism Utilities */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+
+.glass-nav {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Accent Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    /* Orange accent */
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fde047;
+    /* Light Yellow accent */
+    border: 1px solid rgba(253, 224, 71, 0.3);
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background: rgba(253, 224, 71, 0.1);
+}
+
+/* Quiz Option Hover & Selection state */
+.option-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.option-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #fde047;
+}
+
+.option-selected {
+    background: rgba(249, 115, 22, 0.2) !important;
+    border-color: #f97316 !important;
+}
+
+/* Circular Chart for Results */
+.circular-chart {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#f97316 var(--percentage, 0%), rgba(255, 255, 255, 0.1) 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-chart::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #0f172a;
+    /* matches app background */
+    border-radius: 50%;
+}
+
+.chart-content {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fde047;
+}
+
+
+/* theme changing..............*/
+
+
+/* --- Light Theme Overrides --- */
+body.light-mode {
+    background: #f8fafc !important;
+    /* Light gray/white background */
+    color: #0f172a !important;
+    /* Dark text */
+}
+
+body.light-mode .glass-card {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .glass-nav {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .text-white,
+body.light-mode h2,
+body.light-mode h3 {
+    color: #0f172a !important;
+    /* Make headings dark */
+}
+
+body.light-mode .text-gray-300,
+body.light-mode .text-gray-400 {
+    color: #475569 !important;
+    /* Make secondary text darker */
+}
+
+body.light-mode .option-btn {
+    background: #ffffff;
+    border-color: #cbd5e1;
+    color: #0f172a;
+}
