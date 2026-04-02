@@ -1,3 +1,21 @@
+const devBtn = document.getElementById("devBtn");
+const devModal = document.getElementById("devModal");
+const closeDev = document.getElementById("closeDev");
+
+devBtn.onclick = () => {
+    devModal.style.display = "block";
+};
+
+closeDev.onclick = () => {
+    devModal.style.display = "none";
+};
+
+window.onclick = (e) => {
+    if (e.target === devModal) {
+        devModal.style.display = "none";
+    }
+};
+
 // --- 1. Dummy JSON Database ---
 // Easy to scale to 500+ by importing from an external JSON file
 // const mcqDatabase = [
