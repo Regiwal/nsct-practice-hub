@@ -29,7 +29,8 @@ window.onclick = (e) => {
 // Map your categories to their exact file paths
 const categoryFiles = {
     "Web Development": "data/web-development.json",
-    "Programming": "data/programming_languages.json",
+    "Programming C++ / Java / Python": "data/programming_languages.json",
+    "Data Structure and Algorithms": "data/data_structure_and_algorithm.json",
     "Computer Networks And Cloud Computing" : "data/cnAndCC.json",
     // "Databases": "data/databases.json",
     // "Networking": "data/networking.json",
@@ -38,10 +39,13 @@ const categoryFiles = {
 
 // Keep your existing categories array for the UI
 
-const categories = ["All", "Web Development",
+const categories = ["All",
+     "Web Development",
     // "Cyber Security",
-     "Programming", 
+     "Programming C++ / Java / Python", 
+     "Data Structure and Algorithms",
      "Computer Networks And Cloud Computing",
+    
     // "Databases",
     //  "Operating Systems", "Software Engineering",
     //  "AI / Machine Learning and Data Analytics"

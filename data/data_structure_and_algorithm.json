@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "dsa_1",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "What does an algorithm refer to in computer science?",
+        "options": [
+            "A programming language",
+            "A step-by-step procedure to solve a problem",
+            "A type of data structure",
+            "A hardware component"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_2",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "Which of the following is an abstract data type (ADT)?",
+        "options": [
+            "int",
+            "Array",
+            "Stack",
+            "char"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_3",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "What is the time complexity of accessing an element in an array by index?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_4",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "Which data structure uses LIFO (Last In First Out) principle?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Array",
+            "Linked List"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_5",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "Which of the following is a non-primitive data structure?",
+        "options": [
+            "int",
+            "float",
+            "char",
+            "Tree"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "dsa_6",
+        "category": "Linear Data Structures",
+        "question": "What is the time complexity to insert an element at the beginning of a singly linked list?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_7",
+        "category": "Linear Data Structures",
+        "question": "Which data structure is used to implement a FIFO (First In First Out) behavior?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_8",
+        "category": "Linear Data Structures",
+        "question": "In a doubly linked list, each node contains:",
+        "options": [
+            "One pointer",
+            "Two pointers",
+            "Three pointers",
+            "No pointers"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_9",
+        "category": "Linear Data Structures",
+        "question": "What is a circular queue?",
+        "options": [
+            "A queue where last position connects to first",
+            "A queue with no elements",
+            "A queue with fixed size",
+            "A queue that allows random access"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_10",
+        "category": "Linear Data Structures",
+        "question": "Which operation removes an element from the front of a queue?",
+        "options": [
+            "push",
+            "pop",
+            "enqueue",
+            "dequeue"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "dsa_11",
+        "category": "Non-Linear Data Structures",
+        "question": "Which data structure is hierarchical in nature?",
+        "options": [
+            "Array",
+            "Linked List",
+            "Tree",
+            "Stack"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_12",
+        "category": "Non-Linear Data Structures",
+        "question": "A tree where each node has at most two children is called:",
+        "options": [
+            "Binary Tree",
+            "Ternary Tree",
+            "N-ary Tree",
+            "Heap"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_13",
+        "category": "Non-Linear Data Structures",
+        "question": "Which graph traversal uses a queue?",
+        "options": [
+            "Depth First Search (DFS)",
+            "Breadth First Search (BFS)",
+            "Dijkstra's algorithm",
+            "Prim's algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_14",
+        "category": "Non-Linear Data Structures",
+        "question": "What is a connected graph?",
+        "options": [
+            "Graph with no cycles",
+            "Graph with edges between all pairs",
+            "Graph where every vertex has a path to every other vertex",
+            "Graph with only one vertex"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_15",
+        "category": "Non-Linear Data Structures",
+        "question": "Which of the following is a non-linear data structure?",
+        "options": [
+            "Array",
+            "Linked List",
+            "Stack",
+            "Graph"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "dsa_16",
+        "category": "Searching Algorithms",
+        "question": "What is the prerequisite for Binary Search to work?",
+        "options": [
+            "Array must be sorted",
+            "Array must be unsorted",
+            "Array must contain unique elements",
+            "Array must be small"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_17",
+        "category": "Searching Algorithms",
+        "question": "What is the time complexity of Linear Search in worst case?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_18",
+        "category": "Searching Algorithms",
+        "question": "What is the time complexity of Binary Search in worst case?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_19",
+        "category": "Searching Algorithms",
+        "question": "Which searching algorithm works on the principle of divide and conquer?",
+        "options": [
+            "Linear Search",
+            "Binary Search",
+            "Jump Search",
+            "Exponential Search"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_20",
+        "category": "Searching Algorithms",
+        "question": "What is the space complexity of recursive Binary Search?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_21",
+        "category": "Sorting Algorithms",
+        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "options": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Insertion Sort",
+            "Merge Sort"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "dsa_22",
+        "category": "Sorting Algorithms",
+        "question": "What is the worst-case time complexity of Quick Sort?",
+        "options": [
+            "O(n log n)",
+            "O(n^2)",
+            "O(n)",
+            "O(log n)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_23",
+        "category": "Sorting Algorithms",
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Quick Sort",
+            "Heap Sort",
+            "Merge Sort",
+            "Selection Sort"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_24",
+        "category": "Sorting Algorithms",
+        "question": "What is the time complexity of Bubble Sort in best case (optimized)?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_25",
+        "category": "Sorting Algorithms",
+        "question": "Which sorting algorithm repeatedly selects the minimum element and places it at the beginning?",
+        "options": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Insertion Sort",
+            "Merge Sort"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_26",
+        "category": "Hashing",
+        "question": "What is the primary purpose of a hash function?",
+        "options": [
+            "To sort data",
+            "To map data of arbitrary size to fixed size",
+            "To encrypt data",
+            "To compress data"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_27",
+        "category": "Hashing",
+        "question": "What is a collision in hashing?",
+        "options": [
+            "Two keys map to the same hash value",
+            "Hash table becomes full",
+            "Hash function fails",
+            "Key is not found"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_28",
+        "category": "Hashing",
+        "question": "Which collision resolution technique uses a linked list at each hash table index?",
+        "options": [
+            "Linear Probing",
+            "Quadratic Probing",
+            "Chaining",
+            "Double Hashing"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_29",
+        "category": "Hashing",
+        "question": "What is the load factor of a hash table?",
+        "options": [
+            "Number of empty slots",
+            "Number of keys / table size",
+            "Number of collisions",
+            "Size of hash function"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_30",
+        "category": "Hashing",
+        "question": "What is the average-case time complexity for a successful search in a hash table with chaining?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_31",
+        "category": "Tree Algorithms",
+        "question": "What is the height of a tree with one node (root only)?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "Depends on implementation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_32",
+        "category": "Tree Algorithms",
+        "question": "Which traversal visits the left subtree, then root, then right subtree?",
+        "options": [
+            "Preorder",
+            "Inorder",
+            "Postorder",
+            "Level order"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_33",
+        "category": "Tree Algorithms",
+        "question": "What is a Binary Search Tree (BST) property?",
+        "options": [
+            "Left child < parent < right child",
+            "Left child > parent > right child",
+            "All nodes have two children",
+            "Tree is always balanced"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_34",
+        "category": "Tree Algorithms",
+        "question": "What is the time complexity of searching in a balanced BST?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_35",
+        "category": "Tree Algorithms",
+        "question": "What is an AVL tree?",
+        "options": [
+            "A self-balancing binary search tree",
+            "A tree with all nodes at same level",
+            "A tree with only left children",
+            "A tree with only right children"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_36",
+        "category": "Graph Algorithms",
+        "question": "Which algorithm finds the shortest path from a source to all other vertices in a graph with non-negative weights?",
+        "options": [
+            "Bellman-Ford",
+            "Dijkstra's algorithm",
+            "Floyd-Warshall",
+            "Kruskal's algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_37",
+        "category": "Graph Algorithms",
+        "question": "What does Kruskal's algorithm find?",
+        "options": [
+            "Shortest path",
+            "Minimum spanning tree",
+            "Maximum flow",
+            "Strongly connected components"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_38",
+        "category": "Graph Algorithms",
+        "question": "Which algorithm is used to detect cycles in a directed graph?",
+        "options": [
+            "BFS only",
+            "DFS with recursion stack",
+            "Prim's algorithm",
+            "Dijkstra's algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_39",
+        "category": "Graph Algorithms",
+        "question": "What is the time complexity of Dijkstra's algorithm using a binary heap?",
+        "options": [
+            "O(V^2)",
+            "O(E log V)",
+            "O(V + E)",
+            "O(E^2)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_40",
+        "category": "Graph Algorithms",
+        "question": "Which algorithm is used for topological sorting?",
+        "options": [
+            "DFS",
+            "BFS",
+            "Both DFS and Kahn's algorithm",
+            "Dijkstra's algorithm"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_41",
+        "category": "Algorithm Design Techniques",
+        "question": "Which technique solves a problem by breaking it into smaller subproblems and combining results?",
+        "options": [
+            "Greedy",
+            "Divide and Conquer",
+            "Dynamic Programming",
+            "Backtracking"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_42",
+        "category": "Algorithm Design Techniques",
+        "question": "Which algorithmic technique makes the locally optimal choice at each step?",
+        "options": [
+            "Divide and Conquer",
+            "Dynamic Programming",
+            "Greedy",
+            "Brute Force"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_43",
+        "category": "Algorithm Design Techniques",
+        "question": "Which technique stores results of subproblems to avoid recomputation?",
+        "options": [
+            "Greedy",
+            "Divide and Conquer",
+            "Dynamic Programming",
+            "Recursion"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_44",
+        "category": "Algorithm Design Techniques",
+        "question": "What is the principle of backtracking?",
+        "options": [
+            "Build solution incrementally and undo when stuck",
+            "Always take best option",
+            "Divide into halves",
+            "Use random choices"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_45",
+        "category": "Algorithm Design Techniques",
+        "question": "Which algorithm is an example of the Greedy approach?",
+        "options": [
+            "Merge Sort",
+            "Dijkstra's shortest path",
+            "Binary Search",
+            "Quick Sort"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_46",
+        "category": "Advanced Data Structures",
+        "question": "What is a Trie used for?",
+        "options": [
+            "Efficient string storage and search",
+            "Graph representation",
+            "Sorting numbers",
+            "Image compression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_47",
+        "category": "Advanced Data Structures",
+        "question": "What is a Segment Tree used for?",
+        "options": [
+            "Range queries and updates",
+            "String matching",
+            "Graph traversal",
+            "Sorting"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_48",
+        "category": "Advanced Data Structures",
+        "question": "What is a Fenwick Tree also known as?",
+        "options": [
+            "Binary Indexed Tree",
+            "Binary Search Tree",
+            "AVL Tree",
+            "Red-Black Tree"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_49",
+        "category": "Advanced Data Structures",
+        "question": "What is the main advantage of a Disjoint Set Union (Union-Find) data structure?",
+        "options": [
+            "Efficient find and union operations",
+            "Fast sorting",
+            "Quick searching",
+            "Memory efficiency"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_50",
+        "category": "Advanced Data Structures",
+        "question": "What is a Red-Black Tree?",
+        "options": [
+            "A self-balancing binary search tree with color constraints",
+            "A tree with only red nodes",
+            "A tree with only black nodes",
+            "A tree used for hashing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_51",
+        "category": "String Algorithms",
+        "question": "What does the KMP algorithm do?",
+        "options": [
+            "Pattern matching in O(n+m) time",
+            "String sorting",
+            "String hashing",
+            "String compression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_52",
+        "category": "String Algorithms",
+        "question": "What is the time complexity of the naive string matching algorithm in worst case?",
+        "options": [
+            "O(n)",
+            "O(m)",
+            "O(n*m)",
+            "O(n+m)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_53",
+        "category": "String Algorithms",
+        "question": "What is the Rabin-Karp algorithm based on?",
+        "options": [
+            "Hashing",
+            "Dynamic programming",
+            "Divide and conquer",
+            "Greedy approach"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_54",
+        "category": "String Algorithms",
+        "question": "What does the Z-function in string algorithms compute?",
+        "options": [
+            "Length of longest substring starting from each position matching prefix",
+            "Hash value of string",
+            "Prefix function",
+            "Suffix array"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_55",
+        "category": "String Algorithms",
+        "question": "Which algorithm is used for finding the longest palindromic substring?",
+        "options": [
+            "Manacher's algorithm",
+            "KMP algorithm",
+            "Rabin-Karp",
+            "Boyer-Moore"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_56",
+        "category": "Complexity & Optimization",
+        "question": "What does Big O notation describe?",
+        "options": [
+            "Exact runtime",
+            "Upper bound of time complexity",
+            "Lower bound of time complexity",
+            "Average runtime"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_57",
+        "category": "Complexity & Optimization",
+        "question": "What is the time complexity of nested loops where outer runs n times and inner runs n times?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(2^n)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_58",
+        "category": "Complexity & Optimization",
+        "question": "What does Omega (Ω) notation represent?",
+        "options": [
+            "Upper bound",
+            "Lower bound",
+            "Tight bound",
+            "Average bound"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_59",
+        "category": "Complexity & Optimization",
+        "question": "What is the space complexity of a recursive Fibonacci implementation without memoization?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(2^n)",
+            "O(log n)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_60",
+        "category": "Complexity & Optimization",
+        "question": "Which complexity is considered polynomial?",
+        "options": [
+            "O(2^n)",
+            "O(n!)",
+            "O(n^3)",
+            "O(3^n)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_61",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "Which data structure is best for implementing a priority queue?",
+        "options": [
+            "Array",
+            "Linked List",
+            "Heap",
+            "Stack"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_62",
+        "category": "Linear Data Structures",
+        "question": "What is the main disadvantage of an array over a linked list?",
+        "options": [
+            "Random access",
+            "Cache friendliness",
+            "Fixed size",
+            "Memory overhead"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_63",
+        "category": "Linear Data Structures",
+        "question": "What is a deque?",
+        "options": [
+            "Double-ended queue",
+            "Double-linked list",
+            "Dictionary queue",
+            "Data queue"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_64",
+        "category": "Sorting Algorithms",
+        "question": "Which sorting algorithm uses a 'pivot' element?",
+        "options": [
+            "Merge Sort",
+            "Heap Sort",
+            "Quick Sort",
+            "Counting Sort"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_65",
+        "category": "Sorting Algorithms",
+        "question": "What is the time complexity of Heap Sort in all cases?",
+        "options": [
+            "O(n log n)",
+            "O(n^2)",
+            "O(n)",
+            "O(log n)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_66",
+        "category": "Hashing",
+        "question": "Which hashing technique uses two hash functions to resolve collisions?",
+        "options": [
+            "Linear Probing",
+            "Quadratic Probing",
+            "Double Hashing",
+            "Chaining"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_67",
+        "category": "Tree Algorithms",
+        "question": "What is a complete binary tree?",
+        "options": [
+            "All levels filled except possibly last, filled left to right",
+            "All nodes have two children",
+            "Tree is balanced",
+            "All leaves at same level"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_68",
+        "category": "Tree Algorithms",
+        "question": "What is a heap property in a max-heap?",
+        "options": [
+            "Parent >= children",
+            "Parent <= children",
+            "Left child >= right child",
+            "Right child >= left child"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_69",
+        "category": "Graph Algorithms",
+        "question": "Which algorithm finds strongly connected components?",
+        "options": [
+            "Kosaraju's algorithm",
+            "Prim's algorithm",
+            "Kruskal's algorithm",
+            "Bellman-Ford"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_70",
+        "category": "Graph Algorithms",
+        "question": "What is a spanning tree of a graph?",
+        "options": [
+            "Tree connecting all vertices with minimal edges",
+            "Tree with cycles",
+            "Tree with all vertices and all edges",
+            "Tree with no vertices"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_71",
+        "category": "Algorithm Design Techniques",
+        "question": "Which algorithm is a classic example of Dynamic Programming?",
+        "options": [
+            "Fibonacci sequence",
+            "Binary Search",
+            "Quick Sort",
+            "Linear Search"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_72",
+        "category": "Algorithm Design Techniques",
+        "question": "What is the 0/1 knapsack problem typically solved with?",
+        "options": [
+            "Greedy",
+            "Divide and Conquer",
+            "Dynamic Programming",
+            "Backtracking only"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_73",
+        "category": "Advanced Data Structures",
+        "question": "What is a Bloom filter known for?",
+        "options": [
+            "Fast membership testing with false positives",
+            "Exact membership testing",
+            "Sorting data",
+            "Graph representation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_74",
+        "category": "Advanced Data Structures",
+        "question": "What is a Skip List?",
+        "options": [
+            "Probabilistic data structure with multiple levels",
+            "Skipping elements in array",
+            "Type of hash table",
+            "Type of tree"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_75",
+        "category": "String Algorithms",
+        "question": "What does the suffix tree help with?",
+        "options": [
+            "Efficient substring search",
+            "String sorting",
+            "String hashing",
+            "String compression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_76",
+        "category": "Complexity & Optimization",
+        "question": "What is the time complexity of the Tower of Hanoi problem?",
+        "options": [
+            "O(n)",
+            "O(n^2)",
+            "O(2^n)",
+            "O(log n)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_77",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "Which data structure is used for undo functionality in text editors?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Array",
+            "Tree"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_78",
+        "category": "Linear Data Structures",
+        "question": "What is the time complexity to search for an element in a linked list?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_79",
+        "category": "Sorting Algorithms",
+        "question": "Which sorting algorithm is not comparison-based?",
+        "options": [
+            "Merge Sort",
+            "Quick Sort",
+            "Counting Sort",
+            "Heap Sort"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_80",
+        "category": "Hashing",
+        "question": "What is perfect hashing?",
+        "options": [
+            "No collisions occur",
+            "Fastest hash function",
+            "Hash with smallest size",
+            "Hash with largest size"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_81",
+        "category": "Tree Algorithms",
+        "question": "What is a B-tree used for?",
+        "options": [
+            "Database indexing",
+            "String matching",
+            "Graph traversal",
+            "Sorting arrays"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_82",
+        "category": "Graph Algorithms",
+        "question": "Which algorithm is used to find the shortest path in a graph with negative edge weights?",
+        "options": [
+            "Dijkstra's algorithm",
+            "Bellman-Ford algorithm",
+            "Floyd-Warshall",
+            "Prim's algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_83",
+        "category": "Algorithm Design Techniques",
+        "question": "Which algorithm uses the 'branch and bound' technique?",
+        "options": [
+            "N-Queens problem",
+            "Merge Sort",
+            "Binary Search",
+            "Quick Sort"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_84",
+        "category": "Advanced Data Structures",
+        "question": "What is a Splay Tree?",
+        "options": [
+            "Binary search tree with recently accessed elements moved to root",
+            "Self-balancing tree with color properties",
+            "Tree with fixed height",
+            "Tree for string storage"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_85",
+        "category": "String Algorithms",
+        "question": "What does the Boyer-Moore algorithm use to skip characters?",
+        "options": [
+            "Bad character rule and good suffix rule",
+            "Prefix function",
+            "Z-array",
+            "Hash values"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_86",
+        "category": "Complexity & Optimization",
+        "question": "What is amortized analysis?",
+        "options": [
+            "Average time per operation over a sequence",
+            "Worst-case analysis",
+            "Best-case analysis",
+            "Space complexity analysis"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_87",
+        "category": "Foundations of Data Structure and Algorithms",
+        "question": "Which of the following is a dynamic data structure?",
+        "options": [
+            "Array with fixed size",
+            "Linked List",
+            "Static Array",
+            "int variable"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_88",
+        "category": "Linear Data Structures",
+        "question": "What is the time complexity of inserting at the end of a dynamic array (amortized)?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_89",
+        "category": "Sorting Algorithms",
+        "question": "Which sorting algorithm is efficient for small arrays or nearly sorted data?",
+        "options": [
+            "Quick Sort",
+            "Merge Sort",
+            "Insertion Sort",
+            "Heap Sort"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_90",
+        "category": "Graph Algorithms",
+        "question": "What is the purpose of Floyd-Warshall algorithm?",
+        "options": [
+            "All-pairs shortest paths",
+            "Single-source shortest path",
+            "Minimum spanning tree",
+            "Maximum flow"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_91",
+        "category": "Algorithm Design Techniques",
+        "question": "What is the master theorem used for?",
+        "options": [
+            "Solving recurrence relations",
+            "Sorting algorithms",
+            "Graph traversal",
+            "String matching"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_92",
+        "category": "Advanced Data Structures",
+        "question": "What is a persistent data structure?",
+        "options": [
+            "Preserves previous versions when modified",
+            "Stored on disk",
+            "Never changes",
+            "Always in memory"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_93",
+        "category": "String Algorithms",
+        "question": "What is the Aho-Corasick algorithm used for?",
+        "options": [
+            "Multiple pattern matching",
+            "Single pattern matching",
+            "String sorting",
+            "String compression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_94",
+        "category": "Complexity & Optimization",
+        "question": "What is the space complexity of a 2D array of size n x n?",
+        "options": [
+            "O(n)",
+            "O(n^2)",
+            "O(log n)",
+            "O(1)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_95",
+        "category": "Tree Algorithms",
+        "question": "What is a binary heap?",
+        "options": [
+            "Complete binary tree with heap property",
+            "Binary search tree",
+            "Balanced tree",
+            "Tree with three children"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_96",
+        "category": "Graph Algorithms",
+        "question": "What is the Ford-Fulkerson algorithm used for?",
+        "options": [
+            "Maximum flow in a network",
+            "Minimum spanning tree",
+            "Shortest path",
+            "Graph coloring"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_97",
+        "category": "Algorithm Design Techniques",
+        "question": "What is the traveling salesman problem an example of?",
+        "options": [
+            "NP-hard problem",
+            "P problem",
+            "Sorting problem",
+            "Searching problem"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_98",
+        "category": "Advanced Data Structures",
+        "question": "What is a Cartesian tree?",
+        "options": [
+            "Tree derived from sequence with heap property on values and inorder on indices",
+            "Tree for cartesian coordinates",
+            "Self-balancing tree",
+            "Tree for sorting"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_99",
+        "category": "String Algorithms",
+        "question": "What is the Levenshtein distance?",
+        "options": [
+            "Edit distance between two strings",
+            "Hash distance",
+            "Lexicographic distance",
+            "Binary distance"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_100",
+        "category": "Complexity & Optimization",
+        "question": "What is NP-complete?",
+        "options": [
+            "Problems as hard as any NP problem",
+            "Problems solvable in polynomial time",
+            "Problems with no solution",
+            "Problems solvable in constant time"
+        ],
+        "answer": 0
+    }
+]
