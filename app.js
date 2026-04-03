@@ -180,13 +180,49 @@ function renderQuiz() {
     `;
 }
 
+// function renderResult() {
+//     const total = appState.currentQuestions.length;
+//     const percentage = Math.round((appState.score / total) * 100);
+
+//     container.innerHTML = `
+//         <div class="glass-card p-10 text-center max-w-2xl mx-auto">
+//             <h2 class="text-3xl font-bold mb-6 text-white">Quiz Completed!</h2>
+            
+//             <div class="flex justify-center mb-8">
+//                 <div class="circular-chart" style="--percentage: ${percentage}%">
+//                     <div class="chart-content">${percentage}%</div>
+//                 </div>
+//             </div>
+
+//             <div class="grid grid-cols-2 gap-4 mb-8 text-left">
+//                 <div class="bg-green-500/10 border border-green-500/30 p-4 rounded-lg">
+//                     <p class="text-sm text-gray-400">Correct</p>
+//                     <p class="text-2xl text-green-400 font-bold">${appState.score}</p>
+//                 </div>
+//                 <div class="bg-red-500/10 border border-red-500/30 p-4 rounded-lg">
+//                     <p class="text-sm text-gray-400">Incorrect / Skipped</p>
+//                     <p class="text-2xl text-red-400 font-bold">${total - appState.score}</p>
+//                 </div>
+//             </div>
+
+//             <div class="flex justify-center gap-4">
+//                 <button onclick="changeView('review')" class="btn-secondary px-6 py-3 rounded-lg">Review Answers</button>
+//                 <button onclick="changeView('home')" class="btn-primary px-6 py-3 rounded-lg">Back to Home</button>
+//             </div>
+//         </div>
+//     `;
+//     localStorage.removeItem('nsct_progress'); // Clear save on completion
+// }
+
+// app.js - Inside renderResult()
 function renderResult() {
+    const { attempted, correct, incorrect } = appState.results;
     const total = appState.currentQuestions.length;
-    const percentage = Math.round((appState.score / total) * 100);
+    const percentage = Math.round((correct / total) * 100);
 
     container.innerHTML = `
         <div class="glass-card p-10 text-center max-w-2xl mx-auto">
-            <h2 class="text-3xl font-bold mb-6 text-white">Quiz Completed!</h2>
+            <h2 class="text-3xl font-bold mb-6 text-white">Quiz Summary</h2>
             
             <div class="flex justify-center mb-8">
                 <div class="circular-chart" style="--percentage: ${percentage}%">
@@ -194,25 +230,34 @@ function renderResult() {
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-4 mb-8 text-left">
-                <div class="bg-green-500/10 border border-green-500/30 p-4 rounded-lg">
-                    <p class="text-sm text-gray-400">Correct</p>
-                    <p class="text-2xl text-green-400 font-bold">${appState.score}</p>
+            <div class="grid grid-cols-3 gap-3 mb-8 text-left">
+                <div class="bg-blue-500/10 border border-blue-500/30 p-3 rounded-lg text-center">
+                    <p class="text-xs text-gray-400">Attempted</p>
+                    <p class="text-xl text-blue-400 font-bold">${attempted}</p>
                 </div>
-                <div class="bg-red-500/10 border border-red-500/30 p-4 rounded-lg">
-                    <p class="text-sm text-gray-400">Incorrect / Skipped</p>
-                    <p class="text-2xl text-red-400 font-bold">${total - appState.score}</p>
+                <div class="bg-green-500/10 border border-green-500/30 p-3 rounded-lg text-center">
+                    <p class="text-xs text-gray-400">Correct</p>
+                    <p class="text-xl text-green-400 font-bold">${correct}</p>
+                </div>
+                <div class="bg-red-500/10 border border-red-500/30 p-3 rounded-lg text-center">
+                    <p class="text-xs text-gray-400">False</p>
+                    <p class="text-xl text-red-400 font-bold">${incorrect}</p>
                 </div>
             </div>
 
-            <div class="flex justify-center gap-4">
-                <button onclick="changeView('review')" class="btn-secondary px-6 py-3 rounded-lg">Review Answers</button>
-                <button onclick="changeView('home')" class="btn-primary px-6 py-3 rounded-lg">Back to Home</button>
+            <div class="flex flex-col gap-3">
+                <button onclick="changeView('review')" class="btn-secondary w-full py-3 rounded-lg font-bold">Review Detailed Answers</button>
+                <button onclick="changeView('home')" class="text-gray-400 hover:text-white transition">Return to Home</button>
             </div>
         </div>
     `;
-    localStorage.removeItem('nsct_progress'); // Clear save on completion
+    localStorage.removeItem('nsct_progress');
 }
+
+
+
+
+
 
 function renderReview() {
     let reviewHtml = appState.currentQuestions.map((q, i) => {
@@ -352,16 +397,40 @@ function prevQuestion() {
     }
 }
 
+
+
+// app.js - Around Line 235
 function finishQuiz() {
-    // Calculate Score
-    appState.score = 0;
+    let attempted = Object.keys(appState.userAnswers).length;
+    let correct = 0;
+    let incorrect = 0;
+
     appState.currentQuestions.forEach(q => {
-        if (appState.userAnswers[q.id] === q.answer) {
-            appState.score++;
+        const userAns = appState.userAnswers[q.id];
+        if (userAns !== undefined) {
+            if (userAns === q.answer) {
+                correct++;
+            } else {
+                incorrect++;
+            }
         }
     });
+
+    // Save these results to state so the Result page can see them
+    appState.results = { attempted, correct, incorrect };
     changeView('result');
 }
+
+// function finishQuiz() {
+//     // Calculate Score
+//     appState.score = 0;
+//     appState.currentQuestions.forEach(q => {
+//         if (appState.userAnswers[q.id] === q.answer) {
+//             appState.score++;
+//         }
+//     });
+//     changeView('result');
+// }
 
 // Initialize App
 render();
