@@ -141,20 +141,40 @@ function renderQuiz() {
         </button>`;
     }).join('');
 
+    // container.innerHTML = `
+    //     <div class="glass-card p-8">
+    //         <div class="flex justify-between items-center mb-6 border-b border-white/10 pb-4">
+    //             <span class="text-sm text-gray-400">Question ${appState.currentIndex + 1} of ${appState.currentQuestions.length}</span>
+    //             <span class="text-sm bg-blue-900 px-3 py-1 rounded-full text-yellow-400">${q.category} Mode: ${appState.mode}</span>
+    //         </div>
+    //         <h3 class="text-2xl font-semibold mb-6 text-white">${q.question}</h3>
+    //         <div class="mb-8">${optionsHtml}</div>
+            
+    //         <div class="flex justify-between">
+    //             <button onclick="prevQuestion()" class="px-6 py-2 rounded border border-white/20 hover:bg-white/10 ${appState.currentIndex === 0 ? 'invisible' : ''}">Previous</button>
+    //             ${appState.currentIndex === appState.currentQuestions.length - 1
+    //         ? `<button onclick="finishQuiz()" class="btn-primary px-6 py-2 rounded font-bold">Submit Quiz</button>`
+    //         : `<button onclick="nextQuestion()" class="btn-primary px-6 py-2 rounded font-bold">Next Question</button>`}
+    //         </div>
+    //     </div>
+    // `;
+    // app.js - Inside renderQuiz()
+    // Replace the current return/innerHTML block at the bottom of this function:
+
     container.innerHTML = `
         <div class="glass-card p-8">
             <div class="flex justify-between items-center mb-6 border-b border-white/10 pb-4">
+                <button onclick="changeView('home')" class="text-xs bg-white/10 hover:bg-white/20 px-3 py-1 rounded text-gray-300">🏠 Home</button>
                 <span class="text-sm text-gray-400">Question ${appState.currentIndex + 1} of ${appState.currentQuestions.length}</span>
-                <span class="text-sm bg-blue-900 px-3 py-1 rounded-full text-yellow-400">${q.category} Mode: ${appState.mode}</span>
+                <button onclick="finishQuiz()" class="text-xs bg-orange-600/50 hover:bg-orange-600 px-3 py-1 rounded text-white font-bold">Finish & Submit</button>
             </div>
+            
             <h3 class="text-2xl font-semibold mb-6 text-white">${q.question}</h3>
             <div class="mb-8">${optionsHtml}</div>
             
             <div class="flex justify-between">
                 <button onclick="prevQuestion()" class="px-6 py-2 rounded border border-white/20 hover:bg-white/10 ${appState.currentIndex === 0 ? 'invisible' : ''}">Previous</button>
-                ${appState.currentIndex === appState.currentQuestions.length - 1
-            ? `<button onclick="finishQuiz()" class="btn-primary px-6 py-2 rounded font-bold">Submit Quiz</button>`
-            : `<button onclick="nextQuestion()" class="btn-primary px-6 py-2 rounded font-bold">Next Question</button>`}
+                <button onclick="nextQuestion()" class="btn-primary px-6 py-2 rounded font-bold ${appState.currentIndex === appState.currentQuestions.length - 1 ? 'hidden' : ''}">Next Question</button>
             </div>
         </div>
     `;
