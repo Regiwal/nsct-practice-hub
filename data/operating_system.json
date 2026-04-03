@@ -1,0 +1,602 @@
+[
+    {
+        "id": "os_1",
+        "category": "Introduction to Operating Systems",
+        "question": "What is the primary role of an operating system?",
+        "options": [
+            "To run applications only",
+            "To manage hardware and provide services to software",
+            "To store user data",
+            "To compile programs"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_2",
+        "category": "Introduction to Operating Systems",
+        "question": "Which of the following is NOT an operating system?",
+        "options": [
+            "Windows",
+            "Linux",
+            "macOS",
+            "MySQL"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "os_3",
+        "category": "Introduction to Operating Systems",
+        "question": "What is a kernel?",
+        "options": [
+            "A user application",
+            "The core component of an OS managing system resources",
+            "A type of file system",
+            "A memory management unit"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_4",
+        "category": "Operating System Structures",
+        "question": "Which OS structure has all core functions combined into a single module?",
+        "options": [
+            "Microkernel",
+            "Monolithic kernel",
+            "Hybrid kernel",
+            "Exokernel"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_5",
+        "category": "Operating System Structures",
+        "question": "Which OS structure runs minimal services in kernel space and most in user space?",
+        "options": [
+            "Monolithic kernel",
+            "Microkernel",
+            "Layered kernel",
+            "Modular kernel"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_6",
+        "category": "Operating System Structures",
+        "question": "What is a system call?",
+        "options": [
+            "A hardware interrupt",
+            "A request from user program to OS for kernel services",
+            "A type of process",
+            "A scheduling algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_7",
+        "category": "Process Management",
+        "question": "What is a process?",
+        "options": [
+            "A program in execution",
+            "A program on disk",
+            "A thread",
+            "A CPU core"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_8",
+        "category": "Process Management",
+        "question": "Which of the following is NOT a process state?",
+        "options": [
+            "New",
+            "Ready",
+            "Running",
+            "Deleted"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "os_9",
+        "category": "Process Management",
+        "question": "What is a Process Control Block (PCB)?",
+        "options": [
+            "A data structure containing process information",
+            "A hardware register",
+            "A type of scheduler",
+            "A memory block"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_10",
+        "category": "Process Management",
+        "question": "Which system call creates a new process in Unix/Linux?",
+        "options": [
+            "create()",
+            "new()",
+            "fork()",
+            "spawn()"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_11",
+        "category": "CPU Scheduling",
+        "question": "Which scheduling algorithm is non-preemptive?",
+        "options": [
+            "Round Robin",
+            "Shortest Remaining Time First",
+            "First Come First Serve (FCFS)",
+            "Priority with preemption"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_12",
+        "category": "CPU Scheduling",
+        "question": "What is the main disadvantage of FCFS scheduling?",
+        "options": [
+            "Complex implementation",
+            "Convoy effect",
+            "High overhead",
+            "Starvation of all processes"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_13",
+        "category": "CPU Scheduling",
+        "question": "Which scheduling algorithm gives each process a fixed time slice?",
+        "options": [
+            "FCFS",
+            "SJF",
+            "Round Robin",
+            "Priority scheduling"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_14",
+        "category": "CPU Scheduling",
+        "question": "What is starvation in CPU scheduling?",
+        "options": [
+            "Process never gets CPU because higher priority processes keep arriving",
+            "Process runs too long",
+            "Process uses too much memory",
+            "Process crashes"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_15",
+        "category": "CPU Scheduling",
+        "question": "Which scheduling algorithm has the optimal average waiting time?",
+        "options": [
+            "FCFS",
+            "Round Robin",
+            "SJF (non-preemptive)",
+            "Priority"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_16",
+        "category": "Thread Management",
+        "question": "What is a thread?",
+        "options": [
+            "A lightweight process sharing memory space",
+            "A separate program",
+            "A CPU register",
+            "A file descriptor"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_17",
+        "category": "Thread Management",
+        "question": "What do threads within the same process share?",
+        "options": [
+            "Stack only",
+            "Heap and global variables",
+            "Program counter only",
+            "Registers only"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_18",
+        "category": "Thread Management",
+        "question": "What is the difference between user-level and kernel-level threads?",
+        "options": [
+            "User threads managed by library, kernel threads by OS",
+            "No difference",
+            "Kernel threads are faster",
+            "User threads cannot run concurrently"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_19",
+        "category": "Thread Management",
+        "question": "What is multithreading?",
+        "options": [
+            "Running multiple threads concurrently",
+            "Running multiple processes",
+            "Running single thread on multiple CPUs",
+            "Creating multiple copies of a process"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_20",
+        "category": "Thread Management",
+        "question": "Which model maps many user threads to many kernel threads?",
+        "options": [
+            "One-to-one",
+            "Many-to-one",
+            "One-to-many",
+            "Many-to-many"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "os_21",
+        "category": "Concurrency & Synchronization",
+        "question": "What is a race condition?",
+        "options": [
+            "Multiple processes accessing shared data concurrently with unpredictable outcome",
+            "Fastest process wins",
+            "CPU speed race",
+            "Memory access race"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_22",
+        "category": "Concurrency & Synchronization",
+        "question": "What is a critical section?",
+        "options": [
+            "Code segment that accesses shared resources",
+            "Code that never executes",
+            "OS kernel code",
+            "Interrupt handler"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_23",
+        "category": "Concurrency & Synchronization",
+        "question": "Which synchronization tool allows only one process in critical section?",
+        "options": [
+            "Semaphore",
+            "Mutex",
+            "Monitor",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "os_24",
+        "category": "Concurrency & Synchronization",
+        "question": "What is a semaphore initialized to 1 called?",
+        "options": [
+            "Mutex",
+            "Binary semaphore",
+            "Counting semaphore",
+            "Both A and B"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "os_25",
+        "category": "Concurrency & Synchronization",
+        "question": "What is the producer-consumer problem an example of?",
+        "options": [
+            "Synchronization problem",
+            "CPU scheduling problem",
+            "Memory management problem",
+            "File system problem"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_26",
+        "category": "Deadlocks",
+        "question": "Which of the following is NOT a necessary condition for deadlock?",
+        "options": [
+            "Mutual exclusion",
+            "Hold and wait",
+            "Circular wait",
+            "Preemption"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "os_27",
+        "category": "Deadlocks",
+        "question": "What is deadlock?",
+        "options": [
+            "Processes waiting indefinitely for resources held by each other",
+            "Process crashes",
+            "CPU stops working",
+            "Memory full"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_28",
+        "category": "Deadlocks",
+        "question": "Which deadlock handling method ensures at least one necessary condition never holds?",
+        "options": [
+            "Deadlock prevention",
+            "Deadlock avoidance",
+            "Deadlock detection",
+            "Deadlock recovery"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_29",
+        "category": "Deadlocks",
+        "question": "Which algorithm is used for deadlock avoidance?",
+        "options": [
+            "Banker's algorithm",
+            "Dijkstra's algorithm",
+            "Round Robin",
+            "FCFS"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_30",
+        "category": "Deadlocks",
+        "question": "What is the wait-die scheme used for?",
+        "options": [
+            "Deadlock recovery",
+            "Deadlock prevention",
+            "Deadlock detection",
+            "CPU scheduling"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_31",
+        "category": "Memory Management",
+        "question": "What is swapping?",
+        "options": [
+            "Moving process between main memory and secondary storage",
+            "Exchanging CPU cores",
+            "Swapping process priorities",
+            "Memory compression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_32",
+        "category": "Memory Management",
+        "question": "What is fragmentation?",
+        "options": [
+            "Wasted memory space",
+            "Corrupted memory",
+            "Fast memory access",
+            "Memory encryption"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_33",
+        "category": "Memory Management",
+        "question": "What is paging?",
+        "options": [
+            "Dividing memory into fixed-size frames and processes into pages",
+            "Variable-sized partitions",
+            "Compressing memory",
+            "Swapping entire process"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_34",
+        "category": "Memory Management",
+        "question": "What is a page fault?",
+        "options": [
+            "Accessing a page not in memory",
+            "Page has error",
+            "Page is corrupted",
+            "Page is read-only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_35",
+        "category": "Memory Management",
+        "question": "Which page replacement algorithm replaces the page not used for the longest time?",
+        "options": [
+            "FIFO",
+            "LRU",
+            "Optimal",
+            "Clock"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_36",
+        "category": "File System Management",
+        "question": "What is a file system?",
+        "options": [
+            "Method for storing and organizing files on storage",
+            "Type of memory",
+            "CPU cache",
+            "Network protocol"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_37",
+        "category": "File System Management",
+        "question": "What is an inode in Unix file systems?",
+        "options": [
+            "Data structure storing file metadata",
+            "File content",
+            "Directory entry",
+            "Block pointer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_38",
+        "category": "File System Management",
+        "question": "Which file allocation method can cause external fragmentation?",
+        "options": [
+            "Contiguous allocation",
+            "Linked allocation",
+            "Indexed allocation",
+            "All of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_39",
+        "category": "File System Management",
+        "question": "What is a directory?",
+        "options": [
+            "Container for files and other directories",
+            "Type of file",
+            "System file",
+            "Memory block"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_40",
+        "category": "File System Management",
+        "question": "What is file permission 'execute' typically used for?",
+        "options": [
+            "Run executable files or traverse directories",
+            "Read file content",
+            "Write to file",
+            "Delete file"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_41",
+        "category": "Secondary Storage Management",
+        "question": "What is disk scheduling?",
+        "options": [
+            "Ordering disk I/O requests to improve performance",
+            "Scheduling CPU processes",
+            "Memory allocation",
+            "Thread scheduling"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_42",
+        "category": "Secondary Storage Management",
+        "question": "Which disk scheduling algorithm causes starvation?",
+        "options": [
+            "FCFS",
+            "SSTF",
+            "SCAN",
+            "C-SCAN"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_43",
+        "category": "Secondary Storage Management",
+        "question": "What is the seek time in disk access?",
+        "options": [
+            "Time to move read/write head to correct track",
+            "Time to rotate platter",
+            "Time to transfer data",
+            "Total access time"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_44",
+        "category": "Secondary Storage Management",
+        "question": "Which disk scheduling algorithm is also called elevator algorithm?",
+        "options": [
+            "FCFS",
+            "SSTF",
+            "SCAN",
+            "LOOK"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_45",
+        "category": "Secondary Storage Management",
+        "question": "What is RAID?",
+        "options": [
+            "Redundant Array of Independent Disks",
+            "Random Access Interleaved Data",
+            "Read After Initial Delay",
+            "Rotational Array Interface Device"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_46",
+        "category": "Input / Output Systems",
+        "question": "What is a device driver?",
+        "options": [
+            "Software that allows OS to communicate with hardware",
+            "Hardware component",
+            "CPU instruction",
+            "Memory module"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_47",
+        "category": "Input / Output Systems",
+        "question": "What is DMA?",
+        "options": [
+            "Direct Memory Access - allows devices to transfer data without CPU",
+            "Dynamic Memory Allocation",
+            "Digital Memory Array",
+            "Device Management Architecture"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_48",
+        "category": "Input / Output Systems",
+        "question": "What is an interrupt?",
+        "options": [
+            "Signal from hardware to CPU indicating event needs attention",
+            "Stop signal",
+            "Program crash",
+            "Memory error"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_49",
+        "category": "Protection & Security",
+        "question": "What is authentication?",
+        "options": [
+            "Verifying user identity",
+            "Encrypting data",
+            "Authorizing access",
+            "Logging activities"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "os_50",
+        "category": "Protection & Security",
+        "question": "What is a buffer overflow attack?",
+        "options": [
+            "Writing data beyond buffer boundaries to execute malicious code",
+            "Overfilling CPU cache",
+            "Memory leak",
+            "Disk full error"
+        ],
+        "answer": 0
+    }
+]

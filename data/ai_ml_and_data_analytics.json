@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "aiml_1",
+        "category": "Introduction to AI, ML & Data Analytics",
+        "question": "What is Artificial Intelligence (AI)?",
+        "options": [
+            "Simulation of human intelligence in machines",
+            "Database management",
+            "Web development",
+            "Network security"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_2",
+        "category": "Introduction to AI, ML & Data Analytics",
+        "question": "Which of the following is a subfield of AI?",
+        "options": [
+            "Machine Learning",
+            "Deep Learning",
+            "Natural Language Processing",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "aiml_3",
+        "category": "Introduction to AI, ML & Data Analytics",
+        "question": "What is the difference between AI and Machine Learning?",
+        "options": [
+            "AI is subset of ML",
+            "ML is subset of AI",
+            "Both are same",
+            "AI is older than ML"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_4",
+        "category": "Introduction to AI, ML & Data Analytics",
+        "question": "What is supervised learning?",
+        "options": [
+            "Learning from labeled data",
+            "Learning from unlabeled data",
+            "Learning from rewards",
+            "Learning without data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_5",
+        "category": "Introduction to AI, ML & Data Analytics",
+        "question": "What is data analytics?",
+        "options": [
+            "Examining data to draw conclusions",
+            "Storing data",
+            "Collecting data only",
+            "Deleting data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_6",
+        "category": "Mathematical Foundations",
+        "question": "What is the derivative of a function used for in ML?",
+        "options": [
+            "Optimization (finding minima/maxima)",
+            "Data storage",
+            "Data visualization",
+            "Data collection"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_7",
+        "category": "Mathematical Foundations",
+        "question": "What is a vector in linear algebra?",
+        "options": [
+            "Array of numbers with magnitude and direction",
+            "Single number",
+            "Matrix of zeros",
+            "Scalar value"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_8",
+        "category": "Mathematical Foundations",
+        "question": "What is a matrix?",
+        "options": [
+            "2D array of numbers",
+            "1D array of numbers",
+            "Single number",
+            "Text data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_9",
+        "category": "Mathematical Foundations",
+        "question": "What is probability used for in ML?",
+        "options": [
+            "Measuring uncertainty",
+            "Storing data",
+            "Displaying data",
+            "Compiling code"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_10",
+        "category": "Mathematical Foundations",
+        "question": "What is the purpose of gradient descent?",
+        "options": [
+            "Minimize loss function",
+            "Maximize data size",
+            "Increase noise",
+            "Reduce features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_11",
+        "category": "Python for AI & Data Analytics",
+        "question": "Which Python library is primarily used for numerical computing?",
+        "options": [
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Scikit-learn"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_12",
+        "category": "Python for AI & Data Analytics",
+        "question": "Which Python library is used for data manipulation and analysis with DataFrames?",
+        "options": [
+            "NumPy",
+            "Pandas",
+            "TensorFlow",
+            "PyTorch"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_13",
+        "category": "Python for AI & Data Analytics",
+        "question": "Which library is commonly used for data visualization in Python?",
+        "options": [
+            "Scikit-learn",
+            "TensorFlow",
+            "Matplotlib",
+            "NumPy"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "aiml_14",
+        "category": "Python for AI & Data Analytics",
+        "question": "What is the main ML library in Python for classical algorithms?",
+        "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Keras"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "aiml_15",
+        "category": "Python for AI & Data Analytics",
+        "question": "Which library is used for deep learning developed by Google?",
+        "options": [
+            "PyTorch",
+            "TensorFlow",
+            "Scikit-learn",
+            "Theano"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_16",
+        "category": "Data Collection & Pre-processing",
+        "question": "What is data cleaning?",
+        "options": [
+            "Removing or fixing incorrect/incomplete data",
+            "Collecting more data",
+            "Visualizing data",
+            "Model training"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_17",
+        "category": "Data Collection & Pre-processing",
+        "question": "What is a missing value?",
+        "options": [
+            "Data point not recorded",
+            "Duplicate data",
+            "Outlier data",
+            "Normal data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_18",
+        "category": "Data Collection & Pre-processing",
+        "question": "What is normalization in data pre-processing?",
+        "options": [
+            "Scaling data to a range (e.g., 0 to 1)",
+            "Removing outliers",
+            "Adding noise",
+            "Duplicating data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_19",
+        "category": "Data Collection & Pre-processing",
+        "question": "What is standardization?",
+        "options": [
+            "Making data have mean 0 and variance 1",
+            "Scaling to [0,1]",
+            "Removing features",
+            "Adding features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_20",
+        "category": "Data Collection & Pre-processing",
+        "question": "What is an outlier?",
+        "options": [
+            "Data point significantly different from others",
+            "Normal data point",
+            "Missing data point",
+            "Duplicate data point"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_21",
+        "category": "Exploratory Data Analysis (EDA)",
+        "question": "What is the purpose of EDA?",
+        "options": [
+            "Understand data patterns and relationships",
+            "Train models",
+            "Deploy models",
+            "Collect data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_22",
+        "category": "Exploratory Data Analysis (EDA)",
+        "question": "What is a histogram used for?",
+        "options": [
+            "Showing distribution of single variable",
+            "Showing relationship between two variables",
+            "Showing correlation",
+            "Showing time series"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_23",
+        "category": "Exploratory Data Analysis (EDA)",
+        "question": "What is a scatter plot used for?",
+        "options": [
+            "Relationship between two numerical variables",
+            "Distribution of one variable",
+            "Categorical data",
+            "Time series"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_24",
+        "category": "Exploratory Data Analysis (EDA)",
+        "question": "What is a box plot used for?",
+        "options": [
+            "Showing median, quartiles, and outliers",
+            "Showing correlation",
+            "Showing distribution shape",
+            "Showing time trend"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_25",
+        "category": "Exploratory Data Analysis (EDA)",
+        "question": "What is correlation?",
+        "options": [
+            "Statistical relationship between variables",
+            "Causation",
+            "Randomness",
+            "Noise"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_26",
+        "category": "Supervised Learning",
+        "question": "Which algorithm is used for classification?",
+        "options": [
+            "Linear Regression",
+            "Logistic Regression",
+            "K-Means",
+            "PCA"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_27",
+        "category": "Supervised Learning",
+        "question": "Which algorithm is used for regression?",
+        "options": [
+            "Logistic Regression",
+            "Linear Regression",
+            "K-Means",
+            "DBSCAN"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_28",
+        "category": "Supervised Learning",
+        "question": "What is the output in classification?",
+        "options": [
+            "Discrete class label",
+            "Continuous value",
+            "Cluster assignment",
+            "Probability only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_29",
+        "category": "Supervised Learning",
+        "question": "What is the output in regression?",
+        "options": [
+            "Continuous numerical value",
+            "Discrete class",
+            "Category",
+            "Text"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_30",
+        "category": "Supervised Learning",
+        "question": "What is a decision tree?",
+        "options": [
+            "Tree-like model for decisions",
+            "Neural network",
+            "Clustering algorithm",
+            "Dimensionality reduction"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_31",
+        "category": "Supervised Learning",
+        "question": "What is overfitting?",
+        "options": [
+            "Model learns training data too well, fails on new data",
+            "Model underperforms on training",
+            "Model is too simple",
+            "Model has high bias"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_32",
+        "category": "Supervised Learning",
+        "question": "What is underfitting?",
+        "options": [
+            "Model too simple, fails to capture patterns",
+            "Model too complex",
+            "Model overperforms",
+            "Model memorizes data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_33",
+        "category": "Supervised Learning",
+        "question": "What is the k-Nearest Neighbors (k-NN) algorithm?",
+        "options": [
+            "Classifies based on majority of k nearest neighbors",
+            "Builds tree",
+            "Linear model",
+            "Neural network"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_34",
+        "category": "Supervised Learning",
+        "question": "What is a Support Vector Machine (SVM)?",
+        "options": [
+            "Finds hyperplane maximizing margin between classes",
+            "Tree-based model",
+            "Ensemble method",
+            "Clustering algorithm"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_35",
+        "category": "Supervised Learning",
+        "question": "What is the bias-variance tradeoff?",
+        "options": [
+            "Balancing model simplicity and complexity",
+            "Training vs testing",
+            "Speed vs accuracy",
+            "Memory vs compute"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_36",
+        "category": "Ensemble Learning",
+        "question": "What is ensemble learning?",
+        "options": [
+            "Combining multiple models for better performance",
+            "Single model training",
+            "Data augmentation",
+            "Feature selection"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_37",
+        "category": "Ensemble Learning",
+        "question": "What is Random Forest?",
+        "options": [
+            "Ensemble of decision trees",
+            "Single decision tree",
+            "Neural network ensemble",
+            "Linear model ensemble"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_38",
+        "category": "Ensemble Learning",
+        "question": "What is bagging?",
+        "options": [
+            "Bootstrap aggregating - training models on random subsets",
+            "Sequential model training",
+            "Weighted voting",
+            "Stacking models"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_39",
+        "category": "Ensemble Learning",
+        "question": "What is boosting?",
+        "options": [
+            "Sequentially training models, each correcting previous errors",
+            "Parallel training",
+            "Random sampling",
+            "Feature bagging"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_40",
+        "category": "Ensemble Learning",
+        "question": "What is XGBoost?",
+        "options": [
+            "Optimized gradient boosting library",
+            "Random forest variant",
+            "Neural network",
+            "Clustering algorithm"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_41",
+        "category": "Unsupervised Learning",
+        "question": "What is clustering?",
+        "options": [
+            "Grouping similar data points",
+            "Predicting labels",
+            "Regression",
+            "Classification"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_42",
+        "category": "Unsupervised Learning",
+        "question": "What is K-Means clustering?",
+        "options": [
+            "Partitions data into K clusters based on centroids",
+            "Hierarchical clustering",
+            "DBSCAN",
+            "Gaussian mixture"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_43",
+        "category": "Unsupervised Learning",
+        "question": "What is dimensionality reduction?",
+        "options": [
+            "Reducing number of features",
+            "Increasing features",
+            "Removing samples",
+            "Adding noise"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_44",
+        "category": "Unsupervised Learning",
+        "question": "What is Principal Component Analysis (PCA)?",
+        "options": [
+            "Linear dimensionality reduction technique",
+            "Clustering algorithm",
+            "Classification algorithm",
+            "Regression algorithm"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_45",
+        "category": "Unsupervised Learning",
+        "question": "What is hierarchical clustering?",
+        "options": [
+            "Builds tree of clusters",
+            "Partitions into K clusters",
+            "Density-based clustering",
+            "Spectral clustering"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_46",
+        "category": "Model Evaluation & Validation",
+        "question": "What is train-test split?",
+        "options": [
+            "Splitting data into training and testing sets",
+            "Splitting model parameters",
+            "Splitting features",
+            "Splitting labels"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_47",
+        "category": "Model Evaluation & Validation",
+        "question": "What is cross-validation?",
+        "options": [
+            "Repeatedly splitting data to validate model",
+            "Single validation",
+            "Testing on training data",
+            "No validation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_48",
+        "category": "Model Evaluation & Validation",
+        "question": "What is accuracy in classification?",
+        "options": [
+            "(TP + TN) / (Total)",
+            "TP / (TP + FP)",
+            "TP / (TP + FN)",
+            "TN / (TN + FP)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_49",
+        "category": "Model Evaluation & Validation",
+        "question": "What is precision?",
+        "options": [
+            "TP / (TP + FP)",
+            "TP / (TP + FN)",
+            "(TP + TN)/Total",
+            "TN/(TN+FP)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_50",
+        "category": "Model Evaluation & Validation",
+        "question": "What is recall?",
+        "options": [
+            "TP / (TP + FN)",
+            "TP / (TP + FP)",
+            "(TP + TN)/Total",
+            "TN/(TN+FP)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_51",
+        "category": "Model Evaluation & Validation",
+        "question": "What is F1 score?",
+        "options": [
+            "Harmonic mean of precision and recall",
+            "Arithmetic mean of precision and recall",
+            "Geometric mean",
+            "Sum of precision and recall"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_52",
+        "category": "Model Evaluation & Validation",
+        "question": "What is Mean Squared Error (MSE)?",
+        "options": [
+            "Average squared difference between predicted and actual",
+            "Average absolute difference",
+            "Percentage error",
+            "Maximum error"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_53",
+        "category": "Model Evaluation & Validation",
+        "question": "What is R-squared?",
+        "options": [
+            "Proportion of variance explained by model",
+            "Error rate",
+            "Accuracy",
+            "Precision"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_54",
+        "category": "Model Evaluation & Validation",
+        "question": "What is a confusion matrix?",
+        "options": [
+            "Table showing TP, TN, FP, FN",
+            "Matrix of features",
+            "Correlation matrix",
+            "Covariance matrix"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_55",
+        "category": "Model Evaluation & Validation",
+        "question": "What is ROC curve?",
+        "options": [
+            "Plot of TPR vs FPR at different thresholds",
+            "Precision vs recall",
+            "Accuracy vs threshold",
+            "Loss curve"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_56",
+        "category": "Feature Engineering & Selection",
+        "question": "What is feature scaling?",
+        "options": [
+            "Normalizing or standardizing features",
+            "Removing features",
+            "Adding features",
+            "Creating features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_57",
+        "category": "Feature Engineering & Selection",
+        "question": "What is one-hot encoding?",
+        "options": [
+            "Converting categorical variables to binary columns",
+            "Normalizing numbers",
+            "Scaling features",
+            "Removing outliers"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_58",
+        "category": "Feature Engineering & Selection",
+        "question": "What is feature selection?",
+        "options": [
+            "Choosing most relevant features for model",
+            "Creating new features",
+            "Scaling features",
+            "Encoding features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_59",
+        "category": "Feature Engineering & Selection",
+        "question": "What is feature extraction?",
+        "options": [
+            "Creating new features from existing ones",
+            "Removing features",
+            "Scaling features",
+            "Normalizing features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_60",
+        "category": "Feature Engineering & Selection",
+        "question": "What is PCA used for in feature engineering?",
+        "options": [
+            "Dimensionality reduction",
+            "Classification",
+            "Regression",
+            "Clustering"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_61",
+        "category": "Deep Learning Fundamentals",
+        "question": "What is a neural network?",
+        "options": [
+            "Layers of interconnected neurons",
+            "Decision tree",
+            "Linear model",
+            "Clustering algorithm"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_62",
+        "category": "Deep Learning Fundamentals",
+        "question": "What is an activation function?",
+        "options": [
+            "Non-linear transformation in neural network",
+            "Loss function",
+            "Optimizer",
+            "Regularizer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_63",
+        "category": "Deep Learning Fundamentals",
+        "question": "What is ReLU activation?",
+        "options": [
+            "max(0, x)",
+            "1/(1+e^-x)",
+            "tanh(x)",
+            "e^x"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_64",
+        "category": "Deep Learning Fundamentals",
+        "question": "What is a loss function?",
+        "options": [
+            "Measures model error",
+            "Activation function",
+            "Optimizer",
+            "Regularization"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_65",
+        "category": "Deep Learning Fundamentals",
+        "question": "What is backpropagation?",
+        "options": [
+            "Algorithm to update weights using gradient descent",
+            "Forward pass",
+            "Activation function",
+            "Loss calculation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_66",
+        "category": "Advanced Deep Learning",
+        "question": "What is a Convolutional Neural Network (CNN)?",
+        "options": [
+            "Used for image data",
+            "Used for text data",
+            "Used for time series",
+            "Used for tabular data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_67",
+        "category": "Advanced Deep Learning",
+        "question": "What is a Recurrent Neural Network (RNN)?",
+        "options": [
+            "Used for sequential data like text or time series",
+            "Used for images",
+            "Used for tabular data",
+            "Used for clustering"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_68",
+        "category": "Advanced Deep Learning",
+        "question": "What is a GAN?",
+        "options": [
+            "Generative Adversarial Network",
+            "Graph Attention Network",
+            "Global Average Network",
+            "Gated Attention Network"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_69",
+        "category": "Advanced Deep Learning",
+        "question": "What is transfer learning?",
+        "options": [
+            "Using pre-trained model on new task",
+            "Training from scratch",
+            "Data transfer",
+            "Model transfer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_70",
+        "category": "Advanced Deep Learning",
+        "question": "What is dropout in neural networks?",
+        "options": [
+            "Regularization technique randomly dropping neurons",
+            "Removing layers",
+            "Reducing learning rate",
+            "Increasing batch size"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_71",
+        "category": "Natural Language Processing (NLP)",
+        "question": "What is tokenization in NLP?",
+        "options": [
+            "Splitting text into tokens (words/subwords)",
+            "Converting to lowercase",
+            "Removing punctuation",
+            "Stemming"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_72",
+        "category": "Natural Language Processing (NLP)",
+        "question": "What is stemming?",
+        "options": [
+            "Reducing words to root form (crudely)",
+            "Converting to lowercase",
+            "Removing stop words",
+            "Tokenization"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_73",
+        "category": "Natural Language Processing (NLP)",
+        "question": "What is lemmatization?",
+        "options": [
+            "Reducing words to dictionary base form",
+            "Crude word reduction",
+            "Tokenization",
+            "Stop word removal"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_74",
+        "category": "Natural Language Processing (NLP)",
+        "question": "What is Word2Vec?",
+        "options": [
+            "Word embedding technique",
+            "Text classification",
+            "Language model",
+            "Tokenizer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_75",
+        "category": "Natural Language Processing (NLP)",
+        "question": "What is BERT?",
+        "options": [
+            "Transformer-based language model by Google",
+            "Word embedding",
+            "Tokenizer",
+            "Stemmer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_76",
+        "category": "Computer Vision",
+        "question": "What is a convolution in image processing?",
+        "options": [
+            "Applying filter to image",
+            "Resizing image",
+            "Rotating image",
+            "Cropping image"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_77",
+        "category": "Computer Vision",
+        "question": "What is pooling in CNNs?",
+        "options": [
+            "Downsampling to reduce dimensions",
+            "Upsampling",
+            "Convolution",
+            "Activation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_78",
+        "category": "Computer Vision",
+        "question": "What is object detection?",
+        "options": [
+            "Locating and classifying objects in image",
+            "Classifying whole image",
+            "Segmenting image",
+            "Generating image"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_79",
+        "category": "Computer Vision",
+        "question": "What is image segmentation?",
+        "options": [
+            "Pixel-wise classification of image",
+            "Object detection",
+            "Image classification",
+            "Image generation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_80",
+        "category": "Computer Vision",
+        "question": "What is YOLO?",
+        "options": [
+            "Real-time object detection algorithm",
+            "Image classification",
+            "Segmentation",
+            "Generation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_81",
+        "category": "Big Data Analytics (Introductory)",
+        "question": "What is Big Data?",
+        "options": [
+            "Large and complex datasets",
+            "Small datasets",
+            "Structured data only",
+            "Text data only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_82",
+        "category": "Big Data Analytics (Introductory)",
+        "question": "What are the 3 Vs of Big Data?",
+        "options": [
+            "Volume, Velocity, Variety",
+            "Value, Visibility, Verification",
+            "Variance, Validity, Volatility",
+            "Virtual, Visual, Vocal"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_83",
+        "category": "Big Data Analytics (Introductory)",
+        "question": "What is Hadoop?",
+        "options": [
+            "Framework for distributed storage and processing",
+            "Database",
+            "ML library",
+            "Visualization tool"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_84",
+        "category": "Big Data Analytics (Introductory)",
+        "question": "What is MapReduce?",
+        "options": [
+            "Programming model for distributed processing",
+            "Database query",
+            "ML algorithm",
+            "Visualization technique"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_85",
+        "category": "Big Data Analytics (Introductory)",
+        "question": "What is Apache Spark?",
+        "options": [
+            "Fast distributed processing engine",
+            "Storage system",
+            "Database",
+            "ML library only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_86",
+        "category": "Model Deployment & MLOps Basics",
+        "question": "What is model deployment?",
+        "options": [
+            "Putting model into production",
+            "Training model",
+            "Evaluating model",
+            "Collecting data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_87",
+        "category": "Model Deployment & MLOps Basics",
+        "question": "What is MLOps?",
+        "options": [
+            "ML + Operations for lifecycle management",
+            "ML algorithms",
+            "Data collection",
+            "Model training"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_88",
+        "category": "Model Deployment & MLOps Basics",
+        "question": "What is model versioning?",
+        "options": [
+            "Tracking different versions of models",
+            "Deleting old models",
+            "Training new models",
+            "Evaluating models"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_89",
+        "category": "Model Deployment & MLOps Basics",
+        "question": "What is a model registry?",
+        "options": [
+            "Centralized store for trained models",
+            "Database for data",
+            "Training framework",
+            "Visualization tool"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_90",
+        "category": "Model Deployment & MLOps Basics",
+        "question": "What is model monitoring?",
+        "options": [
+            "Tracking model performance in production",
+            "Training model",
+            "Evaluating model once",
+            "Deploying model"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_91",
+        "category": "AI Ethics, Security & Privacy",
+        "question": "What is AI bias?",
+        "options": [
+            "Systematic unfairness in AI decisions",
+            "High accuracy",
+            "Fast computation",
+            "Low memory usage"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_92",
+        "category": "AI Ethics, Security & Privacy",
+        "question": "What is explainable AI (XAI)?",
+        "options": [
+            "AI that can explain its decisions",
+            "Fast AI",
+            "Accurate AI",
+            "Cheap AI"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_93",
+        "category": "AI Ethics, Security & Privacy",
+        "question": "What is differential privacy?",
+        "options": [
+            "Technique to protect individual data in analysis",
+            "Encrypting all data",
+            "Anonymizing data poorly",
+            "Data deletion"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_94",
+        "category": "AI Ethics, Security & Privacy",
+        "question": "What is adversarial attack on ML?",
+        "options": [
+            "Small input perturbations to fool model",
+            "Hacking server",
+            "Stealing model",
+            "Corrupting training data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_95",
+        "category": "AI Ethics, Security & Privacy",
+        "question": "What is model fairness?",
+        "options": [
+            "Ensuring model doesn't discriminate",
+            "High accuracy",
+            "Fast inference",
+            "Low memory"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_96",
+        "category": "Feature Engineering & Selection",
+        "question": "What is correlation-based feature selection?",
+        "options": [
+            "Selecting features highly correlated with target",
+            "Removing all features",
+            "Adding random features",
+            "Scaling features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_97",
+        "category": "Deep Learning Fundamentals",
+        "question": "What is a learning rate?",
+        "options": [
+            "Step size in gradient descent",
+            "Number of layers",
+            "Batch size",
+            "Epochs"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_98",
+        "category": "Unsupervised Learning",
+        "question": "What is anomaly detection?",
+        "options": [
+            "Identifying rare/abnormal data points",
+            "Clustering normal data",
+            "Classification",
+            "Regression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_99",
+        "category": "Supervised Learning",
+        "question": "What is regularization?",
+        "options": [
+            "Technique to prevent overfitting",
+            "Data augmentation",
+            "Feature scaling",
+            "Model deployment"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_100",
+        "category": "Natural Language Processing (NLP)",
+        "question": "What is sentiment analysis?",
+        "options": [
+            "Determining emotion/polarity of text",
+            "Text translation",
+            "Text summarization",
+            "Named entity recognition"
+        ],
+        "answer": 0
+    }
+]

@@ -29,22 +29,31 @@ window.onclick = (e) => {
 // Map your categories to their exact file paths
 const categoryFiles = {
     "Web Development": "data/web-development.json",
-    "Programming": "data/programming_languages.json",
+    "Programming C++ / Java / Python": "data/programming_languages.json",
+    "Data Structure and Algorithms": "data/data_structure_and_algorithm.json",
     "Computer Networks And Cloud Computing" : "data/cnAndCC.json",
-    // "Databases": "data/databases.json",
-    // "Networking": "data/networking.json",
-    // "Cyber Security": "data/cyber-security.json"
+    "Operating Systems": "data/operating_system.json",
+    "Software Engineering": "data/software_engineering.json",
+    "AI / Machine Learning and Data Analytics": "data/ai_ml_and_data_analytics.json",
+
+    "Databases": "data/databases.json",
+    "Problem Solving And Analytical Skills": "data/p_solving_and_analytical_skills.json",
+    "Cyber Security": "data/cyber_security.json"
 };
 
 // Keep your existing categories array for the UI
 
-const categories = ["All", "Web Development",
-    // "Cyber Security",
-     "Programming", 
+const categories = ["All",
+     "Web Development",
+     "Operating Systems",
+     "Software Engineering",
+     "Data Structure and Algorithms",
+     "Programming C++ / Java / Python", 
+     "AI / Machine Learning and Data Analytics",
+     "Problem Solving And Analytical Skills",
      "Computer Networks And Cloud Computing",
-    // "Databases",
-    //  "Operating Systems", "Software Engineering",
-    //  "AI / Machine Learning and Data Analytics"
+    "Cyber Security",
+    "Databases",
 ];
 
 // --- 2. State Management ---
@@ -104,7 +113,7 @@ function renderHome() {
 function renderCategories() {
     let cards = categories.slice(1).map(cat => `
         <div class="glass-card p-6 flex flex-col items-center text-center hover:scale-105 transition-transform cursor-pointer" onclick="startQuiz('${cat}', 'practice')">
-            <div class="text-4xl mb-3">📁</div>
+            <div class="text-4xl mb-3">📚</div>
             <h3 class="text-xl font-bold text-white mb-4">${cat}</h3>
             <button class="btn-secondary w-full py-2 rounded">Practice Quiz</button>
         </div>

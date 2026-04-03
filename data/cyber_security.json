@@ -1,0 +1,602 @@
+[
+    {
+        "id": "cs_1",
+        "category": "Introduction to Cyber Security",
+        "question": "What is cyber security?",
+        "options": [
+            "Protecting digital systems, networks, and data from attacks",
+            "Building computer hardware",
+            "Developing software applications",
+            "Managing databases"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_2",
+        "category": "Introduction to Cyber Security",
+        "question": "What is the CIA triad in cyber security?",
+        "options": [
+            "Confidentiality, Integrity, Availability",
+            "Central Intelligence Agency",
+            "Code Integrity Authentication",
+            "Cyber Intelligence Analysis"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_3",
+        "category": "Security Fundamentals & Principles",
+        "question": "What is the principle of least privilege?",
+        "options": [
+            "Grant minimum access necessary for a user/process",
+            "Grant all access by default",
+            "No access for anyone",
+            "Only admin has access"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_4",
+        "category": "Security Fundamentals & Principles",
+        "question": "What is defense in depth?",
+        "options": [
+            "Multiple layers of security controls",
+            "Single security control",
+            "No security control",
+            "Physical security only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_5",
+        "category": "Security Fundamentals & Principles",
+        "question": "What is separation of duties?",
+        "options": [
+            "Dividing tasks among multiple people to prevent fraud",
+            "Everyone does same task",
+            "No task division",
+            "One person does all tasks"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_6",
+        "category": "Cryptography Basics",
+        "question": "What is encryption?",
+        "options": [
+            "Converting plaintext to ciphertext",
+            "Converting ciphertext to plaintext",
+            "Compressing data",
+            "Deleting data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_7",
+        "category": "Cryptography Basics",
+        "question": "What is symmetric encryption?",
+        "options": [
+            "Same key for encryption and decryption",
+            "Different keys for encryption and decryption",
+            "No key used",
+            "Public key only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_8",
+        "category": "Cryptography Basics",
+        "question": "What is asymmetric encryption?",
+        "options": [
+            "Public and private key pair",
+            "Same key for both",
+            "No keys",
+            "Only one key"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_9",
+        "category": "Cryptography Basics",
+        "question": "What is hashing?",
+        "options": [
+            "One-way function producing fixed-size output",
+            "Encryption with key",
+            "Decryption with key",
+            "Data compression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_10",
+        "category": "Cryptography Basics",
+        "question": "What is a digital signature?",
+        "options": [
+            "Cryptographic proof of authenticity and integrity",
+            "Handwritten signature scanned",
+            "Password",
+            "Biometric scan"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_11",
+        "category": "Network Security",
+        "question": "What is a firewall?",
+        "options": [
+            "Device that filters network traffic based on rules",
+            "Antivirus software",
+            "Encryption tool",
+            "Backup system"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_12",
+        "category": "Network Security",
+        "question": "What is a VPN?",
+        "options": [
+            "Virtual Private Network - encrypts connection over internet",
+            "Virtual Public Network",
+            "Verified Private Network",
+            "Virtual Protocol Network"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_13",
+        "category": "Network Security",
+        "question": "What is an IDS?",
+        "options": [
+            "Intrusion Detection System",
+            "Internal Data Server",
+            "Internet Domain Service",
+            "Integrated Dial-up System"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_14",
+        "category": "Network Security",
+        "question": "What is a DDoS attack?",
+        "options": [
+            "Distributed Denial of Service - overwhelming target with traffic",
+            "Data Destruction Service",
+            "Direct Domain Service",
+            "Dynamic Data Server"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_15",
+        "category": "Network Security",
+        "question": "What is a DMZ?",
+        "options": [
+            "Demilitarized zone - network segment exposed to internet",
+            "Data Management Zone",
+            "Domain Main Zone",
+            "Direct Memory Zone"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_16",
+        "category": "Operating System Security",
+        "question": "What is patch management?",
+        "options": [
+            "Process of applying updates to fix vulnerabilities",
+            "Managing user passwords",
+            "Backing up files",
+            "Installing antivirus"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_17",
+        "category": "Operating System Security",
+        "question": "What is a rootkit?",
+        "options": [
+            "Malware that hides its presence with privileged access",
+            "Virus that spreads via email",
+            "Worm that replicates",
+            "Trojan horse"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_18",
+        "category": "Operating System Security",
+        "question": "What is sandboxing?",
+        "options": [
+            "Running applications in isolated environment",
+            "Backup of data",
+            "Encryption of files",
+            "Password protection"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_19",
+        "category": "Web Application Security",
+        "question": "What is SQL injection?",
+        "options": [
+            "Injecting malicious SQL code into queries",
+            "Injecting JavaScript code",
+            "Injecting HTML code",
+            "Injecting CSS code"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_20",
+        "category": "Web Application Security",
+        "question": "What is Cross-Site Scripting (XSS)?",
+        "options": [
+            "Injecting malicious scripts into web pages",
+            "Stealing cookies",
+            "SQL injection",
+            "Session hijacking"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_21",
+        "category": "Web Application Security",
+        "question": "What is CSRF?",
+        "options": [
+            "Cross-Site Request Forgery - tricking user into unwanted actions",
+            "Cross-Site Scripting",
+            "SQL injection",
+            "Session fixation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_22",
+        "category": "Web Application Security",
+        "question": "What is HTTPS?",
+        "options": [
+            "HTTP with TLS/SSL encryption",
+            "HTTP without encryption",
+            "FTP with encryption",
+            "SMTP with encryption"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_23",
+        "category": "Web Application Security",
+        "question": "What is the OWASP Top 10?",
+        "options": [
+            "List of top web application security risks",
+            "Top 10 programming languages",
+            "Top 10 databases",
+            "Top 10 frameworks"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_24",
+        "category": "Malware & Attack Techniques",
+        "question": "What is a virus?",
+        "options": [
+            "Malware that replicates by attaching to other programs",
+            "Self-replicating without host file",
+            "Trojans",
+            "Ransomware"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_25",
+        "category": "Malware & Attack Techniques",
+        "question": "What is a worm?",
+        "options": [
+            "Self-replicating malware spreading without user action",
+            "Virus requiring host",
+            "Trojan horse",
+            "Ransomware"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_26",
+        "category": "Malware & Attack Techniques",
+        "question": "What is a Trojan horse?",
+        "options": [
+            "Malware disguised as legitimate software",
+            "Virus",
+            "Worm",
+            "Ransomware"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_27",
+        "category": "Malware & Attack Techniques",
+        "question": "What is ransomware?",
+        "options": [
+            "Malware that encrypts files and demands ransom",
+            "Virus",
+            "Worm",
+            "Spyware"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_28",
+        "category": "Malware & Attack Techniques",
+        "question": "What is phishing?",
+        "options": [
+            "Fraudulent attempt to obtain sensitive info via fake communications",
+            "Hacking",
+            "Malware infection",
+            "DDoS attack"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_29",
+        "category": "Authentication & Access Control",
+        "question": "What is multi-factor authentication (MFA)?",
+        "options": [
+            "Using two or more verification methods",
+            "Using only password",
+            "Using only biometrics",
+            "Using only OTP"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_30",
+        "category": "Authentication & Access Control",
+        "question": "What is biometric authentication?",
+        "options": [
+            "Using physical traits like fingerprint or face",
+            "Using password",
+            "Using smart card",
+            "Using OTP"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_31",
+        "category": "Authentication & Access Control",
+        "question": "What is OAuth?",
+        "options": [
+            "Open authorization protocol for token-based access",
+            "Password manager",
+            "Encryption algorithm",
+            "Hashing function"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_32",
+        "category": "Secure Software Development",
+        "question": "What is DevSecOps?",
+        "options": [
+            "Integrating security into DevOps practices",
+            "Separate security team",
+            "No security in development",
+            "Only testing security"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_33",
+        "category": "Secure Software Development",
+        "question": "What is threat modeling?",
+        "options": [
+            "Identifying potential security threats in design phase",
+            "Testing after development",
+            "Code review",
+            "Penetration testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_34",
+        "category": "Secure Software Development",
+        "question": "What is SAST?",
+        "options": [
+            "Static Application Security Testing - analyzing source code",
+            "Dynamic testing",
+            "Penetration testing",
+            "Runtime testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_35",
+        "category": "Wireless & Mobile Security",
+        "question": "What is WPA3?",
+        "options": [
+            "Latest Wi-Fi security protocol",
+            "Old Wi-Fi security",
+            "Mobile OS",
+            "Antivirus"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_36",
+        "category": "Wireless & Mobile Security",
+        "question": "What is evil twin attack?",
+        "options": [
+            "Fake Wi-Fi access point mimicking legitimate one",
+            "Bluetooth attack",
+            "NFC attack",
+            "Mobile malware"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_37",
+        "category": "Cloud & Virtualization Security",
+        "question": "What is the shared responsibility model in cloud security?",
+        "options": [
+            "Cloud provider and customer share security responsibilities",
+            "Provider handles all security",
+            "Customer handles all security",
+            "No security responsibility"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_38",
+        "category": "Cloud & Virtualization Security",
+        "question": "What is a CASB?",
+        "options": [
+            "Cloud Access Security Broker",
+            "Cloud Application Security Base",
+            "Central Access Security Broker",
+            "Cloud Authentication Security Bridge"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_39",
+        "category": "Digital Forensics",
+        "question": "What is digital forensics?",
+        "options": [
+            "Recovering and investigating digital evidence",
+            "Preventing cyber attacks",
+            "Encrypting data",
+            "Backing up data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_40",
+        "category": "Digital Forensics",
+        "question": "What is chain of custody?",
+        "options": [
+            "Documented evidence handling process",
+            "Chain of command",
+            "Custody transfer",
+            "Evidence destruction"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_41",
+        "category": "Incident Response & Management",
+        "question": "What are the phases of incident response?",
+        "options": [
+            "Preparation, Detection, Containment, Eradication, Recovery, Lessons Learned",
+            "Only detection",
+            "Only recovery",
+            "Only prevention"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_42",
+        "category": "Incident Response & Management",
+        "question": "What is a Security Operations Center (SOC)?",
+        "options": [
+            "Centralized team monitoring security",
+            "Development center",
+            "Testing center",
+            "Data center"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_43",
+        "category": "Security Monitoring & Auditing",
+        "question": "What is SIEM?",
+        "options": [
+            "Security Information and Event Management",
+            "Security Incident Event Manager",
+            "System Information Event Management",
+            "Secure Information Event Manager"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_44",
+        "category": "Security Monitoring & Auditing",
+        "question": "What is a security audit?",
+        "options": [
+            "Systematic evaluation of security controls",
+            "Penetration test",
+            "Vulnerability scan",
+            "Risk assessment"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_45",
+        "category": "Cyber Laws & Ethics",
+        "question": "What is GDPR?",
+        "options": [
+            "EU data protection regulation",
+            "US cyber law",
+            "Indian IT act",
+            "Chinese cyber law"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_46",
+        "category": "Cyber Laws & Ethics",
+        "question": "What is responsible disclosure?",
+        "options": [
+            "Reporting vulnerabilities to vendor privately before public",
+            "Publicly announcing vulnerabilities immediately",
+            "Selling vulnerabilities",
+            "Ignoring vulnerabilities"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_47",
+        "category": "Emerging Trends in Cyber Security",
+        "question": "What is zero trust security?",
+        "options": [
+            "Never trust, always verify",
+            "Trust everything inside network",
+            "Trust all devices",
+            "No security checks"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_48",
+        "category": "Emerging Trends in Cyber Security",
+        "question": "What is AI in cyber security used for?",
+        "options": [
+            "Threat detection and response automation",
+            "Creating malware",
+            "Hacking systems",
+            "Disabling firewalls"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_49",
+        "category": "Emerging Trends in Cyber Security",
+        "question": "What is blockchain security?",
+        "options": [
+            "Using blockchain for secure transactions and identity",
+            "Cryptocurrency mining",
+            "Smart contracts only",
+            "Decentralized storage"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_50",
+        "category": "Cryptography Basics",
+        "question": "What is a certificate authority (CA)?",
+        "options": [
+            "Trusted entity issuing digital certificates",
+            "Encryption key generator",
+            "Hashing service",
+            "Password manager"
+        ],
+        "answer": 0
+    }
+]

@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "db_1",
+        "category": "Introduction to Database Systems",
+        "question": "What is a database?",
+        "options": [
+            "Organized collection of structured data",
+            "Collection of files",
+            "Operating system",
+            "Programming language"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_2",
+        "category": "Introduction to Database Systems",
+        "question": "What is a Database Management System (DBMS)?",
+        "options": [
+            "Software for creating and managing databases",
+            "Hardware for storage",
+            "Network protocol",
+            "Programming language"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_3",
+        "category": "Introduction to Database Systems",
+        "question": "What is data redundancy?",
+        "options": [
+            "Duplicate data in multiple locations",
+            "Missing data",
+            "Encrypted data",
+            "Compressed data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_4",
+        "category": "Database System Architecture",
+        "question": "What is a three-schema architecture?",
+        "options": [
+            "External, conceptual, internal schemas",
+            "Primary, secondary, tertiary",
+            "Logical, physical, virtual",
+            "User, admin, developer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_5",
+        "category": "Database System Architecture",
+        "question": "What is data independence?",
+        "options": [
+            "Ability to change schema without affecting higher levels",
+            "Data not dependent on hardware",
+            "No data redundancy",
+            "Fast query processing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_6",
+        "category": "Database System Architecture",
+        "question": "What is a database instance?",
+        "options": [
+            "Snapshot of database at a particular time",
+            "Database schema",
+            "Database design",
+            "Database backup"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_7",
+        "category": "Data Models",
+        "question": "Which data model uses tables with rows and columns?",
+        "options": [
+            "Relational model",
+            "Hierarchical model",
+            "Network model",
+            "Object-oriented model"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_8",
+        "category": "Data Models",
+        "question": "What is an entity-relationship (ER) model?",
+        "options": [
+            "High-level conceptual data model",
+            "Physical storage model",
+            "Query language",
+            "Indexing method"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_9",
+        "category": "Data Models",
+        "question": "What is an entity in ER model?",
+        "options": [
+            "Real-world object or concept",
+            "Relationship between tables",
+            "Attribute of data",
+            "Database query"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_10",
+        "category": "Data Models",
+        "question": "What is a relationship in ER model?",
+        "options": [
+            "Association between entities",
+            "Table join",
+            "Database connection",
+            "Query result"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_11",
+        "category": "Relational Database Concepts",
+        "question": "What is a tuple in relational database?",
+        "options": [
+            "Row/record in a table",
+            "Column in a table",
+            "Table name",
+            "Database name"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_12",
+        "category": "Relational Database Concepts",
+        "question": "What is an attribute in relational database?",
+        "options": [
+            "Column/field in a table",
+            "Row in a table",
+            "Primary key",
+            "Foreign key"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_13",
+        "category": "Relational Database Concepts",
+        "question": "What is a primary key?",
+        "options": [
+            "Unique identifier for a record",
+            "Foreign key reference",
+            "Indexed column",
+            "Nullable column"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_14",
+        "category": "Relational Database Concepts",
+        "question": "What is a foreign key?",
+        "options": [
+            "Column referencing primary key of another table",
+            "Primary key of same table",
+            "Unique key",
+            "Index key"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_15",
+        "category": "Relational Database Concepts",
+        "question": "What is a candidate key?",
+        "options": [
+            "Minimal set of columns uniquely identifying rows",
+            "Primary key only",
+            "Foreign key only",
+            "Any column"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_16",
+        "category": "Relational Algebra & Calculus",
+        "question": "What does the SELECT operation (σ) in relational algebra do?",
+        "options": [
+            "Selects rows satisfying condition",
+            "Selects columns",
+            "Joins tables",
+            "Renames attributes"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_17",
+        "category": "Relational Algebra & Calculus",
+        "question": "What does the PROJECT operation (π) in relational algebra do?",
+        "options": [
+            "Selects specific columns",
+            "Selects rows",
+            "Joins tables",
+            "Renames tables"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_18",
+        "category": "Relational Algebra & Calculus",
+        "question": "What does the JOIN operation do?",
+        "options": [
+            "Combines rows from two tables based on condition",
+            "Selects rows",
+            "Selects columns",
+            "Renames attributes"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_19",
+        "category": "Relational Algebra & Calculus",
+        "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+        "options": [
+            "INNER JOIN returns only matching rows; OUTER JOIN includes non-matching",
+            "OUTER JOIN is faster",
+            "INNER JOIN is for one table",
+            "No difference"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_20",
+        "category": "Relational Algebra & Calculus",
+        "question": "What does the UNION operation do?",
+        "options": [
+            "Combines results of two queries, removing duplicates",
+            "Intersects two queries",
+            "Subtracts queries",
+            "Joins tables"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_21",
+        "category": "Structured Query Language (SQL)",
+        "question": "Which SQL statement retrieves data?",
+        "options": [
+            "SELECT",
+            "INSERT",
+            "UPDATE",
+            "DELETE"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_22",
+        "category": "Structured Query Language (SQL)",
+        "question": "Which SQL clause filters rows before grouping?",
+        "options": [
+            "WHERE",
+            "HAVING",
+            "GROUP BY",
+            "ORDER BY"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_23",
+        "category": "Structured Query Language (SQL)",
+        "question": "Which SQL clause filters groups after grouping?",
+        "options": [
+            "HAVING",
+            "WHERE",
+            "GROUP BY",
+            "ORDER BY"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_24",
+        "category": "Structured Query Language (SQL)",
+        "question": "What does the ORDER BY clause do?",
+        "options": [
+            "Sorts result set",
+            "Filters rows",
+            "Groups rows",
+            "Joins tables"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_25",
+        "category": "Structured Query Language (SQL)",
+        "question": "What is a view in SQL?",
+        "options": [
+            "Virtual table based on query result",
+            "Physical table",
+            "Index",
+            "Stored procedure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_26",
+        "category": "Advanced SQL",
+        "question": "What is a subquery?",
+        "options": [
+            "Query nested inside another query",
+            "Query with join",
+            "Query with group by",
+            "Query with order by"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_27",
+        "category": "Advanced SQL",
+        "question": "What is a correlated subquery?",
+        "options": [
+            "Subquery that references outer query",
+            "Independent subquery",
+            "Subquery with aggregate",
+            "Subquery with join"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_28",
+        "category": "Advanced SQL",
+        "question": "What is a stored procedure?",
+        "options": [
+            "Precompiled SQL code stored in database",
+            "SQL query",
+            "View",
+            "Index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_29",
+        "category": "Advanced SQL",
+        "question": "What is a trigger in SQL?",
+        "options": [
+            "Automatically executed code on table events",
+            "Stored procedure",
+            "View",
+            "Index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_30",
+        "category": "Advanced SQL",
+        "question": "What is a common table expression (CTE)?",
+        "options": [
+            "Temporary result set within query",
+            "Permanent table",
+            "View",
+            "Index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_31",
+        "category": "Database Design & Normalization",
+        "question": "What is normalization?",
+        "options": [
+            "Process of organizing data to reduce redundancy",
+            "Denormalizing data",
+            "Creating indexes",
+            "Backup process"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_32",
+        "category": "Database Design & Normalization",
+        "question": "What is 1NF (First Normal Form)?",
+        "options": [
+            "Atomic values, no repeating groups",
+            "No partial dependencies",
+            "No transitive dependencies",
+            "All keys are candidate keys"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_33",
+        "category": "Database Design & Normalization",
+        "question": "What is 2NF (Second Normal Form)?",
+        "options": [
+            "1NF + no partial dependency on primary key",
+            "1NF only",
+            "1NF + no transitive dependency",
+            "BCNF"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_34",
+        "category": "Database Design & Normalization",
+        "question": "What is 3NF (Third Normal Form)?",
+        "options": [
+            "2NF + no transitive dependency",
+            "1NF + no partial dependency",
+            "BCNF",
+            "All of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_35",
+        "category": "Database Design & Normalization",
+        "question": "What is denormalization?",
+        "options": [
+            "Adding redundancy to improve performance",
+            "Removing redundancy",
+            "Normalizing further",
+            "Creating backup"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_36",
+        "category": "Transaction Management",
+        "question": "What is a database transaction?",
+        "options": [
+            "Logical unit of work",
+            "Query execution",
+            "Backup operation",
+            "Index creation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_37",
+        "category": "Transaction Management",
+        "question": "What are the ACID properties?",
+        "options": [
+            "Atomicity, Consistency, Isolation, Durability",
+            "Accuracy, Completeness, Integrity, Durability",
+            "Atomicity, Concurrency, Isolation, Database",
+            "All, Consistency, Isolation, Data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_38",
+        "category": "Transaction Management",
+        "question": "What does atomicity guarantee?",
+        "options": [
+            "Transaction completes fully or not at all",
+            "Consistent state",
+            "Isolated from others",
+            "Persists after commit"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_39",
+        "category": "Transaction Management",
+        "question": "What does durability guarantee?",
+        "options": [
+            "Committed changes persist after crash",
+            "Transaction atomicity",
+            "Isolation",
+            "Consistency"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_40",
+        "category": "Transaction Management",
+        "question": "What is a transaction commit?",
+        "options": [
+            "Permanently saving transaction changes",
+            "Undoing transaction changes",
+            "Pausing transaction",
+            "Starting transaction"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_41",
+        "category": "Concurrency Control",
+        "question": "What is a lost update problem?",
+        "options": [
+            "Two transactions overwrite each other's changes",
+            "Transaction deadlock",
+            "Transaction starvation",
+            "Dirty read"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_42",
+        "category": "Concurrency Control",
+        "question": "What is a dirty read?",
+        "options": [
+            "Reading uncommitted data",
+            "Reading committed data",
+            "Reading stale data",
+            "Reading non-existent data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_43",
+        "category": "Concurrency Control",
+        "question": "What is a lock in databases?",
+        "options": [
+            "Mechanism to prevent concurrent access conflicts",
+            "Encryption key",
+            "Index pointer",
+            "Backup file"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_44",
+        "category": "Concurrency Control",
+        "question": "What is a shared lock?",
+        "options": [
+            "Lock for read operations (multiple allowed)",
+            "Lock for write operations (exclusive)",
+            "Lock for schema changes",
+            "Lock for backups"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_45",
+        "category": "Concurrency Control",
+        "question": "What is an exclusive lock?",
+        "options": [
+            "Lock for write operations (only one allowed)",
+            "Lock for read operations",
+            "Shared lock",
+            "Schema lock"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_46",
+        "category": "Recovery Management",
+        "question": "What is a log in database recovery?",
+        "options": [
+            "Record of all transaction operations",
+            "Backup file",
+            "Index file",
+            "Configuration file"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_47",
+        "category": "Recovery Management",
+        "question": "What is a checkpoint in recovery?",
+        "options": [
+            "Point where log is synchronized to disk",
+            "Backup point",
+            "Transaction commit",
+            "Query execution"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_48",
+        "category": "Recovery Management",
+        "question": "What is undo operation in recovery?",
+        "options": [
+            "Reverting uncommitted changes",
+            "Redoing committed changes",
+            "Backing up data",
+            "Restoring from backup"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_49",
+        "category": "Recovery Management",
+        "question": "What is redo operation in recovery?",
+        "options": [
+            "Reapplying committed changes",
+            "Reverting changes",
+            "Backing up",
+            "Checkpointing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_50",
+        "category": "Indexing & File Organization",
+        "question": "What is an index in database?",
+        "options": [
+            "Data structure for fast data retrieval",
+            "Table of contents",
+            "Primary key",
+            "Foreign key"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_51",
+        "category": "Indexing & File Organization",
+        "question": "What is a B-tree index?",
+        "options": [
+            "Balanced tree index structure",
+            "Binary tree",
+            "Hash index",
+            "Bitmap index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_52",
+        "category": "Indexing & File Organization",
+        "question": "What is a clustered index?",
+        "options": [
+            "Index that determines physical order of data",
+            "Non-physical index",
+            "Secondary index",
+            "Hash index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_53",
+        "category": "Indexing & File Organization",
+        "question": "What is a non-clustered index?",
+        "options": [
+            "Index separate from data storage",
+            "Index determining physical order",
+            "Primary key index",
+            "Clustered index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_54",
+        "category": "Indexing & File Organization",
+        "question": "What is a hash index?",
+        "options": [
+            "Index using hash function",
+            "B-tree index",
+            "Bitmap index",
+            "Clustered index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_55",
+        "category": "Indexing & File Organization",
+        "question": "What is a full table scan?",
+        "options": [
+            "Reading entire table sequentially",
+            "Using index",
+            "Partial table read",
+            "Sampling table"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_56",
+        "category": "Query Processing & Optimization",
+        "question": "What is a query optimizer?",
+        "options": [
+            "Component choosing efficient execution plan",
+            "Query executor",
+            "Parser",
+            "Index manager"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_57",
+        "category": "Query Processing & Optimization",
+        "question": "What is an execution plan?",
+        "options": [
+            "Plan of operations for query execution",
+            "Query text",
+            "Index definition",
+            "Table schema"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_58",
+        "category": "Query Processing & Optimization",
+        "question": "What is a nested loop join?",
+        "options": [
+            "Join algorithm with nested loops",
+            "Hash join",
+            "Merge join",
+            "Sort merge join"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_59",
+        "category": "Query Processing & Optimization",
+        "question": "What is a hash join?",
+        "options": [
+            "Join using hash table",
+            "Nested loop join",
+            "Merge join",
+            "Sort join"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_60",
+        "category": "Query Processing & Optimization",
+        "question": "What is query cost estimation?",
+        "options": [
+            "Estimating time/resources for query",
+            "Query execution time",
+            "Query parsing time",
+            "Index build time"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_61",
+        "category": "Database Security",
+        "question": "What is authentication in databases?",
+        "options": [
+            "Verifying user identity",
+            "Granting permissions",
+            "Encrypting data",
+            "Auditing access"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_62",
+        "category": "Database Security",
+        "question": "What is authorization in databases?",
+        "options": [
+            "Granting permissions to users",
+            "Verifying identity",
+            "Encrypting data",
+            "Backing up data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_63",
+        "category": "Database Security",
+        "question": "What is SQL injection prevention?",
+        "options": [
+            "Using parameterized queries",
+            "Using dynamic SQL",
+            "Disabling SQL",
+            "Encrypting queries"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_64",
+        "category": "Database Security",
+        "question": "What is database encryption?",
+        "options": [
+            "Encrypting data at rest or in transit",
+            "User authentication",
+            "Access control",
+            "Auditing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_65",
+        "category": "Database Security",
+        "question": "What is data masking?",
+        "options": [
+            "Hiding sensitive data with modified values",
+            "Deleting sensitive data",
+            "Encrypting all data",
+            "Backing up data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_66",
+        "category": "Distributed Databases",
+        "question": "What is a distributed database?",
+        "options": [
+            "Database across multiple physical locations",
+            "Single database",
+            "Cloud database only",
+            "Centralized database"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_67",
+        "category": "Distributed Databases",
+        "question": "What is data fragmentation in distributed DB?",
+        "options": [
+            "Splitting data across multiple sites",
+            "Data duplication",
+            "Data encryption",
+            "Data backup"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_68",
+        "category": "Distributed Databases",
+        "question": "What is data replication in distributed DB?",
+        "options": [
+            "Copying data to multiple sites",
+            "Splitting data",
+            "Encrypting data",
+            "Compressing data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_69",
+        "category": "Distributed Databases",
+        "question": "What is two-phase commit (2PC)?",
+        "options": [
+            "Distributed transaction commit protocol",
+            "Query optimization",
+            "Indexing method",
+            "Normalization technique"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_70",
+        "category": "Distributed Databases",
+        "question": "What is the CAP theorem?",
+        "options": [
+            "Consistency, Availability, Partition tolerance - can have only two",
+            "Consistency, Accuracy, Performance",
+            "Capacity, Access, Performance",
+            "Cost, Availability, Performance"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_71",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is a NoSQL database?",
+        "options": [
+            "Non-relational database for unstructured/semi-structured data",
+            "SQL-only database",
+            "Relational database",
+            "Hierarchical database"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_72",
+        "category": "NoSQL & Modern Databases",
+        "question": "What are the four main types of NoSQL databases?",
+        "options": [
+            "Document, Key-Value, Column-family, Graph",
+            "Relational, Object, Network, Hierarchical",
+            "SQL, MySQL, PostgreSQL, Oracle",
+            "MongoDB, Cassandra, Redis, Neo4j"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_73",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is a document database (e.g., MongoDB)?",
+        "options": [
+            "Stores data as JSON-like documents",
+            "Stores as key-value pairs",
+            "Stores as columns",
+            "Stores as graphs"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_74",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is a key-value store (e.g., Redis)?",
+        "options": [
+            "Stores data as key-value pairs",
+            "Stores as documents",
+            "Stores as columns",
+            "Stores as graphs"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_75",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is a column-family database (e.g., Cassandra)?",
+        "options": [
+            "Stores data in column families",
+            "Stores as documents",
+            "Stores as key-value",
+            "Stores as graphs"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_76",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is a graph database (e.g., Neo4j)?",
+        "options": [
+            "Stores data as nodes and relationships",
+            "Stores as documents",
+            "Stores as key-value",
+            "Stores as columns"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_77",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is BASE in NoSQL?",
+        "options": [
+            "Basically Available, Soft state, Eventual consistency",
+            "Atomic, Consistent, Isolated, Durable",
+            "Basic Availability, Soft commit, Eventual",
+            "Backup, Availability, Security, Encryption"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_78",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is a data warehouse?",
+        "options": [
+            "Large repository for historical data analysis",
+            "Operational database",
+            "Transactional database",
+            "Backup storage"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_79",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is ETL in data warehousing?",
+        "options": [
+            "Extract, Transform, Load",
+            "Extract, Transfer, Load",
+            "Edit, Transform, Load",
+            "Extract, Transform, Link"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_80",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is a fact table in data warehouse?",
+        "options": [
+            "Table containing measures/metrics",
+            "Table containing descriptive attributes",
+            "Dimension table",
+            "Lookup table"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_81",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is a dimension table?",
+        "options": [
+            "Table containing descriptive attributes",
+            "Table containing measures",
+            "Fact table",
+            "Bridge table"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_82",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is star schema?",
+        "options": [
+            "Fact table connected to dimension tables",
+            "Snowflake schema",
+            "Galaxy schema",
+            "Normalized schema"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_83",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is OLAP?",
+        "options": [
+            "Online Analytical Processing - multidimensional analysis",
+            "Online Transaction Processing",
+            "Online Analytical Protocol",
+            "Online Access Protocol"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_84",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is data mining?",
+        "options": [
+            "Discovering patterns from large data",
+            "Storing large data",
+            "Backing up data",
+            "Deleting data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_85",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is association rule mining?",
+        "options": [
+            "Finding relationships between items (e.g., market basket)",
+            "Classification",
+            "Clustering",
+            "Regression"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_86",
+        "category": "Introduction to Database Systems",
+        "question": "What is the difference between DBMS and RDBMS?",
+        "options": [
+            "RDBMS supports relational model and SQL",
+            "No difference",
+            "DBMS is faster",
+            "RDBMS is older"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_87",
+        "category": "Relational Database Concepts",
+        "question": "What is a composite key?",
+        "options": [
+            "Primary key with multiple columns",
+            "Foreign key with multiple columns",
+            "Single column key",
+            "Index key"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_88",
+        "category": "Structured Query Language (SQL)",
+        "question": "What does the LIKE operator do?",
+        "options": [
+            "Pattern matching with wildcards",
+            "Equality comparison",
+            "Greater than comparison",
+            "Less than comparison"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_89",
+        "category": "Advanced SQL",
+        "question": "What is a window function in SQL?",
+        "options": [
+            "Function performing calculation across rows",
+            "Aggregate function",
+            "Scalar function",
+            "Table function"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_90",
+        "category": "Database Design & Normalization",
+        "question": "What is BCNF (Boyce-Codd Normal Form)?",
+        "options": [
+            "Stricter than 3NF where every determinant is candidate key",
+            "Same as 1NF",
+            "Same as 2NF",
+            "Same as 3NF"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_91",
+        "category": "Concurrency Control",
+        "question": "What is timestamp-based concurrency control?",
+        "options": [
+            "Using timestamps to order transactions",
+            "Using locks",
+            "Using semaphores",
+            "Using queues"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_92",
+        "category": "Indexing & File Organization",
+        "question": "What is a bitmap index?",
+        "options": [
+            "Index using bit arrays for low-cardinality columns",
+            "B-tree index",
+            "Hash index",
+            "Clustered index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_93",
+        "category": "Distributed Databases",
+        "question": "What is eventual consistency?",
+        "options": [
+            "Consistency achieved over time, not immediately",
+            "Immediate consistency",
+            "Strong consistency",
+            "No consistency"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_94",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is MongoDB's primary data structure?",
+        "options": [
+            "BSON document (JSON-like)",
+            "Table",
+            "Key-value pair",
+            "Graph node"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_95",
+        "category": "NoSQL & Modern Databases",
+        "question": "What is Redis primarily used for?",
+        "options": [
+            "In-memory caching and key-value store",
+            "Document storage",
+            "Column storage",
+            "Graph storage"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_96",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is classification in data mining?",
+        "options": [
+            "Assigning items to predefined classes",
+            "Grouping similar items",
+            "Finding associations",
+            "Predicting numeric values"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_97",
+        "category": "Data Warehousing & Data Mining",
+        "question": "What is clustering in data mining?",
+        "options": [
+            "Grouping similar items without predefined classes",
+            "Classification",
+            "Regression",
+            "Association"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_98",
+        "category": "Transaction Management",
+        "question": "What is a transaction rollback?",
+        "options": [
+            "Undoing transaction changes",
+            "Committing changes",
+            "Pausing transaction",
+            "Starting transaction"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_99",
+        "category": "Query Processing & Optimization",
+        "question": "What is a covering index?",
+        "options": [
+            "Index containing all columns needed for query",
+            "Index on primary key",
+            "Unique index",
+            "Clustered index"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "db_100",
+        "category": "Database Security",
+        "question": "What is database auditing?",
+        "options": [
+            "Tracking and logging database activities",
+            "Encrypting database",
+            "Backing up database",
+            "Normalizing database"
+        ],
+        "answer": 0
+    }
+]
