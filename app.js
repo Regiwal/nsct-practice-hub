@@ -141,32 +141,88 @@ function renderQuiz() {
         </button>`;
     }).join('');
 
+    // container.innerHTML = `
+    //     <div class="glass-card p-8">
+    //         <div class="flex justify-between items-center mb-6 border-b border-white/10 pb-4">
+    //             <span class="text-sm text-gray-400">Question ${appState.currentIndex + 1} of ${appState.currentQuestions.length}</span>
+    //             <span class="text-sm bg-blue-900 px-3 py-1 rounded-full text-yellow-400">${q.category} Mode: ${appState.mode}</span>
+    //         </div>
+    //         <h3 class="text-2xl font-semibold mb-6 text-white">${q.question}</h3>
+    //         <div class="mb-8">${optionsHtml}</div>
+            
+    //         <div class="flex justify-between">
+    //             <button onclick="prevQuestion()" class="px-6 py-2 rounded border border-white/20 hover:bg-white/10 ${appState.currentIndex === 0 ? 'invisible' : ''}">Previous</button>
+    //             ${appState.currentIndex === appState.currentQuestions.length - 1
+    //         ? `<button onclick="finishQuiz()" class="btn-primary px-6 py-2 rounded font-bold">Submit Quiz</button>`
+    //         : `<button onclick="nextQuestion()" class="btn-primary px-6 py-2 rounded font-bold">Next Question</button>`}
+    //         </div>
+    //     </div>
+    // `;
+    // app.js - Inside renderQuiz()
+    // Replace the current return/innerHTML block at the bottom of this function:
+
     container.innerHTML = `
         <div class="glass-card p-8">
             <div class="flex justify-between items-center mb-6 border-b border-white/10 pb-4">
+                <button onclick="changeView('home')" class="text-xs bg-white/10 hover:bg-white/20 px-3 py-1 rounded text-gray-300">🏠 Home</button>
                 <span class="text-sm text-gray-400">Question ${appState.currentIndex + 1} of ${appState.currentQuestions.length}</span>
-                <span class="text-sm bg-blue-900 px-3 py-1 rounded-full text-yellow-400">${q.category} Mode: ${appState.mode}</span>
+                <button onclick="finishQuiz()" class="text-xs bg-orange-600/50 hover:bg-orange-600 px-3 py-1 rounded text-white font-bold">Finish & Submit</button>
             </div>
+            
             <h3 class="text-2xl font-semibold mb-6 text-white">${q.question}</h3>
             <div class="mb-8">${optionsHtml}</div>
             
             <div class="flex justify-between">
                 <button onclick="prevQuestion()" class="px-6 py-2 rounded border border-white/20 hover:bg-white/10 ${appState.currentIndex === 0 ? 'invisible' : ''}">Previous</button>
-                ${appState.currentIndex === appState.currentQuestions.length - 1
-            ? `<button onclick="finishQuiz()" class="btn-primary px-6 py-2 rounded font-bold">Submit Quiz</button>`
-            : `<button onclick="nextQuestion()" class="btn-primary px-6 py-2 rounded font-bold">Next Question</button>`}
+                <button onclick="nextQuestion()" class="btn-primary px-6 py-2 rounded font-bold ${appState.currentIndex === appState.currentQuestions.length - 1 ? 'hidden' : ''}">Next Question</button>
             </div>
         </div>
     `;
 }
 
+// function renderResult() {
+//     const total = appState.currentQuestions.length;
+//     const percentage = Math.round((appState.score / total) * 100);
+
+//     container.innerHTML = `
+//         <div class="glass-card p-10 text-center max-w-2xl mx-auto">
+//             <h2 class="text-3xl font-bold mb-6 text-white">Quiz Completed!</h2>
+            
+//             <div class="flex justify-center mb-8">
+//                 <div class="circular-chart" style="--percentage: ${percentage}%">
+//                     <div class="chart-content">${percentage}%</div>
+//                 </div>
+//             </div>
+
+//             <div class="grid grid-cols-2 gap-4 mb-8 text-left">
+//                 <div class="bg-green-500/10 border border-green-500/30 p-4 rounded-lg">
+//                     <p class="text-sm text-gray-400">Correct</p>
+//                     <p class="text-2xl text-green-400 font-bold">${appState.score}</p>
+//                 </div>
+//                 <div class="bg-red-500/10 border border-red-500/30 p-4 rounded-lg">
+//                     <p class="text-sm text-gray-400">Incorrect / Skipped</p>
+//                     <p class="text-2xl text-red-400 font-bold">${total - appState.score}</p>
+//                 </div>
+//             </div>
+
+//             <div class="flex justify-center gap-4">
+//                 <button onclick="changeView('review')" class="btn-secondary px-6 py-3 rounded-lg">Review Answers</button>
+//                 <button onclick="changeView('home')" class="btn-primary px-6 py-3 rounded-lg">Back to Home</button>
+//             </div>
+//         </div>
+//     `;
+//     localStorage.removeItem('nsct_progress'); // Clear save on completion
+// }
+
+// app.js - Inside renderResult()
 function renderResult() {
+    const { attempted, correct, incorrect } = appState.results;
     const total = appState.currentQuestions.length;
-    const percentage = Math.round((appState.score / total) * 100);
+    const percentage = Math.round((correct / total) * 100);
 
     container.innerHTML = `
         <div class="glass-card p-10 text-center max-w-2xl mx-auto">
-            <h2 class="text-3xl font-bold mb-6 text-white">Quiz Completed!</h2>
+            <h2 class="text-3xl font-bold mb-6 text-white">Quiz Summary</h2>
             
             <div class="flex justify-center mb-8">
                 <div class="circular-chart" style="--percentage: ${percentage}%">
@@ -174,25 +230,34 @@ function renderResult() {
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-4 mb-8 text-left">
-                <div class="bg-green-500/10 border border-green-500/30 p-4 rounded-lg">
-                    <p class="text-sm text-gray-400">Correct</p>
-                    <p class="text-2xl text-green-400 font-bold">${appState.score}</p>
+            <div class="grid grid-cols-3 gap-3 mb-8 text-left">
+                <div class="bg-blue-500/10 border border-blue-500/30 p-3 rounded-lg text-center">
+                    <p class="text-xs text-gray-400">Attempted</p>
+                    <p class="text-xl text-blue-400 font-bold">${attempted}</p>
                 </div>
-                <div class="bg-red-500/10 border border-red-500/30 p-4 rounded-lg">
-                    <p class="text-sm text-gray-400">Incorrect / Skipped</p>
-                    <p class="text-2xl text-red-400 font-bold">${total - appState.score}</p>
+                <div class="bg-green-500/10 border border-green-500/30 p-3 rounded-lg text-center">
+                    <p class="text-xs text-gray-400">Correct</p>
+                    <p class="text-xl text-green-400 font-bold">${correct}</p>
+                </div>
+                <div class="bg-red-500/10 border border-red-500/30 p-3 rounded-lg text-center">
+                    <p class="text-xs text-gray-400">False</p>
+                    <p class="text-xl text-red-400 font-bold">${incorrect}</p>
                 </div>
             </div>
 
-            <div class="flex justify-center gap-4">
-                <button onclick="changeView('review')" class="btn-secondary px-6 py-3 rounded-lg">Review Answers</button>
-                <button onclick="changeView('home')" class="btn-primary px-6 py-3 rounded-lg">Back to Home</button>
+            <div class="flex flex-col gap-3">
+                <button onclick="changeView('review')" class="btn-secondary w-full py-3 rounded-lg font-bold">Review Detailed Answers</button>
+                <button onclick="changeView('home')" class="text-gray-400 hover:text-white transition">Return to Home</button>
             </div>
         </div>
     `;
-    localStorage.removeItem('nsct_progress'); // Clear save on completion
+    localStorage.removeItem('nsct_progress');
 }
+
+
+
+
+
 
 function renderReview() {
     let reviewHtml = appState.currentQuestions.map((q, i) => {
@@ -332,16 +397,40 @@ function prevQuestion() {
     }
 }
 
+
+
+// app.js - Around Line 235
 function finishQuiz() {
-    // Calculate Score
-    appState.score = 0;
+    let attempted = Object.keys(appState.userAnswers).length;
+    let correct = 0;
+    let incorrect = 0;
+
     appState.currentQuestions.forEach(q => {
-        if (appState.userAnswers[q.id] === q.answer) {
-            appState.score++;
+        const userAns = appState.userAnswers[q.id];
+        if (userAns !== undefined) {
+            if (userAns === q.answer) {
+                correct++;
+            } else {
+                incorrect++;
+            }
         }
     });
+
+    // Save these results to state so the Result page can see them
+    appState.results = { attempted, correct, incorrect };
     changeView('result');
 }
+
+// function finishQuiz() {
+//     // Calculate Score
+//     appState.score = 0;
+//     appState.currentQuestions.forEach(q => {
+//         if (appState.userAnswers[q.id] === q.answer) {
+//             appState.score++;
+//         }
+//     });
+//     changeView('result');
+// }
 
 // Initialize App
 render();
