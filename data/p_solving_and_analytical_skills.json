@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "ps_1",
+        "category": "Introduction to Problem Solving",
+        "question": "What is the first step in problem solving?",
+        "options": [
+            "Implement solution",
+            "Understand the problem",
+            "Test solution",
+            "Optimize solution"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_2",
+        "category": "Introduction to Problem Solving",
+        "question": "What is a heuristic in problem solving?",
+        "options": [
+            "Rule of thumb or practical approach",
+            "Exact algorithm",
+            "Mathematical formula",
+            "Random guess"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_3",
+        "category": "Introduction to Problem Solving",
+        "question": "What does IDEAL stand for in problem solving?",
+        "options": [
+            "Identify, Define, Explore, Act, Look back",
+            "Input, Data, Execute, Analyze, Loop",
+            "Idea, Design, Execute, Analyze, Learn",
+            "Initialize, Develop, Evaluate, Assess, Launch"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_4",
+        "category": "Problem Understanding & Analysis",
+        "question": "What is problem decomposition?",
+        "options": [
+            "Breaking problem into smaller subproblems",
+            "Combining multiple problems",
+            "Ignoring problem details",
+            "Skipping analysis"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_5",
+        "category": "Problem Understanding & Analysis",
+        "question": "What is a root cause analysis?",
+        "options": [
+            "Finding underlying cause of problem",
+            "Listing symptoms",
+            "Implementing quick fix",
+            "Testing solutions"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_6",
+        "category": "Problem Understanding & Analysis",
+        "question": "What are constraints in a problem?",
+        "options": [
+            "Limitations or restrictions to solution",
+            "Free parameters",
+            "Solution advantages",
+            "Testing criteria"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_7",
+        "category": "Logical Reasoning Fundamentals",
+        "question": "What is a premise in logical reasoning?",
+        "options": [
+            "Statement used as basis for argument",
+            "Conclusion of argument",
+            "Fallacy",
+            "Assumption only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_8",
+        "category": "Logical Reasoning Fundamentals",
+        "question": "What is a valid deductive argument?",
+        "options": [
+            "If premises true, conclusion must be true",
+            "Conclusion likely true",
+            "Premises false",
+            "Conclusion always false"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_9",
+        "category": "Logical Reasoning Fundamentals",
+        "question": "What is inductive reasoning?",
+        "options": [
+            "Generalizing from specific observations",
+            "Deducing specifics from general",
+            "Assuming without evidence",
+            "Circular reasoning"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_10",
+        "category": "Logical Reasoning Fundamentals",
+        "question": "What is a logical fallacy?",
+        "options": [
+            "Error in reasoning",
+            "Valid argument",
+            "Strong evidence",
+            "Mathematical proof"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_11",
+        "category": "Algorithms & Flow Control",
+        "question": "What is an algorithm?",
+        "options": [
+            "Step-by-step procedure to solve problem",
+            "Random guess",
+            "Heuristic only",
+            "Data structure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_12",
+        "category": "Algorithms & Flow Control",
+        "question": "What is a conditional statement in algorithms?",
+        "options": [
+            "Decision based on condition (if-then-else)",
+            "Loop repetition",
+            "Sequential steps",
+            "Function call"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_13",
+        "category": "Algorithms & Flow Control",
+        "question": "What is iteration in algorithms?",
+        "options": [
+            "Repeating steps (loops)",
+            "Conditional branching",
+            "Sequential execution",
+            "Recursive call"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_14",
+        "category": "Algorithms & Flow Control",
+        "question": "What is recursion?",
+        "options": [
+            "Function calling itself",
+            "Looping",
+            "Conditional execution",
+            "Sequential steps"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_15",
+        "category": "Algorithms & Flow Control",
+        "question": "What is a flowchart?",
+        "options": [
+            "Diagram representing algorithm steps",
+            "Code listing",
+            "Data structure",
+            "Mathematical formula"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_16",
+        "category": "Data Representation & Abstraction",
+        "question": "What is abstraction?",
+        "options": [
+            "Hiding unnecessary details to focus on essentials",
+            "Adding more details",
+            "Ignoring problem",
+            "Simplifying incorrectly"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_17",
+        "category": "Data Representation & Abstraction",
+        "question": "What is a data structure?",
+        "options": [
+            "Way to organize and store data",
+            "Algorithm",
+            "Programming language",
+            "Variable type"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_18",
+        "category": "Data Representation & Abstraction",
+        "question": "What is a variable in problem solving context?",
+        "options": [
+            "Symbol representing unknown or changeable value",
+            "Constant value",
+            "Fixed number",
+            "Algorithm step"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_19",
+        "category": "Data Representation & Abstraction",
+        "question": "What is pseudocode?",
+        "options": [
+            "Informal description of algorithm",
+            "Actual code",
+            "Compiled program",
+            "Binary code"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_20",
+        "category": "Data Representation & Abstraction",
+        "question": "What is a model in problem solving?",
+        "options": [
+            "Simplified representation of problem/system",
+            "Final solution",
+            "Algorithm",
+            "Data structure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_21",
+        "category": "Pattern Recognition & Generalization",
+        "question": "What is pattern recognition?",
+        "options": [
+            "Identifying regularities or trends in data",
+            "Random guessing",
+            "Memorizing facts",
+            "Calculating numbers"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_22",
+        "category": "Pattern Recognition & Generalization",
+        "question": "What is generalization in problem solving?",
+        "options": [
+            "Applying pattern to broader cases",
+            "Focusing on specific case",
+            "Ignoring patterns",
+            "Random application"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_23",
+        "category": "Pattern Recognition & Generalization",
+        "question": "What is the next number in sequence: 2, 4, 6, 8, ?",
+        "options": [
+            "9",
+            "10",
+            "12",
+            "14"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_24",
+        "category": "Pattern Recognition & Generalization",
+        "question": "What is analogical reasoning?",
+        "options": [
+            "Solving new problem using similar solved problem",
+            "Random reasoning",
+            "Deductive reasoning only",
+            "Inductive reasoning only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_25",
+        "category": "Pattern Recognition & Generalization",
+        "question": "What is the missing number: 1, 4, 9, 16, ?",
+        "options": [
+            "20",
+            "24",
+            "25",
+            "36"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "ps_26",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "What is 15% of 200?",
+        "options": [
+            "15",
+            "20",
+            "30",
+            "40"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "ps_27",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "What is the average of 10, 20, 30, 40?",
+        "options": [
+            "20",
+            "25",
+            "30",
+            "35"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_28",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "If a train travels 120 km in 2 hours, what is its speed?",
+        "options": [
+            "40 km/h",
+            "50 km/h",
+            "60 km/h",
+            "70 km/h"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "ps_29",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "What is the probability of rolling a 4 on fair six-sided die?",
+        "options": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/6"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "ps_30",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "What is the area of rectangle with length 5 and width 3?",
+        "options": [
+            "8",
+            "10",
+            "15",
+            "16"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "ps_31",
+        "category": "Algorithmic Thinking",
+        "question": "What is algorithmic thinking?",
+        "options": [
+            "Step-by-step systematic problem solving",
+            "Random guessing",
+            "Memorizing solutions",
+            "Intuitive leaps"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_32",
+        "category": "Algorithmic Thinking",
+        "question": "What is brute force algorithm?",
+        "options": [
+            "Try all possible solutions",
+            "Optimized approach",
+            "Divide and conquer",
+            "Greedy approach"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_33",
+        "category": "Algorithmic Thinking",
+        "question": "What is divide and conquer?",
+        "options": [
+            "Divide problem into subproblems, solve, combine",
+            "Solve all at once",
+            "Ignore subproblems",
+            "Random division"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_34",
+        "category": "Algorithmic Thinking",
+        "question": "What is greedy algorithm?",
+        "options": [
+            "Make locally optimal choice at each step",
+            "Consider all options",
+            "Random choice",
+            "Backtracking"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_35",
+        "category": "Algorithmic Thinking",
+        "question": "What is dynamic programming?",
+        "options": [
+            "Store subproblem results to avoid recomputation",
+            "Solve recursively only",
+            "Greedy approach",
+            "Brute force"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_36",
+        "category": "Critical Thinking & Decision Making",
+        "question": "What is critical thinking?",
+        "options": [
+            "Objective analysis and evaluation",
+            "Accepting all claims",
+            "Emotional decision",
+            "Random choice"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_37",
+        "category": "Critical Thinking & Decision Making",
+        "question": "What is a bias in decision making?",
+        "options": [
+            "Systematic deviation from rational judgment",
+            "Accurate judgment",
+            "Random error",
+            "Perfect reasoning"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_38",
+        "category": "Critical Thinking & Decision Making",
+        "question": "What is confirmation bias?",
+        "options": [
+            "Favoring information confirming beliefs",
+            "Rejecting all information",
+            "Seeking contradictory evidence",
+            "Random selection"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_39",
+        "category": "Critical Thinking & Decision Making",
+        "question": "What is Occam's razor principle?",
+        "options": [
+            "Simplest explanation is usually best",
+            "Complex explanation is best",
+            "Ignore simplicity",
+            "Always choose complicated"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_40",
+        "category": "Critical Thinking & Decision Making",
+        "question": "What is a trade-off in decision making?",
+        "options": [
+            "Gaining one thing by sacrificing another",
+            "Perfect solution",
+            "No compromise",
+            "Random choice"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_41",
+        "category": "Debugging & Error Analysis",
+        "question": "What is debugging?",
+        "options": [
+            "Finding and fixing errors in solution",
+            "Writing solution",
+            "Testing only",
+            "Documenting solution"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_42",
+        "category": "Debugging & Error Analysis",
+        "question": "What is a syntax error?",
+        "options": [
+            "Error in structure/rules",
+            "Logical error",
+            "Runtime error",
+            "Data error"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_43",
+        "category": "Debugging & Error Analysis",
+        "question": "What is a logical error?",
+        "options": [
+            "Incorrect algorithm causing wrong output",
+            "Syntax violation",
+            "Runtime crash",
+            "Memory error"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_44",
+        "category": "Debugging & Error Analysis",
+        "question": "What is boundary value analysis?",
+        "options": [
+            "Testing at extreme values",
+            "Testing random values",
+            "Testing middle values",
+            "No testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_45",
+        "category": "Debugging & Error Analysis",
+        "question": "What is a test case?",
+        "options": [
+            "Specific input with expected output",
+            "Random input",
+            "Algorithm description",
+            "Data structure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_46",
+        "category": "Complexity & Efficiency Awareness",
+        "question": "What is time complexity?",
+        "options": [
+            "Time taken as function of input size",
+            "Actual execution time",
+            "Memory used",
+            "Code length"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_47",
+        "category": "Complexity & Efficiency Awareness",
+        "question": "What does O(n) represent?",
+        "options": [
+            "Linear time complexity",
+            "Constant time",
+            "Quadratic time",
+            "Logarithmic time"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_48",
+        "category": "Complexity & Efficiency Awareness",
+        "question": "What does O(1) represent?",
+        "options": [
+            "Constant time",
+            "Linear time",
+            "Quadratic time",
+            "Logarithmic time"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_49",
+        "category": "Complexity & Efficiency Awareness",
+        "question": "What is space complexity?",
+        "options": [
+            "Memory used as function of input size",
+            "Time taken",
+            "Code length",
+            "Number of variables"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_50",
+        "category": "Complexity & Efficiency Awareness",
+        "question": "Which complexity is fastest growing?",
+        "options": [
+            "O(2^n)",
+            "O(n^2)",
+            "O(n log n)",
+            "O(log n)"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_51",
+        "category": "Problem Solving Using Programming",
+        "question": "What is a function in programming?",
+        "options": [
+            "Reusable block of code",
+            "Variable",
+            "Loop",
+            "Condition"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_52",
+        "category": "Problem Solving Using Programming",
+        "question": "What is a loop used for?",
+        "options": [
+            "Repeating code multiple times",
+            "Conditional execution",
+            "Function definition",
+            "Variable declaration"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_53",
+        "category": "Problem Solving Using Programming",
+        "question": "What is an array used for?",
+        "options": [
+            "Storing multiple items of same type",
+            "Storing single value",
+            "Function definition",
+            "Loop control"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_54",
+        "category": "Problem Solving Using Programming",
+        "question": "What is a conditional statement used for?",
+        "options": [
+            "Decision making based on condition",
+            "Repeating code",
+            "Defining function",
+            "Declaring variable"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_55",
+        "category": "Problem Solving Using Programming",
+        "question": "What is a recursive function?",
+        "options": [
+            "Function that calls itself",
+            "Function with loops",
+            "Function with no return",
+            "Built-in function"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_56",
+        "category": "Data-Driven Problem Solving",
+        "question": "What is data-driven decision making?",
+        "options": [
+            "Using data analysis to guide decisions",
+            "Guessing based on intuition",
+            "Ignoring data",
+            "Random choice"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_57",
+        "category": "Data-Driven Problem Solving",
+        "question": "What is a metric?",
+        "options": [
+            "Quantifiable measure",
+            "Random number",
+            "Subjective opinion",
+            "Guess"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_58",
+        "category": "Data-Driven Problem Solving",
+        "question": "What is correlation?",
+        "options": [
+            "Statistical relationship between variables",
+            "Causation",
+            "Random association",
+            "No relationship"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_59",
+        "category": "Data-Driven Problem Solving",
+        "question": "What is an outlier?",
+        "options": [
+            "Data point significantly different from others",
+            "Typical data point",
+            "Average value",
+            "Median value"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_60",
+        "category": "Data-Driven Problem Solving",
+        "question": "What is data visualization?",
+        "options": [
+            "Graphical representation of data",
+            "Raw data only",
+            "Text description",
+            "Mathematical formula"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_61",
+        "category": "Creative & Innovative Thinking",
+        "question": "What is brainstorming?",
+        "options": [
+            "Generating many ideas without judgment",
+            "Critiquing ideas immediately",
+            "Working alone",
+            "Following strict rules"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_62",
+        "category": "Creative & Innovative Thinking",
+        "question": "What is lateral thinking?",
+        "options": [
+            "Solving problems indirectly and creatively",
+            "Step-by-step logical approach",
+            "Memorizing facts",
+            "Random guessing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_63",
+        "category": "Creative & Innovative Thinking",
+        "question": "What is SCAMPER technique?",
+        "options": [
+            "Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse",
+            "Solve, Create, Analyze, Measure, Plan, Execute, Review",
+            "Study, Copy, Adapt, Make, Practice, Evaluate, Repeat",
+            "Select, Collect, Apply, Modify, Process, Evaluate, Report"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_64",
+        "category": "Creative & Innovative Thinking",
+        "question": "What is mind mapping?",
+        "options": [
+            "Visual diagram of ideas around central concept",
+            "Linear note taking",
+            "Random listing",
+            "Algorithm writing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_65",
+        "category": "Creative & Innovative Thinking",
+        "question": "What is thinking outside the box?",
+        "options": [
+            "Unconventional creative thinking",
+            "Following standard rules",
+            "Strict logical approach",
+            "Memorizing solutions"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_66",
+        "category": "Real-World Problem Solving",
+        "question": "What is a stakeholder in real-world problem?",
+        "options": [
+            "Person with interest in problem outcome",
+            "Only problem solver",
+            "Only customer",
+            "Only manager"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_67",
+        "category": "Real-World Problem Solving",
+        "question": "What is a feasibility study?",
+        "options": [
+            "Assessing if solution is practical",
+            "Implementing solution",
+            "Testing solution",
+            "Documenting solution"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_68",
+        "category": "Real-World Problem Solving",
+        "question": "What is a pilot test?",
+        "options": [
+            "Small-scale trial of solution",
+            "Full implementation",
+            "No testing",
+            "Theoretical analysis"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_69",
+        "category": "Real-World Problem Solving",
+        "question": "What is iterative development?",
+        "options": [
+            "Repeated cycles of improvement",
+            "One-time implementation",
+            "No changes",
+            "Random changes"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_70",
+        "category": "Real-World Problem Solving",
+        "question": "What is a constraint in real-world project?",
+        "options": [
+            "Limitation on time, cost, resources",
+            "Free parameter",
+            "Advantage",
+            "Opportunity"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_71",
+        "category": "Communication & Documentation of Solutions",
+        "question": "Why is documentation important?",
+        "options": [
+            "Explain solution for others and future reference",
+            "Waste of time",
+            "Only for managers",
+            "Not needed"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_72",
+        "category": "Communication & Documentation of Solutions",
+        "question": "What is a technical report?",
+        "options": [
+            "Structured document describing solution",
+            "Casual note",
+            "Email only",
+            "Verbal explanation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_73",
+        "category": "Communication & Documentation of Solutions",
+        "question": "What is an executive summary?",
+        "options": [
+            "Brief overview for decision makers",
+            "Detailed technical section",
+            "Code listing",
+            "Raw data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_74",
+        "category": "Communication & Documentation of Solutions",
+        "question": "What is pseudocode used for?",
+        "options": [
+            "Communicating algorithm in human-readable form",
+            "Executable code",
+            "Binary code",
+            "Machine code"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_75",
+        "category": "Communication & Documentation of Solutions",
+        "question": "What is a comment in code?",
+        "options": [
+            "Human-readable explanation within code",
+            "Executable instruction",
+            "Variable declaration",
+            "Loop statement"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_76",
+        "category": "Logical Reasoning Fundamentals",
+        "question": "All squares are rectangles. All rectangles are polygons. Therefore?",
+        "options": [
+            "All squares are polygons",
+            "No squares are polygons",
+            "Some squares are polygons",
+            "Cannot be determined"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_77",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "If 5 workers complete task in 8 days, how many days for 10 workers?",
+        "options": [
+            "4 days",
+            "5 days",
+            "6 days",
+            "16 days"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_78",
+        "category": "Pattern Recognition & Generalization",
+        "question": "What is next in series: A, C, E, G, ?",
+        "options": [
+            "H",
+            "I",
+            "J",
+            "K"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_79",
+        "category": "Algorithmic Thinking",
+        "question": "What is backtracking?",
+        "options": [
+            "Incremental search, undo when stuck",
+            "Always forward",
+            "Random search",
+            "Linear search"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_80",
+        "category": "Critical Thinking & Decision Making",
+        "question": "What is a false dilemma fallacy?",
+        "options": [
+            "Presenting only two options when more exist",
+            "False conclusion",
+            "Circular reasoning",
+            "Hasty generalization"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_81",
+        "category": "Debugging & Error Analysis",
+        "question": "What is rubber duck debugging?",
+        "options": [
+            "Explaining code to inanimate object to find errors",
+            "Using debugging tool",
+            "Print statements only",
+            "Random changes"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_82",
+        "category": "Complexity & Efficiency Awareness",
+        "question": "What does O(n^2) represent?",
+        "options": [
+            "Quadratic time complexity",
+            "Linear time",
+            "Constant time",
+            "Logarithmic time"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_83",
+        "category": "Problem Solving Using Programming",
+        "question": "What is a variable scope?",
+        "options": [
+            "Region where variable is accessible",
+            "Variable value",
+            "Variable type",
+            "Variable name"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_84",
+        "category": "Data-Driven Problem Solving",
+        "question": "What is mean (average)?",
+        "options": [
+            "Sum divided by count",
+            "Middle value",
+            "Most frequent value",
+            "Minimum value"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_85",
+        "category": "Creative & Innovative Thinking",
+        "question": "What is the Six Thinking Hats method?",
+        "options": [
+            "Different perspectives for thinking (De Bono)",
+            "Six different hats",
+            "Six people",
+            "Six problems"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_86",
+        "category": "Real-World Problem Solving",
+        "question": "What is a root cause?",
+        "options": [
+            "Underlying source of problem",
+            "Surface symptom",
+            "Quick fix",
+            "Temporary solution"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_87",
+        "category": "Communication & Documentation of Solutions",
+        "question": "What is version control?",
+        "options": [
+            "Tracking changes to documents/code",
+            "Controlling versions only",
+            "Deleting old versions",
+            "No tracking"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_88",
+        "category": "Logical Reasoning Fundamentals",
+        "question": "What is circular reasoning?",
+        "options": [
+            "Argument assuming what it tries to prove",
+            "Valid deduction",
+            "Inductive reasoning",
+            "Analogical reasoning"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_89",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "What is 10! (10 factorial)?",
+        "options": [
+            "100",
+            "1000",
+            "3628800",
+            "362880"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "ps_90",
+        "category": "Pattern Recognition & Generalization",
+        "question": "Complete pattern: 3, 6, 11, 18, ?",
+        "options": [
+            "24",
+            "25",
+            "26",
+            "27"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "ps_91",
+        "category": "Algorithmic Thinking",
+        "question": "What is the traveling salesman problem?",
+        "options": [
+            "Find shortest route visiting all cities",
+            "Sort cities",
+            "Find largest city",
+            "Random route"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_92",
+        "category": "Critical Thinking & Decision Making",
+        "question": "What is a decision matrix?",
+        "options": [
+            "Tool comparing options against criteria",
+            "Random choice tool",
+            "Simple list",
+            "Unstructured method"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_93",
+        "category": "Complexity & Efficiency Awareness",
+        "question": "What does O(log n) represent?",
+        "options": [
+            "Logarithmic time complexity",
+            "Linear time",
+            "Constant time",
+            "Quadratic time"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_94",
+        "category": "Problem Solving Using Programming",
+        "question": "What is the purpose of a return statement?",
+        "options": [
+            "Send value back from function",
+            "End program",
+            "Print output",
+            "Declare variable"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_95",
+        "category": "Data-Driven Problem Solving",
+        "question": "What is median?",
+        "options": [
+            "Middle value when sorted",
+            "Average",
+            "Most frequent value",
+            "Minimum value"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_96",
+        "category": "Real-World Problem Solving",
+        "question": "What is a post-implementation review?",
+        "options": [
+            "Evaluating solution after deployment",
+            "Before implementation",
+            "During design",
+            "No evaluation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_97",
+        "category": "Communication & Documentation of Solutions",
+        "question": "What is a user manual?",
+        "options": [
+            "Document explaining how to use solution",
+            "Technical design",
+            "Code listing",
+            "Marketing brochure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_98",
+        "category": "Logical Reasoning Fundamentals",
+        "question": "What is a syllogism?",
+        "options": [
+            "Logical argument with two premises and conclusion",
+            "Single statement",
+            "Question only",
+            "Random statement"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_99",
+        "category": "Mathematical & Quantitative Reasoning",
+        "question": "A shirt costs $40 after 20% discount. Original price?",
+        "options": [
+            "$48",
+            "$50",
+            "$52",
+            "$60"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_100",
+        "category": "Algorithmic Thinking",
+        "question": "What is branch and bound?",
+        "options": [
+            "Optimization algorithm pruning unpromising paths",
+            "Brute force",
+            "Random search",
+            "Greedy only"
+        ],
+        "answer": 0
+    }
+]

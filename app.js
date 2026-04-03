@@ -34,11 +34,11 @@ const categoryFiles = {
     "Computer Networks And Cloud Computing" : "data/cnAndCC.json",
     "Operating Systems": "data/operating_system.json",
     "Software Engineering": "data/software_engineering.json",
-    "AI / Machine Learning and Data Analytics": "data/ai_ml_and_data_analytics.json"
+    "AI / Machine Learning and Data Analytics": "data/ai_ml_and_data_analytics.json",
 
-    // "Databases": "data/databases.json",
-    // "Networking": "data/networking.json",
-    // "Cyber Security": "data/cyber-security.json"
+    "Databases": "data/databases.json",
+    "Problem Solving And Analytical Skills": "data/p_solving_and_analytical_skills.json",
+    "Cyber Security": "data/cyber_security.json"
 };
 
 // Keep your existing categories array for the UI
@@ -47,16 +47,13 @@ const categories = ["All",
      "Web Development",
      "Operating Systems",
      "Software Engineering",
-    // "Cyber Security",
      "Data Structure and Algorithms",
      "Programming C++ / Java / Python", 
-    "AI / Machine Learning and Data Analytics",
+     "AI / Machine Learning and Data Analytics",
+     "Problem Solving And Analytical Skills",
      "Computer Networks And Cloud Computing",
-
-    
-    // "Databases",
-    //  "Operating Systems", "Software Engineering",
-     
+    "Cyber Security",
+    "Databases",
 ];
 
 // --- 2. State Management ---
