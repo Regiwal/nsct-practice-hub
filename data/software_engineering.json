@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "se_1",
+        "category": "Introduction to Software Engineering",
+        "question": "What is software engineering?",
+        "options": [
+            "Writing code only",
+            "Systematic approach to software development, operation, and maintenance",
+            "Hardware design",
+            "Database management"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_2",
+        "category": "Introduction to Software Engineering",
+        "question": "What is the software crisis?",
+        "options": [
+            "Virus attacks",
+            "Projects exceeding budget, time, and poor quality",
+            "Shortage of programmers",
+            "Hardware failures"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_3",
+        "category": "Introduction to Software Engineering",
+        "question": "Which of the following is a software engineering code of ethics principle?",
+        "options": [
+            "Always write the fastest code",
+            "Public, client, product, judgment, management, profession, colleagues, self",
+            "Never use open source",
+            "Only work alone"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_4",
+        "category": "Software Process Models",
+        "question": "Which software process model has phases: Requirements, Design, Implementation, Testing, Maintenance?",
+        "options": [
+            "Agile",
+            "Waterfall",
+            "Spiral",
+            "V-Model"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_5",
+        "category": "Software Process Models",
+        "question": "What is the main disadvantage of the Waterfall model?",
+        "options": [
+            "Too many phases",
+            "Difficult to go back to previous phase",
+            "No documentation",
+            "Too fast"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_6",
+        "category": "Software Process Models",
+        "question": "Which model combines prototyping with Waterfall and emphasizes risk analysis?",
+        "options": [
+            "Agile",
+            "Spiral model",
+            "V-Model",
+            "Incremental model"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_7",
+        "category": "Software Process Models",
+        "question": "What does the V-Model emphasize?",
+        "options": [
+            "Verification and validation",
+            "Speed of development",
+            "Low cost",
+            "Minimal documentation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_8",
+        "category": "Software Process Models",
+        "question": "Which model delivers software in small, usable increments?",
+        "options": [
+            "Waterfall",
+            "Spiral",
+            "Incremental model",
+            "Big bang"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "se_9",
+        "category": "Software Process Models",
+        "question": "What is the RAD model?",
+        "options": [
+            "Rapid Application Development",
+            "Random Access Development",
+            "Requirement Analysis Document",
+            "Regression Application Debugging"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_10",
+        "category": "Software Process Models",
+        "question": "Which model is best for projects with unclear requirements?",
+        "options": [
+            "Waterfall",
+            "Prototyping model",
+            "V-Model",
+            "Big bang"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_11",
+        "category": "Agile Software Development",
+        "question": "What is the Agile Manifesto's highest priority?",
+        "options": [
+            "Following a plan",
+            "Comprehensive documentation",
+            "Customer satisfaction through early delivery",
+            "Contract negotiation"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "se_12",
+        "category": "Agile Software Development",
+        "question": "What is Scrum?",
+        "options": [
+            "A programming language",
+            "An Agile framework for project management",
+            "A testing tool",
+            "A database"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_13",
+        "category": "Agile Software Development",
+        "question": "What is a Sprint in Scrum?",
+        "options": [
+            "A bug fix",
+            "A time-boxed development cycle (usually 2-4 weeks)",
+            "A meeting",
+            "A documentation phase"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_14",
+        "category": "Agile Software Development",
+        "question": "What are the three roles in Scrum?",
+        "options": [
+            "Developer, Tester, Manager",
+            "Product Owner, Scrum Master, Development Team",
+            "Analyst, Designer, Programmer",
+            "CEO, CTO, CIO"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_15",
+        "category": "Agile Software Development",
+        "question": "What is a User Story?",
+        "options": [
+            "Bug report",
+            "Short description of a feature from user perspective",
+            "Technical specification",
+            "Test case"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_16",
+        "category": "Software Requirements Engineering",
+        "question": "What is a functional requirement?",
+        "options": [
+            "System's speed",
+            "What the system should do",
+            "Usability",
+            "Security"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_17",
+        "category": "Software Requirements Engineering",
+        "question": "What is a non-functional requirement?",
+        "options": [
+            "Feature description",
+            "Quality attributes like performance, security, usability",
+            "User login",
+            "Database schema"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_18",
+        "category": "Software Requirements Engineering",
+        "question": "What is a Software Requirements Specification (SRS)?",
+        "options": [
+            "Code documentation",
+            "Official document describing system requirements",
+            "Test plan",
+            "User manual"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_19",
+        "category": "Software Requirements Engineering",
+        "question": "What is requirements validation?",
+        "options": [
+            "Writing requirements",
+            "Checking requirements for correctness, completeness, consistency",
+            "Implementing requirements",
+            "Testing requirements"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_20",
+        "category": "Software Requirements Engineering",
+        "question": "What is a stakeholder?",
+        "options": [
+            "Anyone with interest in the software project",
+            "Only developers",
+            "Only customers",
+            "Only managers"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_21",
+        "category": "Software Project Management",
+        "question": "What is a Gantt chart used for?",
+        "options": [
+            "Code review",
+            "Project scheduling and tracking",
+            "Bug tracking",
+            "Requirements gathering"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_22",
+        "category": "Software Project Management",
+        "question": "What does COCOMO stand for?",
+        "options": [
+            "Constructive Cost Model",
+            "Computer Cost Model",
+            "Code Cost Model",
+            "Component Cost Model"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_23",
+        "category": "Software Project Management",
+        "question": "What is the critical path in project management?",
+        "options": [
+            "Longest path determining minimum project duration",
+            "Shortest path",
+            "Path with most bugs",
+            "Testing path"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_24",
+        "category": "Software Project Management",
+        "question": "What is earned value management (EVM)?",
+        "options": [
+            "Project performance measurement technique",
+            "Salary management",
+            "Code quality metric",
+            "Testing metric"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_25",
+        "category": "Software Project Management",
+        "question": "What is a Work Breakdown Structure (WBS)?",
+        "options": [
+            "Hierarchical decomposition of project work",
+            "Bug list",
+            "Code structure",
+            "Database schema"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_26",
+        "category": "Software Design",
+        "question": "What is coupling in software design?",
+        "options": [
+            "Dependency between modules",
+            "Internal strength of module",
+            "Module size",
+            "Code complexity"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_27",
+        "category": "Software Design",
+        "question": "What is cohesion?",
+        "options": [
+            "Dependency between modules",
+            "How well module's elements belong together",
+            "Module size",
+            "Testing coverage"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_28",
+        "category": "Software Design",
+        "question": "What is modularity?",
+        "options": [
+            "Dividing software into separate modules",
+            "Single large file",
+            "No structure",
+            "Hardware design"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_29",
+        "category": "Software Design",
+        "question": "What is the Open-Closed Principle?",
+        "options": [
+            "Open for extension, closed for modification",
+            "Open source, closed source",
+            "Open to all, closed to none",
+            "Open testing, closed development"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_30",
+        "category": "Software Design",
+        "question": "What is information hiding?",
+        "options": [
+            "No documentation",
+            "Hiding implementation details within a module",
+            "Encrypting code",
+            "Security through obscurity"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_31",
+        "category": "Software Architecture",
+        "question": "What is the Model-View-Controller (MVC) pattern?",
+        "options": [
+            "Architectural pattern separating data, UI, and control logic",
+            "Database pattern",
+            "Testing pattern",
+            "Security pattern"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_32",
+        "category": "Software Architecture",
+        "question": "What is a client-server architecture?",
+        "options": [
+            "Clients request services from server",
+            "Peer to peer",
+            "Single computer",
+            "No structure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_33",
+        "category": "Software Architecture",
+        "question": "What is a layered architecture?",
+        "options": [
+            "System organized in layers, each providing services to layer above",
+            "Single layer",
+            "Random structure",
+            "Flat structure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_34",
+        "category": "Software Architecture",
+        "question": "What is microservices architecture?",
+        "options": [
+            "Small, independent services communicating via APIs",
+            "Single large service",
+            "Hardware service",
+            "Database service"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_35",
+        "category": "Software Architecture",
+        "question": "What is a design pattern?",
+        "options": [
+            "Reusable solution to common design problem",
+            "Bug pattern",
+            "Code style",
+            "Documentation template"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_36",
+        "category": "User Interface Design",
+        "question": "What is usability?",
+        "options": [
+            "How easy and efficient software is to use",
+            "How fast software runs",
+            "How secure software is",
+            "How much memory it uses"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_37",
+        "category": "User Interface Design",
+        "question": "What is a prototype in UI design?",
+        "options": [
+            "Working version of the system",
+            "Early model for user feedback",
+            "Final product",
+            "Documentation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_38",
+        "category": "User Interface Design",
+        "question": "What is user experience (UX)?",
+        "options": [
+            "Overall experience of user with product",
+            "Only visual design",
+            "Only performance",
+            "Only security"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_39",
+        "category": "User Interface Design",
+        "question": "What is accessibility in UI?",
+        "options": [
+            "Making software usable for people with disabilities",
+            "Fast loading",
+            "Attractive colors",
+            "Low cost"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_40",
+        "category": "User Interface Design",
+        "question": "What is heuristic evaluation?",
+        "options": [
+            "Usability inspection method using established principles",
+            "User survey",
+            "Performance test",
+            "Code review"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_41",
+        "category": "Software Implementation & Coding",
+        "question": "What is coding standards?",
+        "options": [
+            "Set of guidelines for writing code",
+            "Compiler settings",
+            "Hardware requirements",
+            "Testing rules"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_42",
+        "category": "Software Implementation & Coding",
+        "question": "What is a code review?",
+        "options": [
+            "Automated testing",
+            "Manual examination of code by peers",
+            "Code compilation",
+            "Code deployment"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_43",
+        "category": "Software Implementation & Coding",
+        "question": "What is refactoring?",
+        "options": [
+            "Restructuring code without changing behavior",
+            "Rewriting from scratch",
+            "Adding new features",
+            "Removing comments"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_44",
+        "category": "Software Implementation & Coding",
+        "question": "What is technical debt?",
+        "options": [
+            "Cost of future rework due to quick fixes",
+            "Hardware cost",
+            "License cost",
+            "Developer salary"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_45",
+        "category": "Software Implementation & Coding",
+        "question": "What is continuous integration?",
+        "options": [
+            "Frequently merging code changes into main branch",
+            "One time integration",
+            "Manual integration",
+            "No integration"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_46",
+        "category": "Software Testing",
+        "question": "What is unit testing?",
+        "options": [
+            "Testing individual components",
+            "Testing entire system",
+            "Testing UI",
+            "Testing performance"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_47",
+        "category": "Software Testing",
+        "question": "What is integration testing?",
+        "options": [
+            "Testing how modules work together",
+            "Testing single module",
+            "Testing user interface",
+            "Testing security"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_48",
+        "category": "Software Testing",
+        "question": "What is system testing?",
+        "options": [
+            "Testing complete integrated system",
+            "Testing single function",
+            "Testing documentation",
+            "Testing only database"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_49",
+        "category": "Software Testing",
+        "question": "What is acceptance testing?",
+        "options": [
+            "Testing by end users to see if system meets requirements",
+            "Testing by developers",
+            "Automated testing",
+            "Performance testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_50",
+        "category": "Software Testing",
+        "question": "What is regression testing?",
+        "options": [
+            "Retesting after changes to ensure no new bugs",
+            "Testing for first time",
+            "Testing only new features",
+            "Testing performance"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_51",
+        "category": "Software Testing",
+        "question": "What is black-box testing?",
+        "options": [
+            "Testing without knowledge of internal code",
+            "Testing with full code knowledge",
+            "Testing only UI",
+            "Testing only database"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_52",
+        "category": "Software Testing",
+        "question": "What is white-box testing?",
+        "options": [
+            "Testing with knowledge of internal code",
+            "Testing without code knowledge",
+            "Testing only by users",
+            "Automated testing only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_53",
+        "category": "Software Testing",
+        "question": "What is a test case?",
+        "options": [
+            "Set of inputs and expected outputs",
+            "Bug report",
+            "Code file",
+            "Documentation"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_54",
+        "category": "Software Testing",
+        "question": "What is test-driven development (TDD)?",
+        "options": [
+            "Write test before code",
+            "Write code before test",
+            "No testing",
+            "Test after deployment"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_55",
+        "category": "Software Testing",
+        "question": "What is a bug?",
+        "options": [
+            "Error in software causing incorrect behavior",
+            "Feature request",
+            "Documentation error",
+            "Hardware failure"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_56",
+        "category": "Software Maintenance & Evolution",
+        "question": "What is corrective maintenance?",
+        "options": [
+            "Fixing bugs",
+            "Adding new features",
+            "Adapting to new environment",
+            "Improving performance"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_57",
+        "category": "Software Maintenance & Evolution",
+        "question": "What is adaptive maintenance?",
+        "options": [
+            "Fixing bugs",
+            "Adapting to new platforms or environments",
+            "Adding new features",
+            "Code refactoring"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_58",
+        "category": "Software Maintenance & Evolution",
+        "question": "What is perfective maintenance?",
+        "options": [
+            "Improving performance or maintainability",
+            "Fixing bugs",
+            "Adapting to new environment",
+            "Security fixes"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_59",
+        "category": "Software Maintenance & Evolution",
+        "question": "What is preventive maintenance?",
+        "options": [
+            "Making changes to prevent future problems",
+            "Fixing current bugs",
+            "Adding features",
+            "Removing features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_60",
+        "category": "Software Maintenance & Evolution",
+        "question": "What is software evolution?",
+        "options": [
+            "Software changing over time",
+            "Software never changes",
+            "Only bug fixes",
+            "Only new features"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_61",
+        "category": "Software Quality Assurance",
+        "question": "What is quality assurance (QA)?",
+        "options": [
+            "Process to ensure quality standards are met",
+            "Testing only",
+            "Debugging only",
+            "Documentation only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_62",
+        "category": "Software Quality Assurance",
+        "question": "What is ISO 9001?",
+        "options": [
+            "Quality management standard",
+            "Programming language",
+            "Testing tool",
+            "Hardware standard"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_63",
+        "category": "Software Quality Assurance",
+        "question": "What is CMMI?",
+        "options": [
+            "Capability Maturity Model Integration",
+            "Code Management Model",
+            "Component Maturity Index",
+            "Configuration Management Interface"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_64",
+        "category": "Software Quality Assurance",
+        "question": "What is a quality audit?",
+        "options": [
+            "Systematic examination of quality processes",
+            "Code review",
+            "Performance test",
+            "Security scan"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_65",
+        "category": "Software Quality Assurance",
+        "question": "What is Six Sigma?",
+        "options": [
+            "Quality improvement methodology",
+            "Testing tool",
+            "Programming paradigm",
+            "Database system"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_66",
+        "category": "Software Metrics & Measurement",
+        "question": "What is Lines of Code (LOC) metric?",
+        "options": [
+            "Measure of code size",
+            "Measure of quality",
+            "Measure of speed",
+            "Measure of security"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_67",
+        "category": "Software Metrics & Measurement",
+        "question": "What is Cyclomatic Complexity?",
+        "options": [
+            "Measure of code complexity based on control flow",
+            "Lines of code",
+            "Number of bugs",
+            "Test coverage"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_68",
+        "category": "Software Metrics & Measurement",
+        "question": "What is function point analysis?",
+        "options": [
+            "Measure of functionality from user perspective",
+            "Lines of code",
+            "Number of functions",
+            "Test cases"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_69",
+        "category": "Software Metrics & Measurement",
+        "question": "What is code coverage?",
+        "options": [
+            "Percentage of code executed during testing",
+            "Lines of code",
+            "Number of tests",
+            "Bugs found"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_70",
+        "category": "Software Metrics & Measurement",
+        "question": "What is mean time between failures (MTBF)?",
+        "options": [
+            "Average time between system failures",
+            "Time to fix bug",
+            "Time to deploy",
+            "Test duration"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_71",
+        "category": "Software Configuration Management",
+        "question": "What is version control?",
+        "options": [
+            "Managing changes to source code",
+            "Managing hardware",
+            "Managing users",
+            "Managing licenses"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_72",
+        "category": "Software Configuration Management",
+        "question": "What is Git?",
+        "options": [
+            "Distributed version control system",
+            "Testing tool",
+            "Build tool",
+            "IDE"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_73",
+        "category": "Software Configuration Management",
+        "question": "What is a commit in version control?",
+        "options": [
+            "Save changes to repository",
+            "Delete changes",
+            "Create branch",
+            "Merge branches"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_74",
+        "category": "Software Configuration Management",
+        "question": "What is branching in version control?",
+        "options": [
+            "Creating separate line of development",
+            "Deleting code",
+            "Merging code",
+            "Tagging version"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_75",
+        "category": "Software Configuration Management",
+        "question": "What is a baseline in configuration management?",
+        "options": [
+            "Formally approved version of configuration item",
+            "Latest code",
+            "Bug report",
+            "Test plan"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_76",
+        "category": "Software Risk Management",
+        "question": "What is risk identification?",
+        "options": [
+            "Finding potential risks",
+            "Fixing risks",
+            "Ignoring risks",
+            "Reporting risks"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_77",
+        "category": "Software Risk Management",
+        "question": "What is risk probability?",
+        "options": [
+            "Likelihood of risk occurring",
+            "Impact of risk",
+            "Cost of risk",
+            "Time of risk"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_78",
+        "category": "Software Risk Management",
+        "question": "What is risk impact?",
+        "options": [
+            "Consequence if risk occurs",
+            "Probability of risk",
+            "Risk category",
+            "Risk owner"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_79",
+        "category": "Software Risk Management",
+        "question": "What is risk mitigation?",
+        "options": [
+            "Actions to reduce risk probability or impact",
+            "Ignoring risk",
+            "Accepting risk",
+            "Reporting risk"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_80",
+        "category": "Software Risk Management",
+        "question": "What is a risk contingency plan?",
+        "options": [
+            "Plan if risk occurs",
+            "Plan to prevent risk",
+            "Risk identification",
+            "Risk analysis"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_81",
+        "category": "Software Security Engineering",
+        "question": "What is secure coding?",
+        "options": [
+            "Writing code resistant to vulnerabilities",
+            "Fast code",
+            "Short code",
+            "Documented code"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_82",
+        "category": "Software Security Engineering",
+        "question": "What is threat modeling?",
+        "options": [
+            "Identifying potential security threats",
+            "Writing secure code",
+            "Testing security",
+            "Deploying security"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_83",
+        "category": "Software Security Engineering",
+        "question": "What is input validation?",
+        "options": [
+            "Checking user input to prevent injection attacks",
+            "Validating output",
+            "Validating database",
+            "Validating network"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_84",
+        "category": "Software Security Engineering",
+        "question": "What is authentication?",
+        "options": [
+            "Verifying user identity",
+            "Authorizing actions",
+            "Encrypting data",
+            "Logging activities"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_85",
+        "category": "Software Security Engineering",
+        "question": "What is authorization?",
+        "options": [
+            "Determining what user can access",
+            "Verifying identity",
+            "Encrypting data",
+            "Backing up data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_86",
+        "category": "Software Process Models",
+        "question": "What is the Unified Process?",
+        "options": [
+            "Iterative software development process",
+            "Waterfall variant",
+            "Agile framework",
+            "Testing process"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_87",
+        "category": "Agile Software Development",
+        "question": "What is Kanban?",
+        "options": [
+            "Visual workflow management method",
+            "Testing framework",
+            "Programming language",
+            "Database"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_88",
+        "category": "Software Requirements Engineering",
+        "question": "What is a use case?",
+        "options": [
+            "Description of system interaction with actors",
+            "Test case",
+            "Bug report",
+            "Code module"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_89",
+        "category": "Software Design",
+        "question": "What is the Single Responsibility Principle?",
+        "options": [
+            "Class should have only one reason to change",
+            "Class should do everything",
+            "No inheritance",
+            "No interfaces"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_90",
+        "category": "Software Architecture",
+        "question": "What is the repository architecture pattern?",
+        "options": [
+            "Central data store accessible by all components",
+            "Client-server",
+            "Peer-to-peer",
+            "Layered"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_91",
+        "category": "Software Testing",
+        "question": "What is alpha testing?",
+        "options": [
+            "Internal testing by development team",
+            "Testing by end users at developer site",
+            "Testing by external users",
+            "Automated testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_92",
+        "category": "Software Testing",
+        "question": "What is beta testing?",
+        "options": [
+            "Testing by real users in real environment",
+            "Internal team testing",
+            "Automated testing",
+            "Unit testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_93",
+        "category": "Software Quality Assurance",
+        "question": "What is total quality management (TQM)?",
+        "options": [
+            "Organization-wide quality approach",
+            "Testing only",
+            "Development only",
+            "Management only"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_94",
+        "category": "Software Metrics & Measurement",
+        "question": "What is McCabe's cyclomatic complexity formula?",
+        "options": [
+            "E - N + 2P",
+            "Lines of code",
+            "Number of functions",
+            "Test count"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_95",
+        "category": "Software Configuration Management",
+        "question": "What is a pull request?",
+        "options": [
+            "Request to merge changes from one branch to another",
+            "Request to delete branch",
+            "Request to create branch",
+            "Request to tag version"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_96",
+        "category": "Software Risk Management",
+        "question": "What is risk avoidance?",
+        "options": [
+            "Changing plan to eliminate risk",
+            "Accepting risk",
+            "Transferring risk",
+            "Mitigating risk"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_97",
+        "category": "Software Security Engineering",
+        "question": "What is encryption?",
+        "options": [
+            "Converting data to unreadable format",
+            "Compressing data",
+            "Backing up data",
+            "Validating data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_98",
+        "category": "Software Security Engineering",
+        "question": "What is OWASP?",
+        "options": [
+            "Open Web Application Security Project",
+            "Open Source Web Protocol",
+            "Object Web Application Security",
+            "Open Workflow Application Security"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_99",
+        "category": "Software Maintenance & Evolution",
+        "question": "What is legacy system?",
+        "options": [
+            "Old system still in use",
+            "New system",
+            "Test system",
+            "Documentation system"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_100",
+        "category": "Software Project Management",
+        "question": "What is a PERT chart?",
+        "options": [
+            "Project evaluation and review technique for scheduling",
+            "Bug tracking tool",
+            "Code review tool",
+            "Testing framework"
+        ],
+        "answer": 0
+    }
+]
