@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "cs_cn_1",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "Which OSI layer handles routing and logical addressing?",
+        "options": [
+            "Data Link",
+            "Network",
+            "Transport",
+            "Physical"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cs_cn_2",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "Which protocol resolves IP addresses to MAC addresses?",
+        "options": [
+            "DNS",
+            "DHCP",
+            "ARP",
+            "FTP"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cs_cn_3",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "What is the standard port number for HTTPS?",
+        "options": [
+            "80",
+            "21",
+            "443",
+            "25"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cs_cn_4",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "Which topology connects all devices to a central hub or switch?",
+        "options": [
+            "Ring",
+            "Mesh",
+            "Star",
+            "Bus"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cs_cn_5",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "In cloud computing, AWS EC2 is an example of which service model?",
+        "options": [
+            "SaaS",
+            "PaaS",
+            "IaaS",
+            "DaaS"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cs_cn_6",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "Which IP address class is 192.168.1.1?",
+        "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cs_cn_7",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "What layer provides end-to-end reliable data delivery and error recovery?",
+        "options": [
+            "Transport Layer",
+            "Session Layer",
+            "Network Layer",
+            "Application Layer"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "cs_cn_8",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "Which wireless standard is known as Wi-Fi 6?",
+        "options": [
+            "802.11ac",
+            "802.11ax",
+            "802.11n",
+            "802.11g"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "cs_cn_9",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "Which network security mechanism controls incoming and outgoing network traffic based on rules?",
+        "options": [
+            "Antivirus",
+            "Switch",
+            "Firewall",
+            "Router"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "cs_cn_10",
+        "category": "Computer Networks and Cloud Computing",
+        "question": "A subnet mask of 255.255.255.0 is typically associated with which prefix length?",
+        "options": [
+            "/8",
+            "/16",
+            "/24",
+            "/32"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "prog_1",
+        "category": "Programming (C++/Java/Python)",
+        "question": "Which programming concept allows a subclass to provide a specific implementation of a method defined in its superclass?",
+        "options": [
+            "Overloading",
+            "Overriding",
+            "Encapsulation",
+            "Abstraction"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "prog_2",
+        "category": "Programming (C++/Java/Python)",
+        "question": "In Python, which data structure is immutable?",
+        "options": [
+            "List",
+            "Dictionary",
+            "Set",
+            "Tuple"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "prog_3",
+        "category": "Programming (C++/Java/Python)",
+        "question": "What is a 'memory leak' in C++?",
+        "options": [
+            "Dividing by zero",
+            "Failing to deallocate dynamically allocated memory",
+            "Accessing an array out of bounds",
+            "A hardware failure"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "prog_4",
+        "category": "Programming (C++/Java/Python)",
+        "question": "In Java, which keyword is used to prevent a class from being inherited?",
+        "options": [
+            "static",
+            "abstract",
+            "final",
+            "void"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "prog_5",
+        "category": "Programming (C++/Java/Python)",
+        "question": "Which operator is used for logical AND in C++ and Java?",
+        "options": [
+            "||",
+            "&&",
+            "!",
+            "&"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "prog_6",
+        "category": "Programming (C++/Java/Python)",
+        "question": "What does the len() function do in Python?",
+        "options": [
+            "Returns the memory size of an object",
+            "Returns the number of items in an object",
+            "Deletes an object",
+            "Reverses a list"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "prog_7",
+        "category": "Programming (C++/Java/Python)",
+        "question": "Which of the following is an entry-controlled loop?",
+        "options": [
+            "do-while loop",
+            "switch statement",
+            "while loop",
+            "goto statement"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "prog_8",
+        "category": "Programming (C++/Java/Python)",
+        "question": "In OOP, combining data and functions into a single unit is called:",
+        "options": [
+            "Inheritance",
+            "Polymorphism",
+            "Encapsulation",
+            "Instantiation"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "prog_9",
+        "category": "Programming (C++/Java/Python)",
+        "question": "Which exception is thrown when dividing an integer by zero in Java?",
+        "options": [
+            "NullPointerException",
+            "ArithmeticException",
+            "ArrayIndexOutOfBoundsException",
+            "NumberFormatException"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "prog_10",
+        "category": "Programming (C++/Java/Python)",
+        "question": "What is the output of 3 ** 2 in Python?",
+        "options": [
+            "6",
+            "9",
+            "5",
+            "1"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_1",
+        "category": "Data Structures & Algorithms",
+        "question": "What is the time complexity of searching an element in a balanced Binary Search Tree?",
+        "options": [
+            "O(1)",
+            "O(N)",
+            "O(log N)",
+            "O(N^2)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_2",
+        "category": "Data Structures & Algorithms",
+        "question": "Which data structure is best for implementing a breadth-first search (BFS)?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_3",
+        "category": "Data Structures & Algorithms",
+        "question": "In a hash table, what is the term for when two keys map to the same index?",
+        "options": [
+            "Collision",
+            "Overload",
+            "Overflow",
+            "Mapping error"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "dsa_4",
+        "category": "Data Structures & Algorithms",
+        "question": "What is the worst-case time complexity of Merge Sort?",
+        "options": [
+            "O(N)",
+            "O(N log N)",
+            "O(N^2)",
+            "O(1)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_5",
+        "category": "Data Structures & Algorithms",
+        "question": "Which algorithmic technique solves a problem by breaking it into overlapping subproblems and storing the results?",
+        "options": [
+            "Greedy Algorithm",
+            "Divide and Conquer",
+            "Dynamic Programming",
+            "Backtracking"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_6",
+        "category": "Data Structures & Algorithms",
+        "question": "A graph where every edge is directed from one vertex to another is a:",
+        "options": [
+            "Undirected graph",
+            "Weighted graph",
+            "Directed graph",
+            "Bipartite graph"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "dsa_7",
+        "category": "Data Structures & Algorithms",
+        "question": "The pre-order traversal of a binary tree visits nodes in what order?",
+        "options": [
+            "Left, Right, Root",
+            "Root, Left, Right",
+            "Left, Root, Right",
+            "Root, Right, Left"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_8",
+        "category": "Data Structures & Algorithms",
+        "question": "Which of the following is a non-linear data structure?",
+        "options": [
+            "Array",
+            "Linked List",
+            "Stack",
+            "Tree"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "dsa_9",
+        "category": "Data Structures & Algorithms",
+        "question": "Dijkstra's Algorithm is used to find:",
+        "options": [
+            "Minimum Spanning Tree",
+            "Shortest path from a single source",
+            "Maximum flow",
+            "Longest common subsequence"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "dsa_10",
+        "category": "Data Structures & Algorithms",
+        "question": "What data structure uses a Last-In-First-Out (LIFO) order?",
+        "options": [
+            "Queue",
+            "Array",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_1",
+        "category": "Operating Systems",
+        "question": "Which OS component manages the execution of processes and CPU scheduling?",
+        "options": [
+            "File System",
+            "Kernel",
+            "Shell",
+            "Bootloader"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_2",
+        "category": "Operating Systems",
+        "question": "In CPU scheduling, what does 'Round Robin' rely on?",
+        "options": [
+            "Priority values",
+            "Time quantums (slices)",
+            "Shortest job length",
+            "First-come-first-serve order"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "os_3",
+        "category": "Operating Systems",
+        "question": "What technique allows a process to be larger than the available physical memory?",
+        "options": [
+            "Caching",
+            "Paging",
+            "Virtual Memory",
+            "Direct Memory Access (DMA)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_4",
+        "category": "Operating Systems",
+        "question": "A situation where two processes are waiting indefinitely for each other to release resources is called:",
+        "options": [
+            "Starvation",
+            "Race Condition",
+            "Deadlock",
+            "Mutual Exclusion"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "os_5",
+        "category": "Operating Systems",
+        "question": "Which synchronization tool is used to control access to shared resources using an integer variable?",
+        "options": [
+            "Monitor",
+            "Mutex",
+            "Semaphore",
+            "Thread"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "se_1",
+        "category": "Software Engineering",
+        "question": "In the SDLC, which phase involves gathering what the system needs to do?",
+        "options": [
+            "Design",
+            "Testing",
+            "Implementation",
+            "Requirements Engineering"
+        ],
+        "answer": 3
+    },
+    {
+        "id": "se_2",
+        "category": "Software Engineering",
+        "question": "Which process model assumes requirements are fully understood before design begins and flows sequentially?",
+        "options": [
+            "Agile",
+            "Waterfall",
+            "Spiral",
+            "Scrum"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_3",
+        "category": "Software Engineering",
+        "question": "What is the primary purpose of UML (Unified Modeling Language)?",
+        "options": [
+            "Writing backend code",
+            "Visually designing and documenting software architecture",
+            "Managing databases",
+            "Running unit tests"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_4",
+        "category": "Software Engineering",
+        "question": "In Agile, what is a short, time-boxed period to complete a set amount of work called?",
+        "options": [
+            "Epoch",
+            "Milestone",
+            "Sprint",
+            "Phase"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "se_5",
+        "category": "Software Engineering",
+        "question": "Black-box testing focuses on:",
+        "options": [
+            "Internal code logic",
+            "System inputs and expected outputs",
+            "Memory leaks",
+            "Algorithm complexity"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_6",
+        "category": "Software Engineering",
+        "question": "Which architectural pattern separates an application into Data, User Interface, and Control Logic?",
+        "options": [
+            "Client-Server",
+            "Microservices",
+            "MVC (Model-View-Controller)",
+            "Peer-to-Peer"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "se_7",
+        "category": "Software Engineering",
+        "question": "Software maintenance performed to adapt the software to a changing environment is called:",
+        "options": [
+            "Corrective maintenance",
+            "Adaptive maintenance",
+            "Perfective maintenance",
+            "Preventive maintenance"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_8",
+        "category": "Software Engineering",
+        "question": "Git is an example of which software engineering practice?",
+        "options": [
+            "Version Control / Configuration Management",
+            "Requirement Elicitation",
+            "Threat Modeling",
+            "Unit Testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "se_9",
+        "category": "Software Engineering",
+        "question": "What metric measures the number of independent paths through a program's source code?",
+        "options": [
+            "Lines of Code (LOC)",
+            "Cyclomatic Complexity",
+            "Code Churn",
+            "Function Points"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "se_10",
+        "category": "Software Engineering",
+        "question": "Ensuring that changes in one part of the software do not break existing functionality is the goal of:",
+        "options": [
+            "Regression Testing",
+            "Acceptance Testing",
+            "Integration Testing",
+            "Alpha Testing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_1",
+        "category": "Web Development",
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<nav>"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_2",
+        "category": "Web Development",
+        "question": "In CSS, how do you select an element with the id 'header'?",
+        "options": [
+            ".header",
+            "*header",
+            "#header",
+            "header"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_3",
+        "category": "Web Development",
+        "question": "Which JavaScript keyword is used to declare a block-scoped variable that can be reassigned?",
+        "options": [
+            "var",
+            "const",
+            "let",
+            "int"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_4",
+        "category": "Web Development",
+        "question": "Which of the following is a popular frontend JavaScript library developed by Facebook?",
+        "options": [
+            "Angular",
+            "Vue",
+            "React",
+            "Django"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_5",
+        "category": "Web Development",
+        "question": "What does the 'DOM' stand for in web development?",
+        "options": [
+            "Data Object Model",
+            "Document Object Model",
+            "Display Output Management",
+            "Dynamic Object Module"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_6",
+        "category": "Web Development",
+        "question": "Which HTTP status code indicates 'Not Found'?",
+        "options": [
+            "200",
+            "403",
+            "404",
+            "500"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_7",
+        "category": "Web Development",
+        "question": "Which architecture style relies on stateless, cacheable communications using standard HTTP methods?",
+        "options": [
+            "SOAP",
+            "REST",
+            "GraphQL",
+            "gRPC"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "web_8",
+        "category": "Web Development",
+        "question": "Cross-Site Scripting (XSS) is a vulnerability where:",
+        "options": [
+            "Attackers inject malicious scripts into web pages viewed by other users",
+            "Attackers manipulate SQL queries",
+            "Attackers flood the server with traffic",
+            "Attackers intercept network packets"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "web_9",
+        "category": "Web Development",
+        "question": "Which backend runtime environment is built on Chrome's V8 JavaScript engine?",
+        "options": [
+            "Flask",
+            "Spring Boot",
+            "Node.js",
+            "Laravel"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "web_10",
+        "category": "Web Development",
+        "question": "What is the primary purpose of CSS Media Queries?",
+        "options": [
+            "Fetching data from an API",
+            "Creating responsive designs that adapt to different screen sizes",
+            "Managing database connections",
+            "Animating HTML canvas elements"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_1",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "Predicting a continuous numerical value, such as a house price, is an example of:",
+        "options": [
+            "Classification",
+            "Clustering",
+            "Regression",
+            "Dimensionality Reduction"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "aiml_2",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "Which Python library is widely used for data manipulation and analysis using DataFrames?",
+        "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Pandas",
+            "Flask"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "aiml_3",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "K-Means is an algorithm primarily used for:",
+        "options": [
+            "Supervised classification",
+            "Unsupervised clustering",
+            "Natural Language Processing",
+            "Reinforcement learning"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_4",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "In deep learning, what function introduces non-linearity to a neural network?",
+        "options": [
+            "Cost function",
+            "Loss function",
+            "Activation function",
+            "Optimization function"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "aiml_5",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "Which technique combines multiple weak machine learning models to create a single strong model (e.g., Random Forest)?",
+        "options": [
+            "Cross-validation",
+            "Feature scaling",
+            "Ensemble Learning",
+            "Transfer Learning"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "aiml_6",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "What does 'EDA' stand for in data analytics?",
+        "options": [
+            "Electronic Data Automation",
+            "Exploratory Data Analysis",
+            "Essential Data Architecture",
+            "Evaluated Decision Algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_7",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "Overfitting in machine learning occurs when a model:",
+        "options": [
+            "Performs well on training data but poorly on unseen test data",
+            "Performs poorly on both training and test data",
+            "Is too simple to capture underlying patterns",
+            "Lacks sufficient training data"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "aiml_8",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "Which field of AI focuses on enabling machines to interpret and understand visual information from the world?",
+        "options": [
+            "Natural Language Processing",
+            "Computer Vision",
+            "Expert Systems",
+            "Speech Recognition"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_9",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "What is the purpose of a confusion matrix?",
+        "options": [
+            "To clean missing data",
+            "To evaluate the performance of a classification model",
+            "To train a neural network",
+            "To reduce the dimensionality of a dataset"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "aiml_10",
+        "category": "AI / Machine Learning and Data Analytics",
+        "question": "Tokenization and stemming are common pre-processing steps in:",
+        "options": [
+            "Image Recognition",
+            "Time Series Forecasting",
+            "Natural Language Processing (NLP)",
+            "Reinforcement Learning"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "sec_1",
+        "category": "Cyber Security",
+        "question": "The 'CIA Triad' in information security stands for:",
+        "options": [
+            "Confidentiality, Integrity, Availability",
+            "Control, Identity, Authorization",
+            "Cryptography, Internet, Access",
+            "Cyber, Intelligence, Authentication"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "sec_2",
+        "category": "Cyber Security",
+        "question": "A phishing attack primarily relies on:",
+        "options": [
+            "Brute-forcing passwords",
+            "Exploiting software bugs",
+            "Social engineering",
+            "Intercepting Wi-Fi traffic"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "sec_3",
+        "category": "Cyber Security",
+        "question": "Which hashing algorithm is considered cryptographically broken and insecure for modern use?",
+        "options": [
+            "SHA-256",
+            "MD5",
+            "SHA-3",
+            "bcrypt"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "sec_4",
+        "category": "Cyber Security",
+        "question": "A DDoS attack attempts to compromise which aspect of the CIA triad?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Non-repudiation"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "sec_5",
+        "category": "Cyber Security",
+        "question": "Which security practice ensures that users have exactly the necessary access to perform their jobs, and no more?",
+        "options": [
+            "Multi-Factor Authentication",
+            "Principle of Least Privilege",
+            "Encryption at Rest",
+            "Penetration Testing"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "db_1",
+        "category": "Databases",
+        "question": "In a relational database, what ensures that a foreign key must match an existing primary key?",
+        "options": [
+            "Entity Integrity",
+            "Referential Integrity",
+            "Domain Integrity",
+            "ACID properties"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "db_2",
+        "category": "Databases",
+        "question": "Which SQL clause is used to filter records after aggregation using GROUP BY?",
+        "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING",
+            "LIMIT"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "db_3",
+        "category": "Databases",
+        "question": "What property guarantees that a database transaction is completed entirely or not at all?",
+        "options": [
+            "Isolation",
+            "Durability",
+            "Atomicity",
+            "Consistency"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "db_4",
+        "category": "Databases",
+        "question": "Which type of database stores data in document formats like JSON rather than relational tables?",
+        "options": [
+            "Relational Database (RDBMS)",
+            "Graph Database",
+            "NoSQL Document Database",
+            "Time-Series Database"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "db_5",
+        "category": "Databases",
+        "question": "A B-Tree is commonly used in databases for:",
+        "options": [
+            "Data encryption",
+            "Indexing to speed up queries",
+            "Storing multimedia files",
+            "Managing user permissions"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "db_6",
+        "category": "Databases",
+        "question": "Which normal form dictates that all non-key attributes must be fully functionally dependent on the entire primary key?",
+        "options": [
+            "First Normal Form (1NF)",
+            "Second Normal Form (2NF)",
+            "Third Normal Form (3NF)",
+            "Boyce-Codd Normal Form (BCNF)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "db_7",
+        "category": "Databases",
+        "question": "What does the SQL command TRUNCATE do?",
+        "options": [
+            "Deletes the table structure entirely",
+            "Removes all rows from a table quickly without logging individual row deletions",
+            "Updates specific rows",
+            "Reverts a transaction"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "db_8",
+        "category": "Databases",
+        "question": "In relational algebra, which operation combines tuples from two relations where a specific condition is met?",
+        "options": [
+            "Projection",
+            "Selection",
+            "Join",
+            "Union"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "db_9",
+        "category": "Databases",
+        "question": "Deadlocks in a database are primarily handled by which subsystem?",
+        "options": [
+            "Recovery Management",
+            "Query Optimizer",
+            "Concurrency Control",
+            "File Organization"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "db_10",
+        "category": "Databases",
+        "question": "MongoDB and Cassandra are examples of:",
+        "options": [
+            "Relational Databases",
+            "NoSQL Databases",
+            "Cloud Virtual Machines",
+            "Operating Systems"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_1",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "If A > B and B > C, which of the following is definitively true?",
+        "options": [
+            "C > A",
+            "A > C",
+            "A = C",
+            "Cannot be determined"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_2",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Identifying similarities between the current problem and past solved problems is an example of:",
+        "options": [
+            "Pattern Recognition",
+            "Algorithmic Bug",
+            "Data Obfuscation",
+            "Syntax Parsing"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_3",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "A train travels 60 miles in 1.5 hours. What is its average speed in mph?",
+        "options": [
+            "40",
+            "45",
+            "50",
+            "90"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_4",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "What is the next logical shape in a sequence of: Triangle (3 sides), Square (4 sides), Pentagon (5 sides)?",
+        "options": [
+            "Hexagon",
+            "Heptagon",
+            "Octagon",
+            "Circle"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_5",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "What is the fundamental first step in the problem-solving lifecycle?",
+        "options": [
+            "Writing code",
+            "Problem Understanding & Analysis",
+            "Algorithm Testing",
+            "Documentation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_6",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "You have 8 identical-looking coins, but one is counterfeit and lighter. Using a balance scale, what is the minimum number of weighings guaranteed to find the fake?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_7",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "In debugging, if an application crashes without throwing a specific error log, what is the most logical first step?",
+        "options": [
+            "Rewrite the entire code",
+            "Isolate the problem by reproducing the crash steps",
+            "Add more features",
+            "Ignore the crash"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_8",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Which approach starts solving a problem from the goal and works backward to the initial state?",
+        "options": [
+            "Forward chaining",
+            "Backward chaining",
+            "Brute force",
+            "Random guessing"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_9",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "If NO=14-15 and CAT=3-1-20, how is DOG coded?",
+        "options": [
+            "4-15-7",
+            "4-14-8",
+            "3-15-7",
+            "4-16-6"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_10",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Removing unnecessary details to focus on the essential features of a problem is called:",
+        "options": [
+            "Decomposition",
+            "Abstraction",
+            "Evaluation",
+            "Iteration"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_11",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Which logical fallacy involves attacking the person rather than the argument?",
+        "options": [
+            "Straw Man",
+            "Ad Hominem",
+            "Slippery Slope",
+            "False Dilemma"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_12",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "The sequence is 1, 1, 2, 3, 5, 8... What is the next number?",
+        "options": [
+            "11",
+            "12",
+            "13",
+            "15"
+        ],
+        "answer": 2
+    },
+    {
+        "id": "ps_13",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Translating a real-world workflow into a flowchart represents which skill?",
+        "options": [
+            "Memory Management",
+            "Logical Reasoning and Algorithms",
+            "Data Scraping",
+            "Hardware Configuration"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_14",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "If all programmers are analytical, and some students are programmers, which conclusion is valid?",
+        "options": [
+            "All students are analytical",
+            "Some students are analytical",
+            "No students are analytical",
+            "All analytical people are programmers"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_15",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Which technique involves testing a hypothesis using empirical data?",
+        "options": [
+            "Data-Driven Problem Solving",
+            "Guessing",
+            "Hardcoding",
+            "Intuition"
+        ],
+        "answer": 0
+    },
+    {
+        "id": "ps_16",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "What is a 'heuristic' in algorithmic problem solving?",
+        "options": [
+            "A perfect solution",
+            "A rule-of-thumb that is generally effective but not guaranteed to be perfect",
+            "A syntax error",
+            "A database trigger"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_17",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+        "options": [
+            "0 degrees",
+            "7.5 degrees",
+            "15 degrees",
+            "22.5 degrees"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_18",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Which of the following best defines 'Critical Thinking'?",
+        "options": [
+            "Accepting information blindly",
+            "Objectively analyzing and evaluating an issue to form a judgment",
+            "Memorizing facts",
+            "Writing software efficiently"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_19",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "In root-cause analysis, what is the '5 Whys' technique used for?",
+        "options": [
+            "Blaming five different people",
+            "Asking 'why' repeatedly to drill down to the core issue",
+            "Writing five lines of code",
+            "Testing five different browsers"
+        ],
+        "answer": 1
+    },
+    {
+        "id": "ps_20",
+        "category": "Problem Solving And Analytical Skills",
+        "question": "Effective communication of a solution involves:",
+        "options": [
+            "Keeping the logic a secret",
+            "Writing clear documentation and explaining the rationale",
+            "Only showing the final output",
+            "Using the most complex vocabulary possible"
+        ],
+        "answer": 1
+    }
+]
