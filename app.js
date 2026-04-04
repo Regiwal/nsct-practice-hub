@@ -38,12 +38,14 @@ const categoryFiles = {
 
     "Databases": "data/databases.json",
     "Problem Solving And Analytical Skills": "data/p_solving_and_analytical_skills.json",
-    "Cyber Security": "data/cyber_security.json"
+    "Cyber Security": "data/cyber_security.json",
+    "Mixed Categories":"data/combine.json"
 };
 
 // Keep your existing categories array for the UI
 
 const categories = ["All",
+     "Mixed Categories",
      "Web Development",
      "Operating Systems",
      "Software Engineering",
